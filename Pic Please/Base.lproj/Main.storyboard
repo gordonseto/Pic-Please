@@ -1,25 +1,81 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZE6-Hc-5tq">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="3Qs-AH-SfX">
+            <objects>
+                <tabBarController id="ZE6-Hc-5tq" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="l0m-F9-onl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Ash-Z8-gNY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQb-az-cIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-490" y="547"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pic_Please" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Pic Requested!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnn-2b-Lf7">
+                                <rect key="frame" x="55" y="163" width="264" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="0hy-MI-95j"/>
+                                    <constraint firstAttribute="width" constant="264" id="bb5-uE-434"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFC-B8-WyC">
+                                <rect key="frame" x="87" y="212" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="KOU-x9-8de"/>
+                                    <constraint firstAttribute="width" constant="200" id="mWX-Uy-Fnj"/>
+                                </constraints>
+                                <state key="normal" image="picpleaselogo"/>
+                                <connections>
+                                    <action selector="onRequestButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9pO-di-Hio"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.069146760469999999" green="0.069146760469999999" blue="0.069146760469999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="tnn-2b-Lf7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DgE-0b-Sj5"/>
+                            <constraint firstItem="bFC-B8-WyC" firstAttribute="top" secondItem="tnn-2b-Lf7" secondAttribute="bottom" constant="27" id="UOu-gY-oR7"/>
+                            <constraint firstItem="bFC-B8-WyC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iaV-qb-bWp"/>
+                            <constraint firstItem="tnn-2b-Lf7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="118" id="pka-ql-3nK"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="MJu-El-mJ5"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="picRequestedLabel" destination="tnn-2b-Lf7" id="BnY-oI-qEh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="234.5" y="328.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="picpleaselogo" width="640" height="640"/>
+    </resources>
 </document>
