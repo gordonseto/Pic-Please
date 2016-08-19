@@ -88,8 +88,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jo8-w8-UAG">
-                                <rect key="frame" x="0.0" y="28" width="375" height="639"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jo8-w8-UAG">
+                                <rect key="frame" x="0.0" y="28" width="375" height="590"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rdC-fH-kRU">
                                     <size key="itemSize" width="93" height="89"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -124,6 +124,12 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="0.069146760469999999" green="0.069146760469999999" blue="0.069146760469999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jo8-w8-UAG" secondAttribute="trailing" id="0bE-p6-oXP"/>
+                            <constraint firstItem="jo8-w8-UAG" firstAttribute="leading" secondItem="pwj-81-j5H" secondAttribute="leading" id="AZd-OL-G7t"/>
+                            <constraint firstItem="xpo-Y3-NBc" firstAttribute="top" secondItem="jo8-w8-UAG" secondAttribute="bottom" id="WAR-dF-9Dq"/>
+                            <constraint firstItem="jo8-w8-UAG" firstAttribute="top" secondItem="XwB-az-kIR" secondAttribute="bottom" constant="8" id="rFX-zw-TW4"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="downloads" id="kDp-Cf-9Qd"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -196,20 +202,13 @@
                                     <constraint firstAttribute="bottom" secondItem="gJp-yH-BdA" secondAttribute="bottom" id="bF6-5a-KtD"/>
                                 </constraints>
                             </scrollView>
-                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qpq-Pz-uEB">
-                                <rect key="frame" x="0.0" y="28" width="375" height="2"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </progressView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8YD-1h-HqG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.069146760469999999" green="0.069146760469999999" blue="0.069146760469999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="qpq-Pz-uEB" secondAttribute="trailing" id="3xK-u3-mUA"/>
-                            <constraint firstItem="qpq-Pz-uEB" firstAttribute="leading" secondItem="xLI-pS-LkK" secondAttribute="leading" id="G3I-eK-cTF"/>
                             <constraint firstItem="8YD-1h-HqG" firstAttribute="top" secondItem="xLI-pS-LkK" secondAttribute="top" id="JfE-1m-Qg6"/>
-                            <constraint firstItem="qpq-Pz-uEB" firstAttribute="top" secondItem="BOm-bG-haG" secondAttribute="bottom" constant="8" id="LLS-yc-RNH"/>
                             <constraint firstItem="EJm-Je-dsC" firstAttribute="width" secondItem="xLI-pS-LkK" secondAttribute="width" id="PdM-FF-I9I"/>
                             <constraint firstItem="8YD-1h-HqG" firstAttribute="leading" secondItem="xLI-pS-LkK" secondAttribute="leading" id="Rm6-3F-5Au"/>
                             <constraint firstAttribute="trailing" secondItem="EJm-Je-dsC" secondAttribute="trailing" id="TOk-QR-CLR"/>
@@ -228,7 +227,6 @@
                     <connections>
                         <outlet property="cameraButton" destination="Vcj-vi-tXV" id="PGB-5j-wCD"/>
                         <outlet property="imageView" destination="8YD-1h-HqG" id="mtm-Zi-iyM"/>
-                        <outlet property="progressBar" destination="qpq-Pz-uEB" id="gUd-qz-nk7"/>
                         <outlet property="requestLabel" destination="Peb-U2-pf3" id="Woj-MB-f1H"/>
                         <outlet property="scrollView" destination="EJm-Je-dsC" id="811-pC-tpe"/>
                     </connections>

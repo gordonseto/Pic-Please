@@ -26,9 +26,9 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
     
     var photos: [CustomPhotoModel] = {
         return [
-            CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/13-3f15416ddd11d38619289335fafd498d.jpg"), thumbnailImage: UIImage(named: "camera")!),
-            CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/13-3f15416ddd11d38619289335fafd498d.jpg"), thumbnailImage: UIImage(named: "camera")!),
-            CustomPhotoModel(image: UIImage(named: "camera")!, thumbnailImage: UIImage(named: "camera")!),
+            CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/13-3f15416ddd11d38619289335fafd498d.jpg"), thumbnailImage: UIImage(named: "testProfileImage")!),
+            CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/13-3f15416ddd11d38619289335fafd498d.jpg"), thumbnailImage: UIImage(named: "testProfileImage")!),
+            CustomPhotoModel(image: UIImage(named: "testProfileImage")!, thumbnailImage: UIImage(named: "testProfileImage")!),
             CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg"), thumbnailImageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg")),
             CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg"), thumbnailImageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg")),
             CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg"), thumbnailImageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg"))
@@ -82,6 +82,8 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
         var imageUrls: [String: NSURL] = [:]
         var keysDownloaded = 0
         
+        usersPhotos = []
+        
         for key in imageKeys {
             let childRef = imagesRef.child(key)
             childRef.downloadURLWithCompletion {(URL, error) -> Void in
@@ -103,7 +105,7 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
     }
     
     func appendUrl(URL: NSURL){
-        var customPhotoModel = CustomPhotoModel(imageURL: URL, thumbnailImageURL: URL)
+        let customPhotoModel = CustomPhotoModel(imageURL: URL, thumbnailImageURL: URL)
         usersPhotos.append(customPhotoModel)
     }
     
@@ -154,12 +156,20 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
         return 1
     }
     
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 1
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAtIndex section: Int) -> UIEdgeInsets {
+        return UIEdgeInsetsMake(0, 0, 0, 0)
+    }
+    
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent
     }
     
     func refreshView(sender: AnyObject){
-        if let uid = uid {
+        if let _ = uid {
             getUsersImages()
         }
         refreshControl.endRefreshing()

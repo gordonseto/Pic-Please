@@ -17,7 +17,6 @@ class NotificationsVC: UIViewController {
     @IBOutlet weak var requestLabel: UILabel!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var cameraButton: UIButton!
     
     var cancelButton: UIButton!
@@ -29,6 +28,8 @@ class NotificationsVC: UIViewController {
     var uid: String!
     
     var requestActive = false
+    var capturedImage: UIImage!
+    var isFront: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,17 +99,26 @@ class NotificationsVC: UIViewController {
             }
         
             camera.didFinishCapturingImage = {(image: UIImage) in
-                print("didFinishCapturingImage")
-                print(image)
-                if camera.currentDevice == camera.captureDeviceFront {
-                    let flippedimage = UIImage(CGImage: image.CGImage!, scale: 1.0, orientation: .LeftMirrored)
-                    self.showImagePreview(flippedimage)
-                } else {
-                    self.showImagePreview(image)
-                }
-                self.dismissViewControllerAnimated(false, completion: nil)
+                self.imageCaptured(camera, image: image)
             }
             self.presentViewController(camera, animated: true, completion: nil)
+        }
+    }
+    
+    func imageCaptured(camera: DKCamera, image: UIImage){
+        print("didFinishCapturingImage")
+        print(image)
+        self.capturedImage = image
+        if let _ = self.capturedImage {
+            if camera.currentDevice == camera.captureDeviceFront {
+                isFront = true
+                let flippedimage = UIImage(CGImage: image.CGImage!, scale: 1.0, orientation: .LeftMirrored)
+                self.showImagePreview(flippedimage)
+            } else {
+                isFront = false
+                self.showImagePreview(image)
+            }
+            self.dismissViewControllerAnimated(false, completion: nil)
         }
     }
     
@@ -145,8 +155,6 @@ class NotificationsVC: UIViewController {
         imageView.userInteractionEnabled = false
         self.tabBarController?.tabBar.hidden = false
         
-        progressBar.hidden = false
-        
         firebase = FIRDatabase.database().reference()
         let key = firebase.child("users").child(uid).child("images").childByAutoId().key
         
@@ -155,7 +163,12 @@ class NotificationsVC: UIViewController {
         let imagesRef = storageRef.child("images")
         let childRef = imagesRef.child(key)
         var imgData: NSData!
-        imgData = UIImagePNGRepresentation(imageView.image!)
+    
+        if isFront {
+            imgData = UIImageJPEGRepresentation(UIImage(CGImage: capturedImage.CGImage!, scale: 1.0, orientation: .LeftMirrored), 1.0)
+        } else {
+            imgData = UIImageJPEGRepresentation(capturedImage, 1.0)
+        }
         
         let uploadTask = childRef.putData(imgData, metadata: nil) { metadata, error in
             if (error != nil) {
@@ -165,13 +178,7 @@ class NotificationsVC: UIViewController {
                 let timeSince1970 = NSDate().timeIntervalSince1970
                 self.firebase.child("users").child(self.uid).child("images").child(key).setValue(timeSince1970)
                 
-                let delay = 1.0 * Double(NSEC_PER_SEC)
-                let time = dispatch_time(DISPATCH_TIME_NOW, Int64(delay))
-                dispatch_after(time, dispatch_get_main_queue()){
-                    self.progressBar.hidden = true
-                    self.progressBar.setProgress(0, animated: false)
-                    self.requestLabel.text = "Pic sent!"
-                }
+                self.requestLabel.text = "Pic sent!"
             }
         }
         
@@ -179,7 +186,7 @@ class NotificationsVC: UIViewController {
             if let progress = snapshot.progress {
                 self.requestLabel.text = "Sending..."
                 let percentComplete = 100.0 * Double(progress.completedUnitCount) / Double(progress.totalUnitCount)
-                self.progressBar.setProgress(Float(percentComplete), animated: true)
+                print(progress)
             }
         }
  
@@ -197,15 +204,7 @@ class NotificationsVC: UIViewController {
         }
         
         camera.didFinishCapturingImage = {(image: UIImage) in
-            print("didFinishCapturingImage")
-            print(image)
-            if camera.currentDevice == camera.captureDeviceFront {
-                let flippedimage = UIImage(CGImage: image.CGImage!, scale: 1.0, orientation: .LeftMirrored)
-                self.showImagePreview(flippedimage)
-            } else {
-                self.showImagePreview(image)
-            }
-            self.dismissViewControllerAnimated(false, completion: nil)
+            self.imageCaptured(camera, image: image)
         }
         self.presentViewController(camera, animated: false){
             self.cancelButton.removeFromSuperview()
@@ -227,33 +226,4 @@ class NotificationsVC: UIViewController {
     }
 }
 
-public class DKCameraResource {
-    
-    public class func imageForResource(name: String) -> UIImage {
-        let bundle = NSBundle.cameraBundle()
-        let imagePath = bundle.pathForResource(name, ofType: "png", inDirectory: "Images")
-        let image = UIImage(contentsOfFile: imagePath!)
-        return image!
-    }
-    
-    class func cameraCancelImage() -> UIImage {
-        return imageForResource("camera_cancel")
-    }
-    
-    class func cameraFlashOnImage() -> UIImage {
-        return imageForResource("camera_flash_on")
-    }
-    
-    class func cameraFlashAutoImage() -> UIImage {
-        return imageForResource("camera_flash_auto")
-    }
-    
-    class func cameraFlashOffImage() -> UIImage {
-        return imageForResource("camera_flash_off")
-    }
-    
-    class func cameraSwitchImage() -> UIImage {
-        return imageForResource("camera_switch")
-    }
-    
-}
+
