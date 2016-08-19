@@ -26,6 +26,7 @@ class NotificationsVC: UIViewController {
     var firebase: FIRDatabaseReference!
     
     var uid: String!
+    var otherUserUid: String!
     
     var requestActive = false
     var capturedImage: UIImage!
@@ -179,6 +180,8 @@ class NotificationsVC: UIViewController {
                 self.firebase.child("users").child(self.uid).child("images").child(key).setValue(timeSince1970)
                 
                 self.requestLabel.text = "Pic sent!"
+                self.sendPictureNotification()
+                self.removePictureRequest()
             }
         }
         
@@ -190,6 +193,40 @@ class NotificationsVC: UIViewController {
             }
         }
  
+    }
+    
+    func removePictureRequest(){
+        if otherUserUid == nil {
+            findOtherUser(){(otherUserUid) in
+                if let otherUserUid = otherUserUid {
+                    self.otherUserUid = otherUserUid
+                    self.firebase = FIRDatabase.database().reference()
+                    self.firebase.child("requests").child(otherUserUid).setValue(nil)
+                }
+            }
+        } else {
+            firebase = FIRDatabase.database().reference()
+            firebase.child("requests").child(otherUserUid).setValue(nil)
+        }
+    }
+    
+    func sendPictureNotification(){
+        var message: String = ""
+        if uid == "U9LsPZ6PYjOl81cuyQyQqD552FH3" {
+            message = "Gordon has sent you a picture"
+        } else {
+            message = "Aliya has sent you a picture"
+        }
+        if otherUserUid == nil {
+            findOtherUser(){(otherUserUid) in
+                if let otherUserUid = otherUserUid {
+                    self.otherUserUid = otherUserUid
+                    sendNotification(otherUserUid, hasSound: true, groupId: "pictures", message: message, deeplink: "pic-please://pictures/\(self.uid)")
+                }
+            }
+        } else {
+            sendNotification(otherUserUid, hasSound: true, groupId: "pictures", message: message, deeplink: "pic-please://pictures/\(self.uid)")
+        }
     }
     
     func cancelImagePreview(){
@@ -223,6 +260,23 @@ class NotificationsVC: UIViewController {
     
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent
+    }
+}
+
+func findOtherUser(completion:(String!)->()) {
+    if let uid = FIRAuth.auth()?.currentUser!.uid {
+        let firebase = FIRDatabase.database().reference()
+        firebase.child("users").observeSingleEventOfType(.Value, withBlock: {(snapshot) in
+            var otherUserUid: String!
+            for child in snapshot.children {
+                if child.key != uid {
+                    otherUserUid = child.key
+                }
+            }
+            completion(otherUserUid)
+        }) { (error) in
+            print(error.debugDescription)
+        }
     }
 }
 

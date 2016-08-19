@@ -13,7 +13,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var picRequestedLabel: UILabel!
     
+    let MIN_TIME_BETWEEN_NOTIFICATIONS: Double = 60 * 2
+    
     var uid: String!
+    var otherUserUid: String!
+    
+    var lastRequest: NSTimeInterval = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +38,29 @@ class ViewController: UIViewController {
             animatePicRequestedLabel()
             let picrequest = PictureRequest(requesterUid: uid)
             picrequest.sendRequest()
+            sendRequestNotification()
+        }
+    }
+    
+    func sendRequestNotification(){
+        if NSDate().timeIntervalSince1970 -  lastRequest > MIN_TIME_BETWEEN_NOTIFICATIONS {
+            lastRequest = NSDate().timeIntervalSince1970
+            var message: String = ""
+            if uid == "U9LsPZ6PYjOl81cuyQyQqD552FH3" {
+                message = "Gordon has requested a picture!"
+            } else {
+                message = "Aliya has requested a picture!"
+            }
+            if otherUserUid == nil {
+                findOtherUser(){(otherUserUid) in
+                    if let otherUserUid = otherUserUid {
+                        self.otherUserUid = otherUserUid
+                        sendNotification(otherUserUid, hasSound: true, groupId: "requests", message: message, deeplink: "pic-please://requests/\(self.uid)")
+                    }
+                }
+            } else {
+                sendNotification(otherUserUid, hasSound: true, groupId: "requests", message: message, deeplink: "pic-please://requests/\(self.uid)")
+            }
         }
     }
     

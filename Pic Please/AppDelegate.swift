@@ -31,6 +31,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             editor.setIdentifier(user!.uid)
             editor.save() // Do not forget to save the changes!
             
+            let firebase = FIRDatabase.database().reference()
+            let time = NSDate().timeIntervalSince1970
+            firebase.child("users").child(user!.uid).child("lastOnline").setValue(time)
         }
         
         return true
