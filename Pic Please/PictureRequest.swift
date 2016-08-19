@@ -31,6 +31,6 @@ class PictureRequest {
     
     func sendRequest(){
         firebase = FIRDatabase.database().reference()
-        firebase.child("requests").child(_requesterUid).childByAutoId().setValue(["requesterUid": _requesterUid, "time": _time])
+        firebase.child("requests").child(_requesterUid).setValue(time)
     }
 }

@@ -16,20 +16,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picpleaselogo" translatesAutoresizingMaskIntoConstraints="NO" id="iqY-eY-VeS">
-                                <rect key="frame" x="88" y="235" width="198" height="198"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="198" id="Pie-eo-WOX"/>
-                                    <constraint firstAttribute="width" constant="198" id="afo-rn-Pi1"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="0.069146760471204161" green="0.069146760471204161" blue="0.069146760471204161" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="iqY-eY-VeS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5qP-kj-lGR"/>
-                            <constraint firstItem="iqY-eY-VeS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MN2-Pm-O1c"/>
-                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
@@ -38,7 +25,4 @@
             <point key="canvasLocation" x="52.5" y="374.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="picpleaselogo" width="640" height="640"/>
-    </resources>
 </document>

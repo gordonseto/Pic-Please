@@ -1,4 +1,5 @@
 PODS:
+  - DKCamera (1.2.11)
   - Firebase/Analytics (3.4.0):
     - FirebaseAnalytics (~> 3.3)
   - Firebase/Auth (3.4.0):
@@ -32,10 +33,12 @@ PODS:
     - GoogleSymbolUtilities (~> 1.0)
 
 DEPENDENCIES:
+  - DKCamera
   - Firebase/Auth
   - Firebase/Database
 
 SPEC CHECKSUMS:
+  DKCamera: ef9c557e7f2ec83ebeaf95e9297e16e43755ec2e
   Firebase: 754562547af419cc2f4b15247fee419081924bc2
   FirebaseAnalytics: 228be2991cb28efb96cdafc4d62f64680e615c69
   FirebaseAuth: 26fd291c3b552fc9658420b867520d5ae080421c
@@ -47,6 +50,6 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
 
-PODFILE CHECKSUM: 6132303846e31241c083a25942e1a84e0b4d0e99
+PODFILE CHECKSUM: 4842e0953dfd01877bf5176fe30a51e9d29e737c
 
 COCOAPODS: 1.0.1

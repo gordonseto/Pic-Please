@@ -38,11 +38,20 @@ class ViewController: UIViewController {
     
     func animatePicRequestedLabel(){
         picRequestedLabel.alpha = 0.0
-        picRequestedLabel.center.y += 20
-        UIView.animateWithDuration(1.0, delay: 0.0, options: [UIViewAnimationOptions.CurveEaseInOut], animations: {
+        picRequestedLabel.center.y += 40
+        UIView.animateWithDuration(0.5, delay: 0.0, options: [UIViewAnimationOptions.CurveLinear], animations: {
             self.picRequestedLabel.alpha = 1.0
             self.picRequestedLabel.center.y -= 20
-            }, completion: {completion in })
+            }, completion: {completion in
+                UIView.animateWithDuration(0.5, delay: 0.0, options: [UIViewAnimationOptions.CurveLinear], animations: {
+                        self.picRequestedLabel.alpha = 0.0
+                        self.picRequestedLabel.center.y -= 20
+                    }, completion: {completion in })
+        })
+    }
+
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
     }
     
 }

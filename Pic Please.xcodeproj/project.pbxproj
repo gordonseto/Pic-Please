@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		48138E94DC7CFDFDEEE562B7 /* Pods_Pic_Please.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3C7856131175183B72FDC7 /* Pods_Pic_Please.framework */; };
 		8E75999A1D6655D10094237F /* PictureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7599991D6655D10094237F /* PictureRequest.swift */; };
+		8E75999C1D665E230094237F /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75999B1D665E230094237F /* NotificationsVC.swift */; };
 		8EB56A811D663FEA009E114B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB56A801D663FEA009E114B /* AppDelegate.swift */; };
 		8EB56A831D663FEA009E114B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB56A821D663FEA009E114B /* ViewController.swift */; };
 		8EB56A861D663FEA009E114B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB56A841D663FEA009E114B /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		24631AE287D8A13226E304F6 /* Pods-Pic Please.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pic Please.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pic Please/Pods-Pic Please.release.xcconfig"; sourceTree = "<group>"; };
 		2E3C7856131175183B72FDC7 /* Pods_Pic_Please.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pic_Please.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7599991D6655D10094237F /* PictureRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureRequest.swift; sourceTree = "<group>"; };
+		8E75999B1D665E230094237F /* NotificationsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
 		8EB56A7D1D663FEA009E114B /* Pic Please.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pic Please.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB56A801D663FEA009E114B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EB56A821D663FEA009E114B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				8EB56A821D663FEA009E114B /* ViewController.swift */,
+				8E75999B1D665E230094237F /* NotificationsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				8EB56A831D663FEA009E114B /* ViewController.swift in Sources */,
 				8EB56A811D663FEA009E114B /* AppDelegate.swift in Sources */,
 				8E75999A1D6655D10094237F /* PictureRequest.swift in Sources */,
+				8E75999C1D665E230094237F /* NotificationsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,10 +361,14 @@
 			baseConfigurationReference = ADCD938196734B2190CC0895 /* Pods-Pic Please.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Pic Please/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonseto.Pic-Please";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -369,10 +377,13 @@
 			baseConfigurationReference = 24631AE287D8A13226E304F6 /* Pods-Pic Please.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Pic Please/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonseto.Pic-Please";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};

@@ -8,4 +8,5 @@ target 'Pic Please' do
   # Pods for Pic Please
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'DKCamera'
 end

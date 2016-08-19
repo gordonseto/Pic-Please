@@ -7,96 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3236F3664ABF5829D5D47A5E13B0ADA2 /* Pods-Pic Please-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8034581EF5754448FE3321C864879C /* Pods-Pic Please-dummy.m */; };
-		8EEB5AFE7C16058082606737D568517D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		9B1DD0A00DF0A5FE0DBE4EFFEC01A5D5 /* Pods-Pic Please-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B468C121A17D65D07B87F6821293E4E6 /* Pods-Pic Please-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0821C839B9D9116E03C0C9B51E136144 /* DKCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C43718D577C5FF2ED25890449E6036 /* DKCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CBD692175BA99B7D857650376135637 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		11417F7E0087C4BB8FC52A509FD63D32 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB87001D3F432B742DFEFC7B8A796AF7 /* DKCamera.swift */; };
+		439D6AE635FEC171B5D3A5E7ED205154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		57180FA00D98D7E5529881CDD2CF83DA /* Pods-Pic Please-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8034581EF5754448FE3321C864879C /* Pods-Pic Please-dummy.m */; };
+		755D27DCC46E3C4C63DA379BF7D27487 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC72C95DDC5703A67DA8DB5C57BF4C5D /* AVFoundation.framework */; };
+		8BB94131FF51F686744BD0D2CC36D28C /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2EB1A86CB672F9D6A5CB37A0249B2E84 /* DKCameraResource.bundle */; };
+		A19EC195A24B7788935653C989BDB81A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */; };
+		B97D3054462E427F0AD23D06EC4BAAA7 /* Pods-Pic Please-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B468C121A17D65D07B87F6821293E4E6 /* Pods-Pic Please-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9AA4190BA6CB567F8087104C9B8D6CD /* DKCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CFAECE993197ADE3DA4A191447359C /* DKCamera-dummy.m */; };
+		DC178BDED25CC834988588370C9B8AB6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA526B0D319CCD8F98FC7233B4942EE7 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		230969F2ED94329ECC82878DFA481649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948A46EC641E4DA25A0C1AA1762AF963;
+			remoteInfo = DKCamera;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		025647D9BE68F2D5A6C1B68CA8317C50 /* Pods-Pic Please.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please.release.xcconfig"; sourceTree = "<group>"; };
 		075201800A0EDF120B7673B99A70AAF6 /* Pods-Pic Please-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please-frameworks.sh"; sourceTree = "<group>"; };
-		0AD1568E830A0DBD6CA6DCD4EEB8261D /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		13C412DC8B01FB83E86420674CCF12D6 /* Pods-Pic Please-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pic Please-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13CFAECE993197ADE3DA4A191447359C /* DKCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKCamera-dummy.m"; sourceTree = "<group>"; };
 		210895A63A8FAC48EF357BE6BA550E54 /* Pods-Pic Please-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pic Please-acknowledgements.plist"; sourceTree = "<group>"; };
-		37E7AEDDB7925A9E39351B87EB4A27CE /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		38F943FF5B41EE77F6C520CFC87FA49B /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		2EB1A86CB672F9D6A5CB37A0249B2E84 /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
+		3B86B9AB72C0E712FAC2BBF1CC29D5BB /* DKCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DKCamera.modulemap; sourceTree = "<group>"; };
 		3FD437CBF10A500DA41CD018AEDA0017 /* Pods-Pic Please.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please.debug.xcconfig"; sourceTree = "<group>"; };
-		436F8DCC5AF3C7285EF5258E722953E4 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		40ECC8DDC63363D57804EFC9C5539EBD /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8034581EF5754448FE3321C864879C /* Pods-Pic Please-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pic Please-dummy.m"; sourceTree = "<group>"; };
-		662BF7D9F557AC9425935F9A211470AD /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		503DB311F6500404270702DAFB872EA3 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		520968EF03CC0E39ADA65F56C8038651 /* DKCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-prefix.pch"; sourceTree = "<group>"; };
+		576645B9B0E559F0582EE2B980712BFC /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		6B78DDC1F3D70471439A0DEE61DA31EF /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		7182C81028DEE76217B232DF014F000B /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		74C43718D577C5FF2ED25890449E6036 /* DKCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-umbrella.h"; sourceTree = "<group>"; };
+		87A981B5885709787674346D96655B50 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		89635396FC26CC63F3C99280BF19B76F /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9655B9A8A0F40AD128DF4CBCA02C90B1 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
-		9F722F65295E4DE8FD3B5B1EF7B1A5C8 /* Pods_Pic_Please.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pic_Please.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E04E522D778279A6DE48DF871015484 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		A0DF776C723A1BCE01A6389FBB62C3B0 /* Pods-Pic Please.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pic Please.modulemap"; sourceTree = "<group>"; };
+		A16ED8FB535D0BA84089604B9C40EDEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF7CA40B4F415CB161F6E9F47A2F493A /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		B11677A6261B5FE81B9D735CDD6CA914 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		B468C121A17D65D07B87F6821293E4E6 /* Pods-Pic Please-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pic Please-umbrella.h"; sourceTree = "<group>"; };
-		BBC6F2FB2556C157DF5EE716018726B6 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		BC3C715E123FA2B8E869D467E48D8CA0 /* Pods-Pic Please-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please-resources.sh"; sourceTree = "<group>"; };
-		C15F99FE1CD1C2F7CACD029F566331B5 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		C5FD6B0D0FADFE345EE4C12522AEE235 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D49AD3BD1591E1FAC6A468B095EBFCA6 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
-		EEF14DCC9E09F89A216F4D8F7CB1D480 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		CA526B0D319CCD8F98FC7233B4942EE7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		CB87001D3F432B742DFEFC7B8A796AF7 /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
+		ED11D57106ECB4A9EAF9849779E1C0B7 /* Pods_Pic_Please.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pic_Please.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDDD11255BC872D465B70445B04A91A /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F2E9A55A7B2785808B23078B84A94DA9 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		F4A895EF2EC7473C7227EC8DEDC531E3 /* DKCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCamera.xcconfig; sourceTree = "<group>"; };
 		FA48526692CF2C0A50846883543CFBDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC72C95DDC5703A67DA8DB5C57BF4C5D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		813449EE1BEE2546596B1454B8CC4A15 /* Frameworks */ = {
+		686B7EBCE4CD7EE8695FE0004B2CE2BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EEB5AFE7C16058082606737D568517D /* Foundation.framework in Frameworks */,
+				755D27DCC46E3C4C63DA379BF7D27487 /* AVFoundation.framework in Frameworks */,
+				DC178BDED25CC834988588370C9B8AB6 /* CoreMotion.framework in Frameworks */,
+				439D6AE635FEC171B5D3A5E7ED205154 /* Foundation.framework in Frameworks */,
+				A19EC195A24B7788935653C989BDB81A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD0EC89712C12EF8B34EFBAD503DE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBD692175BA99B7D857650376135637 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1546ED4A2B55C0A278488955D7688CDA /* FirebaseAnalytics */ = {
+		056BEC0E70FF2D73B3F9AB6B6AEAF90C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5D95B9F58DFC78F78E36B6302656AAF /* Frameworks */,
+				40ECC8DDC63363D57804EFC9C5539EBD /* DKCamera.framework */,
+				ED11D57106ECB4A9EAF9849779E1C0B7 /* Pods_Pic_Please.framework */,
 			);
-			path = FirebaseAnalytics;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1CB6890C5928A0ABD9DF237DB4D6E4BC /* Frameworks */ = {
+		0FD7F510FC7D832F081DFBE1273DAE8A /* FirebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
-				37E7AEDDB7925A9E39351B87EB4A27CE /* GoogleNetworkingUtilities.framework */,
+				572342663D381EE8541505C2374E7A21 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6B47F0278F250814D006DAD71D3BAD /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		21A2C8BC661C678B137E3A3D2B8BD254 /* GoogleUtilities */ = {
+		1F2199A6D77F7051F5D4365583FCFE2F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E74246C4A74C8411630C6ECF322475BD /* Frameworks */,
+				89635396FC26CC63F3C99280BF19B76F /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		236F53DF2BC3AD3C26CC5140314D2027 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				87A981B5885709787674346D96655B50 /* FIRInstanceID.h */,
+				BF8D24C500511C7C08BB135B883CDD94 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		3C435497F8967752BE7729BE8027E962 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				60F41EFC9D67A6C46E66E8E34B7632A4 /* Frameworks */,
 			);
 			path = GoogleUtilities;
-			sourceTree = "<group>";
-		};
-		254CC2549EC5EFDA48F0A788DA320609 /* GoogleNetworkingUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				1CB6890C5928A0ABD9DF237DB4D6E4BC /* Frameworks */,
-			);
-			path = GoogleNetworkingUtilities;
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		3EBD847980D8150946E7D7C39E2D8CB2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				436F8DCC5AF3C7285EF5258E722953E4 /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3ED16F2FFA9FDC678D1BF7B2AC84F12E /* Targets Support Files */ = {
@@ -107,104 +150,154 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4CE51720A521314D5E46F1780D087B05 /* Frameworks */ = {
+		3FDDE87EC7E696D49B592AAE47138440 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C5FD6B0D0FADFE345EE4C12522AEE235 /* GoogleInterchangeUtilities.framework */,
+				9E04E522D778279A6DE48DF871015484 /* FirebaseAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5010F559BAF4B581A2D0BBAD609AC228 /* Firebase */ = {
+		40EE61258AB1AF7566DAE68CCFAC4E4B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F4B98E5E3A1387EBDD1948BCA6E6C05A /* Analytics */,
+				3B86B9AB72C0E712FAC2BBF1CC29D5BB /* DKCamera.modulemap */,
+				F4A895EF2EC7473C7227EC8DEDC531E3 /* DKCamera.xcconfig */,
+				13CFAECE993197ADE3DA4A191447359C /* DKCamera-dummy.m */,
+				520968EF03CC0E39ADA65F56C8038651 /* DKCamera-prefix.pch */,
+				74C43718D577C5FF2ED25890449E6036 /* DKCamera-umbrella.h */,
+				A16ED8FB535D0BA84089604B9C40EDEC /* Info.plist */,
 			);
-			path = Firebase;
+			name = "Support Files";
+			path = "../Target Support Files/DKCamera";
 			sourceTree = "<group>";
 		};
-		6EBA67C730923027B77F6CC4FEE999B3 /* Frameworks */ = {
+		41D4B72268E5FEAAA1E811F17C7FE04F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0AD1568E830A0DBD6CA6DCD4EEB8261D /* FirebaseDatabase.framework */,
+				2EB1A86CB672F9D6A5CB37A0249B2E84 /* DKCameraResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		54CBDEA49B7D7626BEF9A37C7B9FDA82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				503DB311F6500404270702DAFB872EA3 /* GoogleSymbolUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		720E5C0E026266B00BC16658257435A6 /* Products */ = {
+		572342663D381EE8541505C2374E7A21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F722F65295E4DE8FD3B5B1EF7B1A5C8 /* Pods_Pic_Please.framework */,
+				576645B9B0E559F0582EE2B980712BFC /* FirebaseAuth.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		732B7AC4B7BF5A35D30561E0DC7F356E /* FirebaseDatabase */ = {
+		60F41EFC9D67A6C46E66E8E34B7632A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EBA67C730923027B77F6CC4FEE999B3 /* Frameworks */,
+				F2E9A55A7B2785808B23078B84A94DA9 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6331781ADA02D7617BD72E1C640ED307 /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				7D042E34D84A142125CF659EB6EC5A3D /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		66DB34C442359E6FFD4B471EC400FA58 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				8ADC33F7EB1695342403E236FBCA5860 /* Frameworks */,
 			);
 			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
-		7AFEFA9CAC2E0695A643A6FE109745CB /* FirebaseAuth */ = {
+		66DCF602512649FCDA72182A45B9C23C /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				CB440934A214E7B1A28A640A5178B5CF /* Frameworks */,
+				EFDDD11255BC872D465B70445B04A91A /* Firebase.h */,
 			);
-			path = FirebaseAuth;
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		6AB1A3F8F3BB627E1722C6441C6E43CB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				66DCF602512649FCDA72182A45B9C23C /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		6C6B47F0278F250814D006DAD71D3BAD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FC72C95DDC5703A67DA8DB5C57BF4C5D /* AVFoundation.framework */,
+				CA526B0D319CCD8F98FC7233B4942EE7 /* CoreMotion.framework */,
+				F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */,
+				A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6DB89FDC7D2F7DCAB09D825679937E3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B11677A6261B5FE81B9D735CDD6CA914 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		760DC0186281029E56753EA83A1E23E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6A5C384FB4ADB56FB6D781CB85C000E /* DKCamera */,
+				6AB1A3F8F3BB627E1722C6441C6E43CB /* Firebase */,
+				E383AACF73AD0639E95D31B9688FF0CB /* FirebaseAnalytics */,
+				0FD7F510FC7D832F081DFBE1273DAE8A /* FirebaseAuth */,
+				66DB34C442359E6FFD4B471EC400FA58 /* FirebaseDatabase */,
+				236F53DF2BC3AD3C26CC5140314D2027 /* FirebaseInstanceID */,
+				E2BD843087D7880BE025B95551D429C6 /* GoogleInterchangeUtilities */,
+				F8735A7DF1AE3F8384D41AF292AF4532 /* GoogleNetworkingUtilities */,
+				6331781ADA02D7617BD72E1C640ED307 /* GoogleParsingUtilities */,
+				EC034019EFF53863D644EE9B1FC15328 /* GoogleSymbolUtilities */,
+				3C435497F8967752BE7729BE8027E962 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D042E34D84A142125CF659EB6EC5A3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF7CA40B4F415CB161F6E9F47A2F493A /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				DFAEE58E41FEB79E2A095B402D1F99FA /* Pods */,
-				720E5C0E026266B00BC16658257435A6 /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				760DC0186281029E56753EA83A1E23E3 /* Pods */,
+				056BEC0E70FF2D73B3F9AB6B6AEAF90C /* Products */,
 				3ED16F2FFA9FDC678D1BF7B2AC84F12E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8CE86DD4F8BA2FDE545816D21D94DC79 /* GoogleParsingUtilities */ = {
+		8ADC33F7EB1695342403E236FBCA5860 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A3F18049928ABBBC6BB92196EFADD047 /* Frameworks */,
-			);
-			path = GoogleParsingUtilities;
-			sourceTree = "<group>";
-		};
-		99809E3440D851732861B083AEE89981 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				662BF7D9F557AC9425935F9A211470AD /* GoogleSymbolUtilities.framework */,
+				7182C81028DEE76217B232DF014F000B /* FirebaseDatabase.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A33177A3F1C140BB331FE267B0360B55 /* GoogleInterchangeUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				4CE51720A521314D5E46F1780D087B05 /* Frameworks */,
-			);
-			path = GoogleInterchangeUtilities;
-			sourceTree = "<group>";
-		};
-		A3F18049928ABBBC6BB92196EFADD047 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9655B9A8A0F40AD128DF4CBCA02C90B1 /* GoogleParsingUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AB351A2697C4022AF169A57032BAFB57 /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				EEF14DCC9E09F89A216F4D8F7CB1D480 /* FIRInstanceID.h */,
-				3EBD847980D8150946E7D7C39E2D8CB2 /* Frameworks */,
-			);
-			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
 		B8197A5221518FF6CC57AE017DEA887B /* Pods-Pic Please */ = {
@@ -225,100 +318,112 @@
 			path = "Target Support Files/Pods-Pic Please";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		BF8D24C500511C7C08BB135B883CDD94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				6B78DDC1F3D70471439A0DEE61DA31EF /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CB440934A214E7B1A28A640A5178B5CF /* Frameworks */ = {
+		E2BD843087D7880BE025B95551D429C6 /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				D49AD3BD1591E1FAC6A468B095EBFCA6 /* FirebaseAuth.framework */,
+				6DB89FDC7D2F7DCAB09D825679937E3D /* Frameworks */,
 			);
-			name = Frameworks;
+			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
-		D38544B74C25B9DD6F972E44B6D2B347 /* GoogleSymbolUtilities */ = {
+		E383AACF73AD0639E95D31B9688FF0CB /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				99809E3440D851732861B083AEE89981 /* Frameworks */,
+				3FDDE87EC7E696D49B592AAE47138440 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		EC034019EFF53863D644EE9B1FC15328 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				54CBDEA49B7D7626BEF9A37C7B9FDA82 /* Frameworks */,
 			);
 			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
-		DFAEE58E41FEB79E2A095B402D1F99FA /* Pods */ = {
+		F6A5C384FB4ADB56FB6D781CB85C000E /* DKCamera */ = {
 			isa = PBXGroup;
 			children = (
-				5010F559BAF4B581A2D0BBAD609AC228 /* Firebase */,
-				1546ED4A2B55C0A278488955D7688CDA /* FirebaseAnalytics */,
-				7AFEFA9CAC2E0695A643A6FE109745CB /* FirebaseAuth */,
-				732B7AC4B7BF5A35D30561E0DC7F356E /* FirebaseDatabase */,
-				AB351A2697C4022AF169A57032BAFB57 /* FirebaseInstanceID */,
-				A33177A3F1C140BB331FE267B0360B55 /* GoogleInterchangeUtilities */,
-				254CC2549EC5EFDA48F0A788DA320609 /* GoogleNetworkingUtilities */,
-				8CE86DD4F8BA2FDE545816D21D94DC79 /* GoogleParsingUtilities */,
-				D38544B74C25B9DD6F972E44B6D2B347 /* GoogleSymbolUtilities */,
-				21A2C8BC661C678B137E3A3D2B8BD254 /* GoogleUtilities */,
+				CB87001D3F432B742DFEFC7B8A796AF7 /* DKCamera.swift */,
+				41D4B72268E5FEAAA1E811F17C7FE04F /* Resources */,
+				40EE61258AB1AF7566DAE68CCFAC4E4B /* Support Files */,
 			);
-			name = Pods;
+			path = DKCamera;
 			sourceTree = "<group>";
 		};
-		E74246C4A74C8411630C6ECF322475BD /* Frameworks */ = {
+		F8735A7DF1AE3F8384D41AF292AF4532 /* GoogleNetworkingUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				C15F99FE1CD1C2F7CACD029F566331B5 /* GoogleUtilities.framework */,
+				1F2199A6D77F7051F5D4365583FCFE2F /* Frameworks */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F4B98E5E3A1387EBDD1948BCA6E6C05A /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				38F943FF5B41EE77F6C520CFC87FA49B /* Firebase.h */,
-			);
-			name = Analytics;
-			sourceTree = "<group>";
-		};
-		F5D95B9F58DFC78F78E36B6302656AAF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BBC6F2FB2556C157DF5EE716018726B6 /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
+			path = GoogleNetworkingUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B62F3970440B0763707BABDDB6E791B /* Headers */ = {
+		5FA47AB33592E3C69BB5111ABE57F760 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B1DD0A00DF0A5FE0DBE4EFFEC01A5D5 /* Pods-Pic Please-umbrella.h in Headers */,
+				0821C839B9D9116E03C0C9B51E136144 /* DKCamera-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DCFDD1D620A816A8B9D2138DA0EDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97D3054462E427F0AD23D06EC4BAAA7 /* Pods-Pic Please-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AD831DEAA2D6F0C5B5E3DB4CE017CA14 /* Pods-Pic Please */ = {
+		11CE68AE3792AF70D145CA149CFA59EB /* Pods-Pic Please */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 976CE35E958518AE283D31627292EA8D /* Build configuration list for PBXNativeTarget "Pods-Pic Please" */;
+			buildConfigurationList = 1EAA9119C8C2A7C1837BDE8E650FC02D /* Build configuration list for PBXNativeTarget "Pods-Pic Please" */;
 			buildPhases = (
-				C9B71DCD655AE0505F0DC525A8291ACA /* Sources */,
-				813449EE1BEE2546596B1454B8CC4A15 /* Frameworks */,
-				1B62F3970440B0763707BABDDB6E791B /* Headers */,
+				F1AD0619BC83D60EC087815DD777EA1D /* Sources */,
+				8CD0EC89712C12EF8B34EFBAD503DE5D /* Frameworks */,
+				AF4DCFDD1D620A816A8B9D2138DA0EDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F5E6F533DA5EE4BCCADD946BF839B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pic Please";
+			productName = "Pods-Pic Please";
+			productReference = ED11D57106ECB4A9EAF9849779E1C0B7 /* Pods_Pic_Please.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		948A46EC641E4DA25A0C1AA1762AF963 /* DKCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B90C555B6E5832D73F97789C04CC0D9E /* Build configuration list for PBXNativeTarget "DKCamera" */;
+			buildPhases = (
+				42CED2E9A32615C0F1CE24780E7D0AE3 /* Sources */,
+				686B7EBCE4CD7EE8695FE0004B2CE2BC /* Frameworks */,
+				B1FCDB45F8E1477BD0371F2B7B4C9448 /* Resources */,
+				5FA47AB33592E3C69BB5111ABE57F760 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Pic Please";
-			productName = "Pods-Pic Please";
-			productReference = 9F722F65295E4DE8FD3B5B1EF7B1A5C8 /* Pods_Pic_Please.framework */;
+			name = DKCamera;
+			productName = DKCamera;
+			productReference = 40ECC8DDC63363D57804EFC9C5539EBD /* DKCamera.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -338,66 +443,58 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 720E5C0E026266B00BC16658257435A6 /* Products */;
+			productRefGroup = 056BEC0E70FF2D73B3F9AB6B6AEAF90C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD831DEAA2D6F0C5B5E3DB4CE017CA14 /* Pods-Pic Please */,
+				948A46EC641E4DA25A0C1AA1762AF963 /* DKCamera */,
+				11CE68AE3792AF70D145CA149CFA59EB /* Pods-Pic Please */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		B1FCDB45F8E1477BD0371F2B7B4C9448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB94131FF51F686744BD0D2CC36D28C /* DKCameraResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		C9B71DCD655AE0505F0DC525A8291ACA /* Sources */ = {
+		42CED2E9A32615C0F1CE24780E7D0AE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3236F3664ABF5829D5D47A5E13B0ADA2 /* Pods-Pic Please-dummy.m in Sources */,
+				D9AA4190BA6CB567F8087104C9B8D6CD /* DKCamera-dummy.m in Sources */,
+				11417F7E0087C4BB8FC52A509FD63D32 /* DKCamera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AD0619BC83D60EC087815DD777EA1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57180FA00D98D7E5529881CDD2CF83DA /* Pods-Pic Please-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin XCBuildConfiguration section */
-		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
+/* Begin PBXTargetDependency section */
+		14F5E6F533DA5EE4BCCADD946BF839B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKCamera;
+			target = 948A46EC641E4DA25A0C1AA1762AF963 /* DKCamera */;
+			targetProxy = 230969F2ED94329ECC82878DFA481649 /* PBXContainerItemProxy */;
 		};
-		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,14 +529,107 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		77FD766AFC8DCD3D52DE69D7388EA816 /* Release */ = {
+		65D03F6F4CC3088627775BE69E7C4790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD437CBF10A500DA41CD018AEDA0017 /* Pods-Pic Please.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pic Please/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pic Please/Pods-Pic Please.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pic_Please;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8319BB9CE047CAFC39EBD9F18D577F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A895EF2EC7473C7227EC8DEDC531E3 /* DKCamera.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		860D69E2F7BE147BA25A84B3A879EF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4A895EF2EC7473C7227EC8DEDC531E3 /* DKCamera.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E6EE0310679C21F8C73E13E581F7E16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 025647D9BE68F2D5A6C1B68CA8317C50 /* Pods-Pic Please.release.xcconfig */;
 			buildSettings = {
@@ -454,7 +644,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-Pic Please/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Pic Please/Pods-Pic Please.modulemap";
@@ -472,56 +662,70 @@
 			};
 			name = Release;
 		};
-		E4472AE888CBAAA7E08539BAB69B2418 /* Debug */ = {
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FD437CBF10A500DA41CD018AEDA0017 /* Pods-Pic Please.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Pic Please/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Pic Please/Pods-Pic Please.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Pic_Please;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		1EAA9119C8C2A7C1837BDE8E650FC02D /* Build configuration list for PBXNativeTarget "Pods-Pic Please" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
-				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+				65D03F6F4CC3088627775BE69E7C4790 /* Debug */,
+				8E6EE0310679C21F8C73E13E581F7E16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		976CE35E958518AE283D31627292EA8D /* Build configuration list for PBXNativeTarget "Pods-Pic Please" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4472AE888CBAAA7E08539BAB69B2418 /* Debug */,
-				77FD766AFC8DCD3D52DE69D7388EA816 /* Release */,
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B90C555B6E5832D73F97789C04CC0D9E /* Build configuration list for PBXNativeTarget "DKCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				860D69E2F7BE147BA25A84B3A879EF95 /* Debug */,
+				8319BB9CE047CAFC39EBD9F18D577F4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

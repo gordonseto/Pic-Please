@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>DKCamera.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Pic Please.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>AD831DEAA2D6F0C5B5E3DB4CE017CA14</key>
+		<key>11CE68AE3792AF70D145CA149CFA59EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>948A46EC641E4DA25A0C1AA1762AF963</key>
 		<dict>
 			<key>primary</key>
 			<true/>
