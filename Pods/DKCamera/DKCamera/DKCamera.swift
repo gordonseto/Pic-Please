@@ -240,17 +240,16 @@ public class DKCamera: UIViewController {
         let cancelButton: UIButton = {
             let cancelButton = UIButton()
             cancelButton.addTarget(self, action: #selector(DKCamera.dismiss), forControlEvents: .TouchUpInside)
-            cancelButton.setImage(DKCameraResource.cameraCancelImage(), forState: .Normal)
-            cancelButton.sizeToFit()
-            
+            cancelButton.setImage(UIImage(named:"re_snap_btn"), forState: .Normal)
+            //cancelButton.sizeToFit()
+            cancelButton.frame.size = CGSizeMake(50, 50)
             return cancelButton
         }()
-        
-        cancelButton.frame.origin = CGPoint(x: contentView.bounds.width - cancelButton.bounds.width - 15, y: 25)
+        cancelButton.frame.origin = CGPoint(x: 0, y: 15)
         cancelButton.autoresizingMask = [.FlexibleBottomMargin, .FlexibleLeftMargin]
         contentView.addSubview(cancelButton)
         
-        self.flashButton.frame.origin = CGPoint(x: 5, y: 15)
+        self.flashButton.frame.origin = CGPoint(x: contentView.bounds.width - cancelButton.bounds.width + 5, y: 22)
         contentView.addSubview(self.flashButton)
         
         contentView.addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: #selector(DKCamera.handleZoom(_:))))

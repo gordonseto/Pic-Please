@@ -4,11 +4,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <mutableArray key="HelveticaNeue.ttc">
-            <string>HelveticaNeue</string>
-        </mutableArray>
-    </customFonts>
     <scenes>
         <!--Tab Bar Controller-->
         <scene sceneID="3Qs-AH-SfX">
@@ -98,37 +93,27 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gJp-yH-BdA">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="No recent requests..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsd-Nw-wfh">
-                                                <rect key="frame" x="86" y="212" width="196" height="25"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="196" id="27P-fY-h9N"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="7cG-7a-por"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="jcU-xz-fN6"/>
-                                                    <constraint firstAttribute="height" constant="25" id="t0v-he-acF"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                                <variation key="default">
-                                                    <mask key="constraints">
-                                                        <exclude reference="7cG-7a-por"/>
-                                                        <exclude reference="jcU-xz-fN6"/>
-                                                    </mask>
-                                                </variation>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcj-vi-tXV">
-                                                <rect key="frame" x="93" y="291" width="189" height="146"/>
+                                                <rect key="frame" x="126" y="316" width="124" height="95"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="width" constant="124" id="Aea-zU-0va"/>
                                                     <constraint firstAttribute="height" constant="146" id="TOV-Wz-ub3"/>
+                                                    <constraint firstAttribute="height" constant="95" id="e3r-im-oFc"/>
                                                     <constraint firstAttribute="width" constant="189" id="qYa-ZA-9lF"/>
                                                 </constraints>
                                                 <state key="normal" image="bigcamera"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="TOV-Wz-ub3"/>
+                                                        <exclude reference="qYa-ZA-9lF"/>
+                                                    </mask>
+                                                </variation>
                                                 <connections>
                                                     <action selector="onCameraPressed:" destination="zgg-ys-8kz" eventType="touchUpInside" id="jf8-nI-J6f"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Gordon has requested a picture!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Peb-U2-pf3">
-                                                <rect key="frame" x="24" y="175" width="320" height="76"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Peb-U2-pf3">
+                                                <rect key="frame" x="28" y="258" width="319" height="24"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -138,10 +123,8 @@
                                         <constraints>
                                             <constraint firstItem="Vcj-vi-tXV" firstAttribute="centerX" secondItem="gJp-yH-BdA" secondAttribute="centerX" id="1RV-u6-uj2"/>
                                             <constraint firstAttribute="trailing" secondItem="Peb-U2-pf3" secondAttribute="trailing" constant="28" id="LHF-Yd-Tqr"/>
-                                            <constraint firstItem="hsd-Nw-wfh" firstAttribute="centerY" secondItem="Peb-U2-pf3" secondAttribute="centerY" id="RCG-xg-PSH"/>
                                             <constraint firstItem="Vcj-vi-tXV" firstAttribute="centerY" secondItem="gJp-yH-BdA" secondAttribute="centerY" constant="30" id="Y01-2X-2B4"/>
                                             <constraint firstItem="Peb-U2-pf3" firstAttribute="leading" secondItem="gJp-yH-BdA" secondAttribute="leading" constant="28" id="ZqQ-tp-VEL"/>
-                                            <constraint firstItem="hsd-Nw-wfh" firstAttribute="centerX" secondItem="Peb-U2-pf3" secondAttribute="centerX" id="auu-pD-HZM"/>
                                             <constraint firstItem="Vcj-vi-tXV" firstAttribute="top" secondItem="Peb-U2-pf3" secondAttribute="bottom" constant="34" id="zIF-si-nzR"/>
                                         </constraints>
                                     </view>
@@ -153,15 +136,22 @@
                                     <constraint firstAttribute="bottom" secondItem="gJp-yH-BdA" secondAttribute="bottom" id="bF6-5a-KtD"/>
                                 </constraints>
                             </scrollView>
+                            <progressView hidden="YES" opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qpq-Pz-uEB">
+                                <rect key="frame" x="0.0" y="28" width="375" height="2"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </progressView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8YD-1h-HqG">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.069146760469999999" green="0.069146760469999999" blue="0.069146760469999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="8YD-1h-HqG" firstAttribute="leading" secondItem="xLI-pS-LkK" secondAttribute="leading" id="1q2-Yv-CvS"/>
-                            <constraint firstItem="8YD-1h-HqG" firstAttribute="top" secondItem="xLI-pS-LkK" secondAttribute="top" id="7Xu-Es-2bB"/>
+                            <constraint firstAttribute="trailing" secondItem="qpq-Pz-uEB" secondAttribute="trailing" id="3xK-u3-mUA"/>
+                            <constraint firstItem="qpq-Pz-uEB" firstAttribute="leading" secondItem="xLI-pS-LkK" secondAttribute="leading" id="G3I-eK-cTF"/>
+                            <constraint firstItem="8YD-1h-HqG" firstAttribute="top" secondItem="xLI-pS-LkK" secondAttribute="top" id="JfE-1m-Qg6"/>
+                            <constraint firstItem="qpq-Pz-uEB" firstAttribute="top" secondItem="BOm-bG-haG" secondAttribute="bottom" constant="8" id="LLS-yc-RNH"/>
                             <constraint firstItem="EJm-Je-dsC" firstAttribute="width" secondItem="xLI-pS-LkK" secondAttribute="width" id="PdM-FF-I9I"/>
+                            <constraint firstItem="8YD-1h-HqG" firstAttribute="leading" secondItem="xLI-pS-LkK" secondAttribute="leading" id="Rm6-3F-5Au"/>
                             <constraint firstAttribute="trailing" secondItem="EJm-Je-dsC" secondAttribute="trailing" id="TOk-QR-CLR"/>
                             <constraint firstAttribute="bottom" secondItem="EJm-Je-dsC" secondAttribute="bottom" id="j2Q-1j-Ra7"/>
                             <constraint firstItem="gJp-yH-BdA" firstAttribute="width" secondItem="xLI-pS-LkK" secondAttribute="width" id="lNH-C7-2Gr"/>
@@ -169,15 +159,16 @@
                             <constraint firstItem="gJp-yH-BdA" firstAttribute="height" secondItem="xLI-pS-LkK" secondAttribute="height" id="r6X-6Z-vac"/>
                             <constraint firstItem="EJm-Je-dsC" firstAttribute="leading" secondItem="xLI-pS-LkK" secondAttribute="leading" id="rEk-hV-iha"/>
                             <constraint firstItem="EJm-Je-dsC" firstAttribute="top" secondItem="xLI-pS-LkK" secondAttribute="top" id="upS-A9-lal"/>
-                            <constraint firstAttribute="trailing" secondItem="8YD-1h-HqG" secondAttribute="trailing" id="w86-g3-I1x"/>
-                            <constraint firstAttribute="bottom" secondItem="8YD-1h-HqG" secondAttribute="bottom" id="wlR-xH-8VU"/>
+                            <constraint firstAttribute="bottom" secondItem="8YD-1h-HqG" secondAttribute="bottom" id="xV6-W2-gMA"/>
+                            <constraint firstAttribute="trailing" secondItem="8YD-1h-HqG" secondAttribute="trailing" id="xy3-K4-KVC"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="search" id="25X-Mv-euE"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="cameraButton" destination="Vcj-vi-tXV" id="PGB-5j-wCD"/>
                         <outlet property="imageView" destination="8YD-1h-HqG" id="mtm-Zi-iyM"/>
-                        <outlet property="noRequestsLabel" destination="hsd-Nw-wfh" id="hoQ-XX-QYz"/>
+                        <outlet property="progressBar" destination="qpq-Pz-uEB" id="gUd-qz-nk7"/>
                         <outlet property="requestLabel" destination="Peb-U2-pf3" id="Woj-MB-f1H"/>
                         <outlet property="scrollView" destination="EJm-Je-dsC" id="811-pC-tpe"/>
                     </connections>
