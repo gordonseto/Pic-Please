@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import Batch
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,6 +22,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FIRApp.configure()
         
         FIRAuth.auth()?.signInAnonymouslyWithCompletion(){ (user, error) in
+            
+            Batch.startWithAPIKey(BATCH_API_KEY)
+            BatchPush.registerForRemoteNotifications()
+            BatchPush.dismissNotifications()
+            
+            let editor = BatchUser.editor()
+            editor.setIdentifier(user!.uid)
+            editor.save() // Do not forget to save the changes!
             
         }
         

@@ -1,4 +1,5 @@
 PODS:
+  - Batch (1.5.4)
   - DKCamera (1.2.11)
   - Firebase/Analytics (3.4.0):
     - FirebaseAnalytics (~> 3.3)
@@ -41,6 +42,7 @@ PODS:
   - INSPhotoGallery (1.0.2)
 
 DEPENDENCIES:
+  - Batch
   - DKCamera
   - Firebase/Auth
   - Firebase/Database
@@ -49,6 +51,7 @@ DEPENDENCIES:
   - INSPhotoGallery
 
 SPEC CHECKSUMS:
+  Batch: 13083f81837fe1da9ea84b0533a2965c73ff74c6
   DKCamera: ef9c557e7f2ec83ebeaf95e9297e16e43755ec2e
   Firebase: 754562547af419cc2f4b15247fee419081924bc2
   FirebaseAnalytics: 228be2991cb28efb96cdafc4d62f64680e615c69
@@ -64,6 +67,6 @@ SPEC CHECKSUMS:
   HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
   INSPhotoGallery: d0808976de63f895606a6e47031704d7d4dce2d9
 
-PODFILE CHECKSUM: 6f51a92a88a78f06214ea9f6d47416af4ff5bf32
+PODFILE CHECKSUM: 57850956598cfe500b41579a8d64d87ec7862ca1
 
 COCOAPODS: 1.0.1

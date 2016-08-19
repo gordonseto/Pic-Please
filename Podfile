@@ -12,4 +12,5 @@ target 'Pic Please' do
   pod 'Firebase/Storage'
   pod 'INSPhotoGallery'
   pod 'HanekeSwift'
+  pod 'Batch'
 end

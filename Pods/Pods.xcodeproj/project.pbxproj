@@ -7,60 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0821C839B9D9116E03C0C9B51E136144 /* DKCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A73A473242DE892DA1CCAD71DED4F34F /* DKCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D361BC02EA3B8C476545E29A293CCB8 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5BD78FD172A18A3E5B3A79F9FFBD4D /* Format.swift */; };
-		11417F7E0087C4BB8FC52A509FD63D32 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A89F2F5575DB8CECD22969FC3CF58B1 /* DKCamera.swift */; };
-		148DC29064EBBB2618ADBA1D3564BC74 /* INSPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D07ED211A4F44032ABCAB69D645FD0 /* INSPhotoViewController.swift */; };
-		16C6BD8F14D0314E55548CAD80F59890 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF9485B61FADFF97338124F4CC936BE /* INSPhotoGalleryCloseLandscape@2x.png */; };
+		0821C839B9D9116E03C0C9B51E136144 /* DKCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E140556F9B3EEB73E73158F3BA661491 /* DKCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D361BC02EA3B8C476545E29A293CCB8 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDE77109BB1FCC1F61EA2B26E4AD6A4 /* Format.swift */; };
+		11417F7E0087C4BB8FC52A509FD63D32 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45AB320A0A4DBEFC229911F136F39F /* DKCamera.swift */; };
+		148DC29064EBBB2618ADBA1D3564BC74 /* INSPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7643903E04C843CBED000E19E2E725F0 /* INSPhotoViewController.swift */; };
+		16C6BD8F14D0314E55548CAD80F59890 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9471FA7B4171737E30BD974695F2BD /* INSPhotoGalleryCloseLandscape@2x.png */; };
 		18B3ACF4B22E4C3041453D65ACBFCDBE /* INSPhotoGallery.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 549F214448A670ED17B87383294750AA /* INSPhotoGallery.bundle */; };
-		1D27B06296C346D4F23F5ED14B0A5D1A /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53E304F0C6705EE8D91096C7477DB89 /* UIButton+Haneke.swift */; };
-		1E28B151C828B85EFE985A38F78B7392 /* INSPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14CA45542EC7FBBF9D3FF16771C9E92 /* INSPhoto.swift */; };
-		1E48973DF718A44AE0F8FFE3127D426B /* INSPhotoGalleryCloseLandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B9523FB44C665D2449E68F1603AFC /* INSPhotoGalleryCloseLandscape@3x.png */; };
+		1D27B06296C346D4F23F5ED14B0A5D1A /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE8448C920C279D047E8B8037AADA3 /* UIButton+Haneke.swift */; };
+		1E28B151C828B85EFE985A38F78B7392 /* INSPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F45FE9DC29C1F21965E517DC79312 /* INSPhoto.swift */; };
+		1E48973DF718A44AE0F8FFE3127D426B /* INSPhotoGalleryCloseLandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B21D005702CC07FAE20932BACD281 /* INSPhotoGalleryCloseLandscape@3x.png */; };
 		206A4EC16AB67809DD5B4D4C90743F2F /* Pods-Pic Please-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8034581EF5754448FE3321C864879C /* Pods-Pic Please-dummy.m */; };
-		24E7FCE3DF42DC6D616DC39F8AC69566 /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822B38E9A407ED5345BF291F044443F4 /* UIImageView+Haneke.swift */; };
-		3D90F67A3A10F71FD01DEDA59496C1D7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C4FB2DB20D7D83214279AAA052A336 /* Data.swift */; };
-		3EA2C091B8672D75066EEEEFE63B5A86 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F04C670EEAABE346D23D916D9F7CF9D /* NetworkFetcher.swift */; };
+		24E7FCE3DF42DC6D616DC39F8AC69566 /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39105A979CED1A4EE97DCEA1DE6C2B85 /* UIImageView+Haneke.swift */; };
+		3D90F67A3A10F71FD01DEDA59496C1D7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AE629885571F703071AF392F1A3535 /* Data.swift */; };
+		3EA2C091B8672D75066EEEEFE63B5A86 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCC4761859D6C9E985BEA0BD23EB5E /* NetworkFetcher.swift */; };
 		410D0641B813947CA53F07D75F4624CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
 		439D6AE635FEC171B5D3A5E7ED205154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
-		49A5E2B820A83801CEE267AA6E1D923F /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E9D6BC3530A8DEA9F537751B81AD53 /* DiskFetcher.swift */; };
-		4D4B863CBFF5D5CDB91A634B7E5F3924 /* INSPhotosInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E5F28A57199E6B0A20005E96B370BA /* INSPhotosInteractionAnimator.swift */; };
-		55F3BC1465BB2EB6F02ADC5A2D1F9F83 /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A18E20CBC4372704D14CBBD09A34C2 /* String+Haneke.swift */; };
-		6085E303BBFBC2375CDBFC9B8F742562 /* INSPhotoGalleryClose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F0F7FD6558B4EF6170B09F67983B2 /* INSPhotoGalleryClose@3x.png */; };
+		49A5E2B820A83801CEE267AA6E1D923F /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF1D4CCABFE6284BE4A889F429DF38 /* DiskFetcher.swift */; };
+		4D4B863CBFF5D5CDB91A634B7E5F3924 /* INSPhotosInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CA17D530E7E502F3BCC6014B7E2618 /* INSPhotosInteractionAnimator.swift */; };
+		55F3BC1465BB2EB6F02ADC5A2D1F9F83 /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946170662F65BBF322EE87A671D955E0 /* String+Haneke.swift */; };
+		6085E303BBFBC2375CDBFC9B8F742562 /* INSPhotoGalleryClose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BA4C1A7A7E0D603231AFC678775F7C /* INSPhotoGalleryClose@3x.png */; };
 		65AD8D82E2717ED54FD09DB2DACF13FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
-		6856278E4A2BC48DDF4D6276C18DB9FD /* INSPhotoGalleryCloseLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 31FB8844F2698DE07820C5852ED98EBB /* INSPhotoGalleryCloseLandscape.png */; };
-		6A27A4CD047E056FF9D79F1D779E173D /* INSPhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BB49A541DEEEA028D4354B689194CE /* INSPhotosDataSource.swift */; };
-		6AF68CA14B6CB99A1962B45CD2D30A2F /* INSPhotosTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81361953446E9D5CC315F5BBDD2A64A /* INSPhotosTransitionAnimator.swift */; };
+		6856278E4A2BC48DDF4D6276C18DB9FD /* INSPhotoGalleryCloseLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 9110CDE8770DC0751D098FF2C2EB22AA /* INSPhotoGalleryCloseLandscape.png */; };
+		6A27A4CD047E056FF9D79F1D779E173D /* INSPhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F21B5E5475A17AA815AF1927D7739F /* INSPhotosDataSource.swift */; };
+		6AF68CA14B6CB99A1962B45CD2D30A2F /* INSPhotosTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683D68145A23CC22FF175730DD49F7F1 /* INSPhotosTransitionAnimator.swift */; };
 		755D27DCC46E3C4C63DA379BF7D27487 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC72C95DDC5703A67DA8DB5C57BF4C5D /* AVFoundation.framework */; };
 		76044F20BABAF5ADC0A67FCEA91DB41C /* Pods-Pic Please-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B468C121A17D65D07B87F6821293E4E6 /* Pods-Pic Please-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7877171170BB48A84F126E698B715290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
-		8A85C4CDF0FE775E0BD0C44B0C3E6159 /* NSURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D9A01BF8F36D39CE82190E7A805765 /* NSURLResponse+Haneke.swift */; };
-		8BB94131FF51F686744BD0D2CC36D28C /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 411E50A3A7251EC2ECDE70B74BD19D8E /* DKCameraResource.bundle */; };
-		8C357B44EA2BC147AA0219CD8CC03B5F /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D995B8A991086F813C1C567A534CFFBE /* Fetcher.swift */; };
-		8F523965660987457BC0245AB584840F /* INSPhotoGalleryClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A51DAAFCE976AF491E3B73060063493 /* INSPhotoGalleryClose@2x.png */; };
-		92A2D4839D45ABA48D77923C035C8943 /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691ADB5B7125623000E0774794A742D8 /* NSFileManager+Haneke.swift */; };
-		9831DDC5256EF014D93FF2DBE055E7B6 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727B3AB462A8719862ABDBDE7670DADC /* Cache.swift */; };
-		9911E1A886CD44872C07FAA6A1521A85 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0371F4386B96D7C9BC5263C30AD63278 /* Log.swift */; };
-		994B68FCAC51B6A903ECE890192503AB /* INSScalingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117902C1F5079FCA0F44D780FF378A58 /* INSScalingImageView.swift */; };
-		9D5F6868132325D38051C5A07F128C5C /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E240C71E21EF1C26C3B121894573E57 /* UIView+Haneke.swift */; };
-		9E629066D218DC1DC616E339DB68E49C /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29F2CA4364F5B14C6F2A8DC46411817 /* CryptoSwiftMD5.swift */; };
-		9F4D113C6A4469F0DFAC637F1CA2C087 /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74831D7EE014CAEF1B6D99542AC7032 /* CGSize+Swift.swift */; };
+		8A85C4CDF0FE775E0BD0C44B0C3E6159 /* NSURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1391C0339117321084666EE8649A3B /* NSURLResponse+Haneke.swift */; };
+		8BB94131FF51F686744BD0D2CC36D28C /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9BFF78F22C42883136FA031817ED16C /* DKCameraResource.bundle */; };
+		8C357B44EA2BC147AA0219CD8CC03B5F /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2CC9176F102AB0EAAB9EF0229C97AB /* Fetcher.swift */; };
+		8F523965660987457BC0245AB584840F /* INSPhotoGalleryClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C90E3995A12DEE760400A425D41D35B /* INSPhotoGalleryClose@2x.png */; };
+		92A2D4839D45ABA48D77923C035C8943 /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EDCCEA308EF71B5CE40969846B1D7 /* NSFileManager+Haneke.swift */; };
+		9831DDC5256EF014D93FF2DBE055E7B6 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC578D822F9B2AD7A3D0F80EFAE02E0 /* Cache.swift */; };
+		9911E1A886CD44872C07FAA6A1521A85 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36350D9F82C09D79E0C978F06C09FD45 /* Log.swift */; };
+		994B68FCAC51B6A903ECE890192503AB /* INSScalingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FFFD044A107671E3D88AA723FCE685 /* INSScalingImageView.swift */; };
+		9D5F6868132325D38051C5A07F128C5C /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938D4DB08C9384310E4BC019DBA5261 /* UIView+Haneke.swift */; };
+		9E629066D218DC1DC616E339DB68E49C /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8C22C0C787878EDA0F44BCA6CE0A0 /* CryptoSwiftMD5.swift */; };
+		9F4D113C6A4469F0DFAC637F1CA2C087 /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48F2DF284DED4B21ED66947D1A1863 /* CGSize+Swift.swift */; };
 		A19EC195A24B7788935653C989BDB81A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */; };
-		A8CF635DBE430F95FB17D371B918B3FB /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9378036BAE37E65D65A791770DE61DF7 /* UIImage+Haneke.swift */; };
-		AB02DD775A289B55B03F87A73525B611 /* HanekeSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0BED6520A5F6A624A81F8590B87C5B /* HanekeSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEB48C925DC8D4B812C4ABF9F15C822E /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FFDC26DC2F4ABF6A181FA2792689DC /* DiskCache.swift */; };
-		B1CCF02E757EE856275CE85BF171ED90 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B726A4C75E248B596F69CE4C99609 /* Fetch.swift */; };
-		B3B1BE7A6BB15F166AAB163441829801 /* INSPhotoGalleryClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C659CF25E011A87737309C9DDA6D746 /* INSPhotoGalleryClose.png */; };
-		BA9F856925CE6AC934FDAE4C6449EE28 /* INSPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C590E9E131237FD17DF70EB7173F55A4 /* INSPhotosViewController.swift */; };
-		BD038EFFD2D1B49B136B42B5E07D59C5 /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207A3162E80A6728D1D00BB08F0EA593 /* Haneke.swift */; };
-		BD80369F2A12E53B8D417169367B1D02 /* UIVIew+INSPhotoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F62B1C0F226D2A7EB7A0B314BB0629 /* UIVIew+INSPhotoViewer.swift */; };
-		C53BBBDA9EB6B23CC76CFCC06CEEC721 /* INSPhotoGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A906DDA526FBC599569FFA0E0887FDAA /* INSPhotoGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8CF635DBE430F95FB17D371B918B3FB /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FC4ACF80A41BA85817DAE0DE049BE1 /* UIImage+Haneke.swift */; };
+		AB02DD775A289B55B03F87A73525B611 /* HanekeSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EA4E84889099217BD44BA3BBF7AF6F /* HanekeSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB48C925DC8D4B812C4ABF9F15C822E /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA12C63195686B8B5C38240E1762A2F4 /* DiskCache.swift */; };
+		B1CCF02E757EE856275CE85BF171ED90 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51827569FB5CB4DD2AD2DA4C36523E6 /* Fetch.swift */; };
+		B3B1BE7A6BB15F166AAB163441829801 /* INSPhotoGalleryClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 789251D701F4B42B2E0AF7B61C0F5463 /* INSPhotoGalleryClose.png */; };
+		BA9F856925CE6AC934FDAE4C6449EE28 /* INSPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE0478A4E8DF9E3E61F79C261A16D4E /* INSPhotosViewController.swift */; };
+		BD038EFFD2D1B49B136B42B5E07D59C5 /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62D46F51CD0AD308D48218555775272 /* Haneke.swift */; };
+		BD80369F2A12E53B8D417169367B1D02 /* UIVIew+INSPhotoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF125F4B854CC1FA07D2CC0BED135 /* UIVIew+INSPhotoViewer.swift */; };
+		C53BBBDA9EB6B23CC76CFCC06CEEC721 /* INSPhotoGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BFE89FA46CCAF68830AC16EDA5D48D4 /* INSPhotoGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D747620EA73E85CB7D6840FADBADE542 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */; };
-		D9AA4190BA6CB567F8087104C9B8D6CD /* DKCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D901B0A01BD209F97ADEE5AFCC5BF6 /* DKCamera-dummy.m */; };
+		D9AA4190BA6CB567F8087104C9B8D6CD /* DKCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B0FD64F7E40965E9AEECFC99E1C652 /* DKCamera-dummy.m */; };
 		DC178BDED25CC834988588370C9B8AB6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA526B0D319CCD8F98FC7233B4942EE7 /* CoreMotion.framework */; };
-		DF6DBB5FA4E663A5AE7F272CA1CBA3BB /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB467CB5C57648B428CACC4B3692A485 /* NSHTTPURLResponse+Haneke.swift */; };
-		E5ABC928846F6D1B4EA0B75B6DF1DCD3 /* INSPhotoGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B4A36A3DA10097B20FDF75D311D370 /* INSPhotoGallery-dummy.m */; };
-		F03916F3658FFB4643AD5FC815A4F5A7 /* HanekeSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7716741F0C79AC1B6B0A698A2D014F5 /* HanekeSwift-dummy.m */; };
-		F0738973E807ED9D59BD239ABF0D30B0 /* INSPhotosOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C8E5C02B0714FC630687F407717125 /* INSPhotosOverlayView.swift */; };
+		DF6DBB5FA4E663A5AE7F272CA1CBA3BB /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5379A2CD1814227248EDA3A068B264F6 /* NSHTTPURLResponse+Haneke.swift */; };
+		E5ABC928846F6D1B4EA0B75B6DF1DCD3 /* INSPhotoGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5DAAC2C07DFCF847C1F5DD0D31612 /* INSPhotoGallery-dummy.m */; };
+		F03916F3658FFB4643AD5FC815A4F5A7 /* HanekeSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4A43786CC61F20B6CD7DDDAC630A2 /* HanekeSwift-dummy.m */; };
+		F0738973E807ED9D59BD239ABF0D30B0 /* INSPhotosOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E3B0E324AA2FBA938D7C3574F0D7E /* INSPhotosOverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,94 +95,108 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D07ED211A4F44032ABCAB69D645FD0 /* INSPhotoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotoViewController.swift; path = INSPhotoGallery/INSPhotoViewController.swift; sourceTree = "<group>"; };
 		025647D9BE68F2D5A6C1B68CA8317C50 /* Pods-Pic Please.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please.release.xcconfig"; sourceTree = "<group>"; };
-		0371F4386B96D7C9BC5263C30AD63278 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Haneke/Log.swift; sourceTree = "<group>"; };
-		049D40BC3ABB5838F1EF0F8E3E9ADD2F /* DKCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DKCamera.modulemap; sourceTree = "<group>"; };
+		02D6390BC2EB99A62DD802605524F378 /* BatchError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchError.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchError.h; sourceTree = "<group>"; };
+		03CA17D530E7E502F3BCC6014B7E2618 /* INSPhotosInteractionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosInteractionAnimator.swift; path = INSPhotoGallery/INSPhotosInteractionAnimator.swift; sourceTree = "<group>"; };
+		063A5882912F6ED0143E99258583A677 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
 		075201800A0EDF120B7673B99A70AAF6 /* Pods-Pic Please-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please-frameworks.sh"; sourceTree = "<group>"; };
-		09BB49A541DEEEA028D4354B689194CE /* INSPhotosDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosDataSource.swift; path = INSPhotoGallery/INSPhotosDataSource.swift; sourceTree = "<group>"; };
-		0E240C71E21EF1C26C3B121894573E57 /* UIView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
-		0E666E34E0FB803C87FE765186FF90F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		117902C1F5079FCA0F44D780FF378A58 /* INSScalingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSScalingImageView.swift; path = INSPhotoGallery/INSScalingImageView.swift; sourceTree = "<group>"; };
-		11F62B1C0F226D2A7EB7A0B314BB0629 /* UIVIew+INSPhotoViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIVIew+INSPhotoViewer.swift"; path = "INSPhotoGallery/UIVIew+INSPhotoViewer.swift"; sourceTree = "<group>"; };
-		12FFDC26DC2F4ABF6A181FA2792689DC /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = Haneke/DiskCache.swift; sourceTree = "<group>"; };
+		0C1B21D005702CC07FAE20932BACD281 /* INSPhotoGalleryCloseLandscape@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@3x.png"; sourceTree = "<group>"; };
+		0C90E3995A12DEE760400A425D41D35B /* INSPhotoGalleryClose@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@2x.png"; sourceTree = "<group>"; };
+		0CE0478A4E8DF9E3E61F79C261A16D4E /* INSPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosViewController.swift; path = INSPhotoGallery/INSPhotosViewController.swift; sourceTree = "<group>"; };
+		0E0CF125F4B854CC1FA07D2CC0BED135 /* UIVIew+INSPhotoViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIVIew+INSPhotoViewer.swift"; path = "INSPhotoGallery/UIVIew+INSPhotoViewer.swift"; sourceTree = "<group>"; };
+		0E9471FA7B4171737E30BD974695F2BD /* INSPhotoGalleryCloseLandscape@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@2x.png"; sourceTree = "<group>"; };
 		13C412DC8B01FB83E86420674CCF12D6 /* Pods-Pic Please-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pic Please-acknowledgements.markdown"; sourceTree = "<group>"; };
-		157030D63120D1D9D689191288BC31E5 /* INSPhotoGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSPhotoGallery.xcconfig; sourceTree = "<group>"; };
-		207A3162E80A6728D1D00BB08F0EA593 /* Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = Haneke/Haneke.swift; sourceTree = "<group>"; };
+		1708A805B5C5ABEA76E08193E5E7FAED /* BatchUnlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchUnlock.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchUnlock.h; sourceTree = "<group>"; };
+		18CCC4761859D6C9E985BEA0BD23EB5E /* NetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
+		1EE4A43786CC61F20B6CD7DDDAC630A2 /* HanekeSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanekeSwift-dummy.m"; sourceTree = "<group>"; };
 		210895A63A8FAC48EF357BE6BA550E54 /* Pods-Pic Please-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pic Please-acknowledgements.plist"; sourceTree = "<group>"; };
-		222EAA7BB714EDDE75431016B505DD00 /* INSPhotoGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = INSPhotoGallery.modulemap; sourceTree = "<group>"; };
-		22B4A36A3DA10097B20FDF75D311D370 /* INSPhotoGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSPhotoGallery-dummy.m"; sourceTree = "<group>"; };
-		25C4FB2DB20D7D83214279AAA052A336 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Haneke/Data.swift; sourceTree = "<group>"; };
-		284E440C01F7460E520C7EFCAC96B072 /* DKCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-prefix.pch"; sourceTree = "<group>"; };
-		28E5F28A57199E6B0A20005E96B370BA /* INSPhotosInteractionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosInteractionAnimator.swift; path = INSPhotoGallery/INSPhotosInteractionAnimator.swift; sourceTree = "<group>"; };
-		31FB8844F2698DE07820C5852ED98EBB /* INSPhotoGalleryCloseLandscape.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryCloseLandscape.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape.png; sourceTree = "<group>"; };
-		38E9D6BC3530A8DEA9F537751B81AD53 /* DiskFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
+		2146369C47F87F2F6EC6B6B905EB0942 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		225EDCCEA308EF71B5CE40969846B1D7 /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		239BE41688CA4B9B537CB7EE60C71C82 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		23D70113FF33D2655F5EA019C5F50858 /* DKCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCamera.xcconfig; sourceTree = "<group>"; };
+		24EBFBAE33130836F34460B8F4A3B7BC /* HanekeSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanekeSwift.xcconfig; sourceTree = "<group>"; };
+		27333E826C3B4801A68C7E941E1ECDF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2938D4DB08C9384310E4BC019DBA5261 /* UIView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
+		32BF1D4CCABFE6284BE4A889F429DF38 /* DiskFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
+		33B0FA43D73A15CD71C349E0F58DC246 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		35F21B5E5475A17AA815AF1927D7739F /* INSPhotosDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosDataSource.swift; path = INSPhotoGallery/INSPhotosDataSource.swift; sourceTree = "<group>"; };
+		36350D9F82C09D79E0C978F06C09FD45 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Haneke/Log.swift; sourceTree = "<group>"; };
+		39105A979CED1A4EE97DCEA1DE6C2B85 /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
 		3FD437CBF10A500DA41CD018AEDA0017 /* Pods-Pic Please.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please.debug.xcconfig"; sourceTree = "<group>"; };
-		411E50A3A7251EC2ECDE70B74BD19D8E /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
-		446B726A4C75E248B596F69CE4C99609 /* Fetch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = Haneke/Fetch.swift; sourceTree = "<group>"; };
-		4A89F2F5575DB8CECD22969FC3CF58B1 /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
-		4C25C971EEC21A01A03D93E8406EE0D0 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		42AE629885571F703071AF392F1A3535 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Haneke/Data.swift; sourceTree = "<group>"; };
+		42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSPhotoGallery.xcconfig; sourceTree = "<group>"; };
+		438F45FE9DC29C1F21965E517DC79312 /* INSPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhoto.swift; path = INSPhotoGallery/INSPhoto.swift; sourceTree = "<group>"; };
+		4427FFD9FE675600DECDEFF5B76A78B0 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		4B45AB320A0A4DBEFC229911F136F39F /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
+		4CD3F26CE77C10AA08148235BA0CC82F /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		4D3E3B0E324AA2FBA938D7C3574F0D7E /* INSPhotosOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosOverlayView.swift; path = INSPhotoGallery/INSPhotosOverlayView.swift; sourceTree = "<group>"; };
 		4E8034581EF5754448FE3321C864879C /* Pods-Pic Please-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pic Please-dummy.m"; sourceTree = "<group>"; };
+		5379A2CD1814227248EDA3A068B264F6 /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
 		549F214448A670ED17B87383294750AA /* INSPhotoGallery.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INSPhotoGallery.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C659CF25E011A87737309C9DDA6D746 /* INSPhotoGalleryClose.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryClose.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose.png; sourceTree = "<group>"; };
-		5D5BD78FD172A18A3E5B3A79F9FFBD4D /* Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Haneke/Format.swift; sourceTree = "<group>"; };
-		61C8E5C02B0714FC630687F407717125 /* INSPhotosOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosOverlayView.swift; path = INSPhotoGallery/INSPhotosOverlayView.swift; sourceTree = "<group>"; };
-		64D2C23116DE7352B711496761E2D2D6 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		66422A18750055E9574B3F887BE099D9 /* ResourceBundle-INSPhotoGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-INSPhotoGallery-Info.plist"; sourceTree = "<group>"; };
-		67D9A01BF8F36D39CE82190E7A805765 /* NSURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLResponse+Haneke.swift"; path = "Haneke/NSURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		571DD1B82D39D14F191C060A04597028 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		5830B7437C34A422173020380FC75FB3 /* Batch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Batch.h; path = Batch.embeddedframework/Batch.framework/Headers/Batch.h; sourceTree = "<group>"; };
+		5BFE89FA46CCAF68830AC16EDA5D48D4 /* INSPhotoGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-umbrella.h"; sourceTree = "<group>"; };
+		683D68145A23CC22FF175730DD49F7F1 /* INSPhotosTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosTransitionAnimator.swift; path = INSPhotoGallery/INSPhotosTransitionAnimator.swift; sourceTree = "<group>"; };
 		68888A8C42ABB8B084F8054C603437B6 /* Pods_Pic_Please.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pic_Please.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		691ADB5B7125623000E0774794A742D8 /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
-		6A51DAAFCE976AF491E3B73060063493 /* INSPhotoGalleryClose@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@2x.png"; sourceTree = "<group>"; };
-		6A6F0F7FD6558B4EF6170B09F67983B2 /* INSPhotoGalleryClose@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@3x.png"; sourceTree = "<group>"; };
-		727B3AB462A8719862ABDBDE7670DADC /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Haneke/Cache.swift; sourceTree = "<group>"; };
-		74A18E20CBC4372704D14CBBD09A34C2 /* String+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
-		79D479DE8966E8FA5A7BB1F22D026906 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
-		7F6F6FD362D4D1F3AC8C5B017D4813AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		822B38E9A407ED5345BF291F044443F4 /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
-		8AAC4650825D2F617A81062A0B0B0A2F /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
-		8F04C670EEAABE346D23D916D9F7CF9D /* NetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
-		9378036BAE37E65D65A791770DE61DF7 /* UIImage+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		68FC4ACF80A41BA85817DAE0DE049BE1 /* UIImage+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		69C0369DC4B36A4BF77FDF470C81B166 /* ResourceBundle-INSPhotoGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-INSPhotoGallery-Info.plist"; sourceTree = "<group>"; };
+		6BCC7D187CB7BBC75F1D40A7E092D493 /* DKCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DKCamera.modulemap; sourceTree = "<group>"; };
+		6C2CC9176F102AB0EAAB9EF0229C97AB /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = Haneke/Fetcher.swift; sourceTree = "<group>"; };
+		6DC578D822F9B2AD7A3D0F80EFAE02E0 /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Haneke/Cache.swift; sourceTree = "<group>"; };
+		72B052AA49E73A49649A71BF5B204108 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7643903E04C843CBED000E19E2E725F0 /* INSPhotoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotoViewController.swift; path = INSPhotoGallery/INSPhotoViewController.swift; sourceTree = "<group>"; };
+		789251D701F4B42B2E0AF7B61C0F5463 /* INSPhotoGalleryClose.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryClose.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose.png; sourceTree = "<group>"; };
+		79B50D13C8325417DFD722DE8FD22AD8 /* INSPhotoGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = INSPhotoGallery.modulemap; sourceTree = "<group>"; };
+		7EDE8448C920C279D047E8B8037AADA3 /* UIButton+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
+		835189FA07A518EA65244DFAE1D7A7FC /* BatchAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchAds.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchAds.h; sourceTree = "<group>"; };
+		8C9C57F27414C786FC136068D244DCC1 /* Batch.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Batch.bundle; path = Batch.embeddedframework/Batch.bundle; sourceTree = "<group>"; };
+		9110CDE8770DC0751D098FF2C2EB22AA /* INSPhotoGalleryCloseLandscape.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryCloseLandscape.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape.png; sourceTree = "<group>"; };
+		927AD6CB5A6402E38000D6C87EADA726 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98E65E285D3D6516E5192FF1415E3742 /* INSPhotoGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-prefix.pch"; sourceTree = "<group>"; };
-		9EF9485B61FADFF97338124F4CC936BE /* INSPhotoGalleryCloseLandscape@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@2x.png"; sourceTree = "<group>"; };
-		9F8B9523FB44C665D2449E68F1603AFC /* INSPhotoGalleryCloseLandscape@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@3x.png"; sourceTree = "<group>"; };
+		946170662F65BBF322EE87A671D955E0 /* String+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
+		9F5F38FBACF7869379C486E2E5844D66 /* BatchNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchNativeAd.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchNativeAd.h; sourceTree = "<group>"; };
 		A0DF776C723A1BCE01A6389FBB62C3B0 /* Pods-Pic Please.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pic Please.modulemap"; sourceTree = "<group>"; };
+		A51827569FB5CB4DD2AD2DA4C36523E6 /* Fetch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = Haneke/Fetch.swift; sourceTree = "<group>"; };
+		A588920F9749E14E8AEF421CC7467FB7 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
 		A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A6ECDF102A0029A69655AB4155A0C5CD /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		A73A473242DE892DA1CCAD71DED4F34F /* DKCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-umbrella.h"; sourceTree = "<group>"; };
-		A906DDA526FBC599569FFA0E0887FDAA /* INSPhotoGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-umbrella.h"; sourceTree = "<group>"; };
-		AAF4AF003753BD6F7A065385B1086E6D /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		B2D901B0A01BD209F97ADEE5AFCC5BF6 /* DKCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKCamera-dummy.m"; sourceTree = "<group>"; };
+		A8EF2CE5F8DD30A0BC70EF98AA88C951 /* BatchAdsDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchAdsDeprecated.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchAdsDeprecated.h; sourceTree = "<group>"; };
+		A9F2534ED1FA75B972A68C073DC18EE9 /* INSPhotoGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-prefix.pch"; sourceTree = "<group>"; };
+		ABEA364545A7525296585A29F1A39D8C /* BatchLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchLogger.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchLogger.h; sourceTree = "<group>"; };
+		B0FFFD044A107671E3D88AA723FCE685 /* INSScalingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSScalingImageView.swift; path = INSPhotoGallery/INSScalingImageView.swift; sourceTree = "<group>"; };
 		B468C121A17D65D07B87F6821293E4E6 /* Pods-Pic Please-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pic Please-umbrella.h"; sourceTree = "<group>"; };
-		B53E304F0C6705EE8D91096C7477DB89 /* UIButton+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
-		B693FC282B8F52C136A90603B0531906 /* HanekeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HanekeSwift.modulemap; sourceTree = "<group>"; };
+		BA1391C0339117321084666EE8649A3B /* NSURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLResponse+Haneke.swift"; path = "Haneke/NSURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		BADC02BCAF0C795E0162228A67525C20 /* BatchPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchPush.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchPush.h; sourceTree = "<group>"; };
 		BC3C715E123FA2B8E869D467E48D8CA0 /* Pods-Pic Please-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please-resources.sh"; sourceTree = "<group>"; };
-		BF71490382D52701A95062B73581EF57 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
-		C14CA45542EC7FBBF9D3FF16771C9E92 /* INSPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhoto.swift; path = INSPhotoGallery/INSPhoto.swift; sourceTree = "<group>"; };
-		C590E9E131237FD17DF70EB7173F55A4 /* INSPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosViewController.swift; path = INSPhotoGallery/INSPhotosViewController.swift; sourceTree = "<group>"; };
-		C763E4A325638F7213E13574C2FBBDCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7B821668E0262497BA5EB45C7FDCA34 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		C81361953446E9D5CC315F5BBDD2A64A /* INSPhotosTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosTransitionAnimator.swift; path = INSPhotoGallery/INSPhotosTransitionAnimator.swift; sourceTree = "<group>"; };
-		C868463CAA5ADCC7A90B4FD692233E5B /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		BD052657F11272C2565F808B27F0A740 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		CA12C63195686B8B5C38240E1762A2F4 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = Haneke/DiskCache.swift; sourceTree = "<group>"; };
 		CA526B0D319CCD8F98FC7233B4942EE7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		D1AB68F9CDACCDFE05D056EE8B40A0DE /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
-		D3CABD50FC501C316C298B1F42644BD1 /* HanekeSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-prefix.pch"; sourceTree = "<group>"; };
+		CBFBD67B79AFC5079E19462659C28B19 /* BatchUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchUser.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchUser.h; sourceTree = "<group>"; };
+		CF49A31E757221C485DF66A828090B64 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
 		D4578E9C2CA16EEA8F171CFB6781F6FB /* INSPhotoGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSPhotoGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D74831D7EE014CAEF1B6D99542AC7032 /* CGSize+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
-		D995B8A991086F813C1C567A534CFFBE /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = Haneke/Fetcher.swift; sourceTree = "<group>"; };
-		DA0F86B3F1723681BEA0F6BF5391351E /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		E20E16A6830CDE34D0EBDBEDD5E5FA84 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		E29F2CA4364F5B14C6F2A8DC46411817 /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
+		D9BFF78F22C42883136FA031817ED16C /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
+		DAE325CD467CB7A7A09B97F1D5E4F177 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB48F2DF284DED4B21ED66947D1A1863 /* CGSize+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
+		DCC75D0954E7E5D66DD2B59D39DC8A85 /* BatchCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchCore.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchCore.h; sourceTree = "<group>"; };
+		DDF48497DA59335BFBB5EC9A58865A1E /* Batch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Batch.framework; path = Batch.embeddedframework/Batch.framework; sourceTree = "<group>"; };
+		DEDE77109BB1FCC1F61EA2B26E4AD6A4 /* Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Haneke/Format.swift; sourceTree = "<group>"; };
+		E140556F9B3EEB73E73158F3BA661491 /* DKCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-umbrella.h"; sourceTree = "<group>"; };
+		E3EA4E84889099217BD44BA3BBF7AF6F /* HanekeSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-umbrella.h"; sourceTree = "<group>"; };
+		E569A1B1A5AF561E597E3148CA8A888A /* HanekeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HanekeSwift.modulemap; sourceTree = "<group>"; };
 		E65604656D02CBE5DDC346BB5910623A /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7716741F0C79AC1B6B0A698A2D014F5 /* HanekeSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanekeSwift-dummy.m"; sourceTree = "<group>"; };
-		E7816315898DC73A8FE659AF228A7D7A /* HanekeSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanekeSwift.xcconfig; sourceTree = "<group>"; };
-		EA0BED6520A5F6A624A81F8590B87C5B /* HanekeSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-umbrella.h"; sourceTree = "<group>"; };
-		F15196773D241CFF6DE7726C76A9575F /* DKCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCamera.xcconfig; sourceTree = "<group>"; };
+		E737A2B03C50B06DE407B048ED73478A /* DKCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-prefix.pch"; sourceTree = "<group>"; };
+		EE3A8752910BE37AB8A73E732F3089A0 /* BatchUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchUserProfile.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchUserProfile.h; sourceTree = "<group>"; };
 		F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F43B26218A2F3AFE20D644CBABEA10F1 /* BatchOffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchOffer.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchOffer.h; sourceTree = "<group>"; };
+		F62D46F51CD0AD308D48218555775272 /* Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = Haneke/Haneke.swift; sourceTree = "<group>"; };
+		F6B0FD64F7E40965E9AEECFC99E1C652 /* DKCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKCamera-dummy.m"; sourceTree = "<group>"; };
+		F6F5DAAC2C07DFCF847C1F5DD0D31612 /* INSPhotoGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSPhotoGallery-dummy.m"; sourceTree = "<group>"; };
+		F8BA4C1A7A7E0D603231AFC678775F7C /* INSPhotoGalleryClose@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@3x.png"; sourceTree = "<group>"; };
 		FA48526692CF2C0A50846883543CFBDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB467CB5C57648B428CACC4B3692A485 /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		FB4663EFD078C70C05BB19A64926C495 /* HanekeSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-prefix.pch"; sourceTree = "<group>"; };
 		FC72C95DDC5703A67DA8DB5C57BF4C5D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		FCC8C22C0C787878EDA0F44BCA6CE0A0 /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
 		FDA25AE6CE413D29AF68F94249C50981 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9791B6558BD8E47F9F4B1052645F31 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,18 +246,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0064397EB460416E3DB26B8F2AD73F4B /* Frameworks */ = {
+		0C3BC3476A023462D8A2C5D5930F009A /* GoogleParsingUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				4C25C971EEC21A01A03D93E8406EE0D0 /* GoogleSymbolUtilities.framework */,
+				A3BB0E38534BA26571D07B6959905D84 /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		0D0509F3DFFE470B48F86BD6916138E5 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DDB594403E31B050EF94B35ED958779D /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		0F4B24EA2218EC92F0A721723B92F6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				063A5882912F6ED0143E99258583A677 /* GoogleNetworkingUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		05D426BF7A2D08C8DAE5DB02D7199EAB /* Frameworks */ = {
+		12D1F45B267B92E633BD9E9CB2D4E8BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AAF4AF003753BD6F7A065385B1086E6D /* GoogleUtilities.framework */,
+				CF49A31E757221C485DF66A828090B64 /* FirebaseStorage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,111 +286,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		16CEB3B6FF23AFC996AD8304622CB2C2 /* FirebaseInstanceID */ = {
+		223D2EA5036CBE1A4B09126E1ACCDCAE /* FirebaseStorage */ = {
 			isa = PBXGroup;
 			children = (
-				C7B821668E0262497BA5EB45C7FDCA34 /* FIRInstanceID.h */,
-				8692BF52D93435070397A480E232A98B /* Frameworks */,
+				12D1F45B267B92E633BD9E9CB2D4E8BE /* Frameworks */,
 			);
-			path = FirebaseInstanceID;
+			path = FirebaseStorage;
 			sourceTree = "<group>";
 		};
-		175B0AA9F635F49E0A5AA90C67BAF060 /* Analytics */ = {
+		2608C362CC7E27B50F062002775A49E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF71490382D52701A95062B73581EF57 /* Firebase.h */,
-			);
-			name = Analytics;
-			sourceTree = "<group>";
-		};
-		18AE7A444111BC590171EAFFF737E0C5 /* GoogleInterchangeUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				25ACD1F52B66303506F50C5C5D96616D /* Frameworks */,
-			);
-			path = GoogleInterchangeUtilities;
-			sourceTree = "<group>";
-		};
-		18DF3FFF74FC2FA547458C4BCC18E56E /* GoogleSymbolUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				0064397EB460416E3DB26B8F2AD73F4B /* Frameworks */,
-			);
-			path = GoogleSymbolUtilities;
-			sourceTree = "<group>";
-		};
-		1FFA6196DACABF12F1743DF22F1FDCF4 /* GoogleNetworkingUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				A5D8E22C8011C503C03E6127AF3F8C66 /* Frameworks */,
-			);
-			path = GoogleNetworkingUtilities;
-			sourceTree = "<group>";
-		};
-		25ACD1F52B66303506F50C5C5D96616D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DA0F86B3F1723681BEA0F6BF5391351E /* GoogleInterchangeUtilities.framework */,
+				927AD6CB5A6402E38000D6C87EADA726 /* GoogleSymbolUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		26DF3972B87E69A8B067FE9FD8B71637 /* Frameworks */ = {
+		30B4946F20772E0E5FD86EB722AD6A8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C868463CAA5ADCC7A90B4FD692233E5B /* FirebaseAnalytics.framework */,
+				BD052657F11272C2565F808B27F0A740 /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2A19F13FB0C70FE239AE24BB5E0DFADE /* INSPhotoGallery */ = {
+		365C5AA06F06F0D7294C9543D663747C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C14CA45542EC7FBBF9D3FF16771C9E92 /* INSPhoto.swift */,
-				09BB49A541DEEEA028D4354B689194CE /* INSPhotosDataSource.swift */,
-				28E5F28A57199E6B0A20005E96B370BA /* INSPhotosInteractionAnimator.swift */,
-				61C8E5C02B0714FC630687F407717125 /* INSPhotosOverlayView.swift */,
-				C81361953446E9D5CC315F5BBDD2A64A /* INSPhotosTransitionAnimator.swift */,
-				C590E9E131237FD17DF70EB7173F55A4 /* INSPhotosViewController.swift */,
-				00D07ED211A4F44032ABCAB69D645FD0 /* INSPhotoViewController.swift */,
-				117902C1F5079FCA0F44D780FF378A58 /* INSScalingImageView.swift */,
-				11F62B1C0F226D2A7EB7A0B314BB0629 /* UIVIew+INSPhotoViewer.swift */,
-				C43295A57535E2FDD64939E03222FA2B /* Resources */,
-				9325CB78702283B80F7196B2074C44A8 /* Support Files */,
-			);
-			path = INSPhotoGallery;
-			sourceTree = "<group>";
-		};
-		2F3D7EEED7C9899870D7E80FD4CAB841 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8520BE74AB1EDCD5B81EB25709F9A1E5 /* DKCamera */,
-				8589DFA00BE739DF9CEBD692C6B1A410 /* Firebase */,
-				EFE6A200A7CED2E5CB86FC015A7332F6 /* FirebaseAnalytics */,
-				650F71F0AF9D62E810EE3EB8898C13BF /* FirebaseAuth */,
-				68384348926DB248E44231CA9DEE56C1 /* FirebaseDatabase */,
-				16CEB3B6FF23AFC996AD8304622CB2C2 /* FirebaseInstanceID */,
-				B0B1A6C05A097B4FC91DB6EA68F3F1E8 /* FirebaseStorage */,
-				18AE7A444111BC590171EAFFF737E0C5 /* GoogleInterchangeUtilities */,
-				1FFA6196DACABF12F1743DF22F1FDCF4 /* GoogleNetworkingUtilities */,
-				BB046C581DF379AAC7762B1C5BB91857 /* GoogleParsingUtilities */,
-				18DF3FFF74FC2FA547458C4BCC18E56E /* GoogleSymbolUtilities */,
-				D1F84B76302F903247969469680AE2B2 /* GoogleUtilities */,
-				DAB5A1F81B1E472541D7ADA681833C97 /* HanekeSwift */,
-				2A19F13FB0C70FE239AE24BB5E0DFADE /* INSPhotoGallery */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3DCE7A1727BA93DD299C7642D5D5D874 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B693FC282B8F52C136A90603B0531906 /* HanekeSwift.modulemap */,
-				E7816315898DC73A8FE659AF228A7D7A /* HanekeSwift.xcconfig */,
-				E7716741F0C79AC1B6B0A698A2D014F5 /* HanekeSwift-dummy.m */,
-				D3CABD50FC501C316C298B1F42644BD1 /* HanekeSwift-prefix.pch */,
-				EA0BED6520A5F6A624A81F8590B87C5B /* HanekeSwift-umbrella.h */,
-				7F6F6FD362D4D1F3AC8C5B017D4813AA /* Info.plist */,
+				E569A1B1A5AF561E597E3148CA8A888A /* HanekeSwift.modulemap */,
+				24EBFBAE33130836F34460B8F4A3B7BC /* HanekeSwift.xcconfig */,
+				1EE4A43786CC61F20B6CD7DDDAC630A2 /* HanekeSwift-dummy.m */,
+				FB4663EFD078C70C05BB19A64926C495 /* HanekeSwift-prefix.pch */,
+				E3EA4E84889099217BD44BA3BBF7AF6F /* HanekeSwift-umbrella.h */,
+				27333E826C3B4801A68C7E941E1ECDF2 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/HanekeSwift";
@@ -374,20 +332,57 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		650F71F0AF9D62E810EE3EB8898C13BF /* FirebaseAuth */ = {
+		496F6B40B15B8F49C5B9F5ACF91C2F90 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				F71AE5629634BB0642CB58FAB9C19849 /* Frameworks */,
+				A588920F9749E14E8AEF421CC7467FB7 /* Firebase.h */,
 			);
-			path = FirebaseAuth;
+			name = Analytics;
 			sourceTree = "<group>";
 		};
-		68384348926DB248E44231CA9DEE56C1 /* FirebaseDatabase */ = {
+		4F3E491B4C728537701D38DD9ADBDBEF /* Batch */ = {
 			isa = PBXGroup;
 			children = (
-				71257575D61964B62DB6BA93ACE45B39 /* Frameworks */,
+				5830B7437C34A422173020380FC75FB3 /* Batch.h */,
+				835189FA07A518EA65244DFAE1D7A7FC /* BatchAds.h */,
+				A8EF2CE5F8DD30A0BC70EF98AA88C951 /* BatchAdsDeprecated.h */,
+				DCC75D0954E7E5D66DD2B59D39DC8A85 /* BatchCore.h */,
+				02D6390BC2EB99A62DD802605524F378 /* BatchError.h */,
+				ABEA364545A7525296585A29F1A39D8C /* BatchLogger.h */,
+				9F5F38FBACF7869379C486E2E5844D66 /* BatchNativeAd.h */,
+				F43B26218A2F3AFE20D644CBABEA10F1 /* BatchOffer.h */,
+				BADC02BCAF0C795E0162228A67525C20 /* BatchPush.h */,
+				1708A805B5C5ABEA76E08193E5E7FAED /* BatchUnlock.h */,
+				CBFBD67B79AFC5079E19462659C28B19 /* BatchUser.h */,
+				EE3A8752910BE37AB8A73E732F3089A0 /* BatchUserProfile.h */,
+				850D5305E561E8975899989B5FA33648 /* Frameworks */,
+				A5E0C783E7115511A60744D3E3E0C6B2 /* Resources */,
 			);
-			path = FirebaseDatabase;
+			path = Batch;
+			sourceTree = "<group>";
+		};
+		56F2DD5CED7E05FBDAED7D7506AEB899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571DD1B82D39D14F191C060A04597028 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CE392152E3501E913336F7D9CD236F1 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0F4B24EA2218EC92F0A721723B92F6C0 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		60D65FD7E10B481BD83ED8C52A663B48 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				2608C362CC7E27B50F062002775A49E7 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
 		6C6B47F0278F250814D006DAD71D3BAD /* iOS */ = {
@@ -401,110 +396,86 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		71257575D61964B62DB6BA93ACE45B39 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E20E16A6830CDE34D0EBDBEDD5E5FA84 /* FirebaseDatabase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				2F3D7EEED7C9899870D7E80FD4CAB841 /* Pods */,
+				FC2673EE28B08A411AC883A79DEE9BE0 /* Pods */,
 				D70B3A00FE77250C0D4B4D6E05B6182A /* Products */,
 				3ED16F2FFA9FDC678D1BF7B2AC84F12E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81C63AA11ADB76BDCC5948EE0FFE9440 /* Frameworks */ = {
+		7ECF1BD950FF64633F9B3C72A2FCA2D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D1AB68F9CDACCDFE05D056EE8B40A0DE /* FirebaseStorage.framework */,
+				D9BFF78F22C42883136FA031817ED16C /* DKCameraResource.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		850D5305E561E8975899989B5FA33648 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDF48497DA59335BFBB5EC9A58865A1E /* Batch.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8520BE74AB1EDCD5B81EB25709F9A1E5 /* DKCamera */ = {
+		88F4B147ADCE35DA0697A6E2F2951C2B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A89F2F5575DB8CECD22969FC3CF58B1 /* DKCamera.swift */,
-				A0DB30152294C9432DE6D05FB9AE015D /* Resources */,
-				9BC11F0724987B6B663E10C9B7CA6ECA /* Support Files */,
-			);
-			path = DKCamera;
-			sourceTree = "<group>";
-		};
-		8589DFA00BE739DF9CEBD692C6B1A410 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				175B0AA9F635F49E0A5AA90C67BAF060 /* Analytics */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		8692BF52D93435070397A480E232A98B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A6ECDF102A0029A69655AB4155A0C5CD /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9325CB78702283B80F7196B2074C44A8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0E666E34E0FB803C87FE765186FF90F9 /* Info.plist */,
-				222EAA7BB714EDDE75431016B505DD00 /* INSPhotoGallery.modulemap */,
-				157030D63120D1D9D689191288BC31E5 /* INSPhotoGallery.xcconfig */,
-				22B4A36A3DA10097B20FDF75D311D370 /* INSPhotoGallery-dummy.m */,
-				98E65E285D3D6516E5192FF1415E3742 /* INSPhotoGallery-prefix.pch */,
-				A906DDA526FBC599569FFA0E0887FDAA /* INSPhotoGallery-umbrella.h */,
-				66422A18750055E9574B3F887BE099D9 /* ResourceBundle-INSPhotoGallery-Info.plist */,
+				DAE325CD467CB7A7A09B97F1D5E4F177 /* Info.plist */,
+				79B50D13C8325417DFD722DE8FD22AD8 /* INSPhotoGallery.modulemap */,
+				42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */,
+				F6F5DAAC2C07DFCF847C1F5DD0D31612 /* INSPhotoGallery-dummy.m */,
+				A9F2534ED1FA75B972A68C073DC18EE9 /* INSPhotoGallery-prefix.pch */,
+				5BFE89FA46CCAF68830AC16EDA5D48D4 /* INSPhotoGallery-umbrella.h */,
+				69C0369DC4B36A4BF77FDF470C81B166 /* ResourceBundle-INSPhotoGallery-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/INSPhotoGallery";
 			sourceTree = "<group>";
 		};
-		9BC11F0724987B6B663E10C9B7CA6ECA /* Support Files */ = {
+		8BBBE95920D2288E32F27B6956BD25B6 /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				049D40BC3ABB5838F1EF0F8E3E9ADD2F /* DKCamera.modulemap */,
-				F15196773D241CFF6DE7726C76A9575F /* DKCamera.xcconfig */,
-				B2D901B0A01BD209F97ADEE5AFCC5BF6 /* DKCamera-dummy.m */,
-				284E440C01F7460E520C7EFCAC96B072 /* DKCamera-prefix.pch */,
-				A73A473242DE892DA1CCAD71DED4F34F /* DKCamera-umbrella.h */,
-				C763E4A325638F7213E13574C2FBBDCE /* Info.plist */,
+				D82AEF628C2C7AE03BB419583C8EDC46 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DKCamera";
+			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
-		A0DB30152294C9432DE6D05FB9AE015D /* Resources */ = {
+		94E536C002CEBC6383A8D9F7E5AC2250 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				411E50A3A7251EC2ECDE70B74BD19D8E /* DKCameraResource.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A5D8E22C8011C503C03E6127AF3F8C66 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				64D2C23116DE7352B711496761E2D2D6 /* GoogleNetworkingUtilities.framework */,
+				4CD3F26CE77C10AA08148235BA0CC82F /* FirebaseAnalytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B0B1A6C05A097B4FC91DB6EA68F3F1E8 /* FirebaseStorage */ = {
+		9ADE21F7CA4C594566C43A96DB27D1B3 /* FirebaseAuth */ = {
 			isa = PBXGroup;
 			children = (
-				81C63AA11ADB76BDCC5948EE0FFE9440 /* Frameworks */,
+				E27BF86EEA92BD77C8A35297A80A153D /* Frameworks */,
 			);
-			path = FirebaseStorage;
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		A3BB0E38534BA26571D07B6959905D84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4427FFD9FE675600DECDEFF5B76A78B0 /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5E0C783E7115511A60744D3E3E0C6B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C9C57F27414C786FC136068D244DCC1 /* Batch.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		B8197A5221518FF6CC57AE017DEA887B /* Pods-Pic Please */ = {
@@ -525,41 +496,47 @@
 			path = "Target Support Files/Pods-Pic Please";
 			sourceTree = "<group>";
 		};
-		BB046C581DF379AAC7762B1C5BB91857 /* GoogleParsingUtilities */ = {
+		C549A80EF17106866ABFC39741D09CC8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3DBF0757CD009D843F8BCCD5DA478B4 /* Frameworks */,
+				6BCC7D187CB7BBC75F1D40A7E092D493 /* DKCamera.modulemap */,
+				23D70113FF33D2655F5EA019C5F50858 /* DKCamera.xcconfig */,
+				F6B0FD64F7E40965E9AEECFC99E1C652 /* DKCamera-dummy.m */,
+				E737A2B03C50B06DE407B048ED73478A /* DKCamera-prefix.pch */,
+				E140556F9B3EEB73E73158F3BA661491 /* DKCamera-umbrella.h */,
+				72B052AA49E73A49649A71BF5B204108 /* Info.plist */,
 			);
-			path = GoogleParsingUtilities;
+			name = "Support Files";
+			path = "../Target Support Files/DKCamera";
 			sourceTree = "<group>";
 		};
-		C43295A57535E2FDD64939E03222FA2B /* Resources */ = {
+		CA7C2C6417FDD49D73808EFDB78038FD /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				5C659CF25E011A87737309C9DDA6D746 /* INSPhotoGalleryClose.png */,
-				6A51DAAFCE976AF491E3B73060063493 /* INSPhotoGalleryClose@2x.png */,
-				6A6F0F7FD6558B4EF6170B09F67983B2 /* INSPhotoGalleryClose@3x.png */,
-				31FB8844F2698DE07820C5852ED98EBB /* INSPhotoGalleryCloseLandscape.png */,
-				9EF9485B61FADFF97338124F4CC936BE /* INSPhotoGalleryCloseLandscape@2x.png */,
-				9F8B9523FB44C665D2449E68F1603AFC /* INSPhotoGalleryCloseLandscape@3x.png */,
+				56F2DD5CED7E05FBDAED7D7506AEB899 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		CB90E299E3A06AB0B9DEE5A5F9C598CF /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				496F6B40B15B8F49C5B9F5ACF91C2F90 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		D3473587041229287A1DE62060AD2563 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				789251D701F4B42B2E0AF7B61C0F5463 /* INSPhotoGalleryClose.png */,
+				0C90E3995A12DEE760400A425D41D35B /* INSPhotoGalleryClose@2x.png */,
+				F8BA4C1A7A7E0D603231AFC678775F7C /* INSPhotoGalleryClose@3x.png */,
+				9110CDE8770DC0751D098FF2C2EB22AA /* INSPhotoGalleryCloseLandscape.png */,
+				0E9471FA7B4171737E30BD974695F2BD /* INSPhotoGalleryCloseLandscape@2x.png */,
+				0C1B21D005702CC07FAE20932BACD281 /* INSPhotoGalleryCloseLandscape@3x.png */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		D1F84B76302F903247969469680AE2B2 /* GoogleUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				05D426BF7A2D08C8DAE5DB02D7199EAB /* Frameworks */,
-			);
-			path = GoogleUtilities;
-			sourceTree = "<group>";
-		};
-		D3DBF0757CD009D843F8BCCD5DA478B4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8AAC4650825D2F617A81062A0B0B0A2F /* GoogleParsingUtilities.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D70B3A00FE77250C0D4B4D6E05B6182A /* Products */ = {
@@ -574,48 +551,123 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAB5A1F81B1E472541D7ADA681833C97 /* HanekeSwift */ = {
+		D82AEF628C2C7AE03BB419583C8EDC46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				727B3AB462A8719862ABDBDE7670DADC /* Cache.swift */,
-				D74831D7EE014CAEF1B6D99542AC7032 /* CGSize+Swift.swift */,
-				E29F2CA4364F5B14C6F2A8DC46411817 /* CryptoSwiftMD5.swift */,
-				25C4FB2DB20D7D83214279AAA052A336 /* Data.swift */,
-				12FFDC26DC2F4ABF6A181FA2792689DC /* DiskCache.swift */,
-				38E9D6BC3530A8DEA9F537751B81AD53 /* DiskFetcher.swift */,
-				446B726A4C75E248B596F69CE4C99609 /* Fetch.swift */,
-				D995B8A991086F813C1C567A534CFFBE /* Fetcher.swift */,
-				5D5BD78FD172A18A3E5B3A79F9FFBD4D /* Format.swift */,
-				207A3162E80A6728D1D00BB08F0EA593 /* Haneke.swift */,
-				0371F4386B96D7C9BC5263C30AD63278 /* Log.swift */,
-				8F04C670EEAABE346D23D916D9F7CF9D /* NetworkFetcher.swift */,
-				691ADB5B7125623000E0774794A742D8 /* NSFileManager+Haneke.swift */,
-				FB467CB5C57648B428CACC4B3692A485 /* NSHTTPURLResponse+Haneke.swift */,
-				67D9A01BF8F36D39CE82190E7A805765 /* NSURLResponse+Haneke.swift */,
-				74A18E20CBC4372704D14CBBD09A34C2 /* String+Haneke.swift */,
-				B53E304F0C6705EE8D91096C7477DB89 /* UIButton+Haneke.swift */,
-				9378036BAE37E65D65A791770DE61DF7 /* UIImage+Haneke.swift */,
-				822B38E9A407ED5345BF291F044443F4 /* UIImageView+Haneke.swift */,
-				0E240C71E21EF1C26C3B121894573E57 /* UIView+Haneke.swift */,
-				3DCE7A1727BA93DD299C7642D5D5D874 /* Support Files */,
+				33B0FA43D73A15CD71C349E0F58DC246 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDB594403E31B050EF94B35ED958779D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2146369C47F87F2F6EC6B6B905EB0942 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E27BF86EEA92BD77C8A35297A80A153D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9791B6558BD8E47F9F4B1052645F31 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E67D0FE329348AF3B241F8AB15FC6C1F /* DKCamera */ = {
+			isa = PBXGroup;
+			children = (
+				4B45AB320A0A4DBEFC229911F136F39F /* DKCamera.swift */,
+				7ECF1BD950FF64633F9B3C72A2FCA2D8 /* Resources */,
+				C549A80EF17106866ABFC39741D09CC8 /* Support Files */,
+			);
+			path = DKCamera;
+			sourceTree = "<group>";
+		};
+		EF4B0A7DB58EB9D2A65FDE5E021A171E /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				239BE41688CA4B9B537CB7EE60C71C82 /* FIRInstanceID.h */,
+				30B4946F20772E0E5FD86EB722AD6A8B /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		F26F4172ECEF01A748DD02C9D1E06D51 /* HanekeSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6DC578D822F9B2AD7A3D0F80EFAE02E0 /* Cache.swift */,
+				DB48F2DF284DED4B21ED66947D1A1863 /* CGSize+Swift.swift */,
+				FCC8C22C0C787878EDA0F44BCA6CE0A0 /* CryptoSwiftMD5.swift */,
+				42AE629885571F703071AF392F1A3535 /* Data.swift */,
+				CA12C63195686B8B5C38240E1762A2F4 /* DiskCache.swift */,
+				32BF1D4CCABFE6284BE4A889F429DF38 /* DiskFetcher.swift */,
+				A51827569FB5CB4DD2AD2DA4C36523E6 /* Fetch.swift */,
+				6C2CC9176F102AB0EAAB9EF0229C97AB /* Fetcher.swift */,
+				DEDE77109BB1FCC1F61EA2B26E4AD6A4 /* Format.swift */,
+				F62D46F51CD0AD308D48218555775272 /* Haneke.swift */,
+				36350D9F82C09D79E0C978F06C09FD45 /* Log.swift */,
+				18CCC4761859D6C9E985BEA0BD23EB5E /* NetworkFetcher.swift */,
+				225EDCCEA308EF71B5CE40969846B1D7 /* NSFileManager+Haneke.swift */,
+				5379A2CD1814227248EDA3A068B264F6 /* NSHTTPURLResponse+Haneke.swift */,
+				BA1391C0339117321084666EE8649A3B /* NSURLResponse+Haneke.swift */,
+				946170662F65BBF322EE87A671D955E0 /* String+Haneke.swift */,
+				7EDE8448C920C279D047E8B8037AADA3 /* UIButton+Haneke.swift */,
+				68FC4ACF80A41BA85817DAE0DE049BE1 /* UIImage+Haneke.swift */,
+				39105A979CED1A4EE97DCEA1DE6C2B85 /* UIImageView+Haneke.swift */,
+				2938D4DB08C9384310E4BC019DBA5261 /* UIView+Haneke.swift */,
+				365C5AA06F06F0D7294C9543D663747C /* Support Files */,
 			);
 			path = HanekeSwift;
 			sourceTree = "<group>";
 		};
-		EFE6A200A7CED2E5CB86FC015A7332F6 /* FirebaseAnalytics */ = {
+		F302EE5841FE1C76B5D095EDEAD3594C /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				26DF3972B87E69A8B067FE9FD8B71637 /* Frameworks */,
+				94E536C002CEBC6383A8D9F7E5AC2250 /* Frameworks */,
 			);
 			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		F71AE5629634BB0642CB58FAB9C19849 /* Frameworks */ = {
+		FC07875A4C649E1DDABAC18D15755FCC /* INSPhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
-				79D479DE8966E8FA5A7BB1F22D026906 /* FirebaseAuth.framework */,
+				438F45FE9DC29C1F21965E517DC79312 /* INSPhoto.swift */,
+				35F21B5E5475A17AA815AF1927D7739F /* INSPhotosDataSource.swift */,
+				03CA17D530E7E502F3BCC6014B7E2618 /* INSPhotosInteractionAnimator.swift */,
+				4D3E3B0E324AA2FBA938D7C3574F0D7E /* INSPhotosOverlayView.swift */,
+				683D68145A23CC22FF175730DD49F7F1 /* INSPhotosTransitionAnimator.swift */,
+				0CE0478A4E8DF9E3E61F79C261A16D4E /* INSPhotosViewController.swift */,
+				7643903E04C843CBED000E19E2E725F0 /* INSPhotoViewController.swift */,
+				B0FFFD044A107671E3D88AA723FCE685 /* INSScalingImageView.swift */,
+				0E0CF125F4B854CC1FA07D2CC0BED135 /* UIVIew+INSPhotoViewer.swift */,
+				D3473587041229287A1DE62060AD2563 /* Resources */,
+				88F4B147ADCE35DA0697A6E2F2951C2B /* Support Files */,
 			);
-			name = Frameworks;
+			path = INSPhotoGallery;
+			sourceTree = "<group>";
+		};
+		FC2673EE28B08A411AC883A79DEE9BE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F3E491B4C728537701D38DD9ADBDBEF /* Batch */,
+				E67D0FE329348AF3B241F8AB15FC6C1F /* DKCamera */,
+				CB90E299E3A06AB0B9DEE5A5F9C598CF /* Firebase */,
+				F302EE5841FE1C76B5D095EDEAD3594C /* FirebaseAnalytics */,
+				9ADE21F7CA4C594566C43A96DB27D1B3 /* FirebaseAuth */,
+				8BBBE95920D2288E32F27B6956BD25B6 /* FirebaseDatabase */,
+				EF4B0A7DB58EB9D2A65FDE5E021A171E /* FirebaseInstanceID */,
+				223D2EA5036CBE1A4B09126E1ACCDCAE /* FirebaseStorage */,
+				CA7C2C6417FDD49D73808EFDB78038FD /* GoogleInterchangeUtilities */,
+				5CE392152E3501E913336F7D9CD236F1 /* GoogleNetworkingUtilities */,
+				0C3BC3476A023462D8A2C5D5930F009A /* GoogleParsingUtilities */,
+				60D65FD7E10B481BD83ED8C52A663B48 /* GoogleSymbolUtilities */,
+				0D0509F3DFFE470B48F86BD6916138E5 /* GoogleUtilities */,
+				F26F4172ECEF01A748DD02C9D1E06D51 /* HanekeSwift */,
+				FC07875A4C649E1DDABAC18D15755FCC /* INSPhotoGallery */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -953,7 +1005,7 @@
 		};
 		09C98037DC03EC9D6662F16AC8F7998D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 157030D63120D1D9D689191288BC31E5 /* INSPhotoGallery.xcconfig */;
+			baseConfigurationReference = 42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -983,7 +1035,7 @@
 		};
 		46EAFA2FB6B2B2A41DB942727BABFD9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 157030D63120D1D9D689191288BC31E5 /* INSPhotoGallery.xcconfig */;
+			baseConfigurationReference = 42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1000,7 +1052,7 @@
 		};
 		6396977BD54CF323E225E3BA478F0B6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7816315898DC73A8FE659AF228A7D7A /* HanekeSwift.xcconfig */;
+			baseConfigurationReference = 24EBFBAE33130836F34460B8F4A3B7BC /* HanekeSwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1030,7 +1082,7 @@
 		};
 		75C9445045CFCC58F8B0D3049B3ADB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 157030D63120D1D9D689191288BC31E5 /* INSPhotoGallery.xcconfig */;
+			baseConfigurationReference = 42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1047,7 +1099,7 @@
 		};
 		8319BB9CE047CAFC39EBD9F18D577F4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F15196773D241CFF6DE7726C76A9575F /* DKCamera.xcconfig */;
+			baseConfigurationReference = 23D70113FF33D2655F5EA019C5F50858 /* DKCamera.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1109,7 +1161,7 @@
 		};
 		860D69E2F7BE147BA25A84B3A879EF95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F15196773D241CFF6DE7726C76A9575F /* DKCamera.xcconfig */;
+			baseConfigurationReference = 23D70113FF33D2655F5EA019C5F50858 /* DKCamera.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1139,7 +1191,7 @@
 		};
 		A789AD15C7069B9487F6E2A93DE8D319 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7816315898DC73A8FE659AF228A7D7A /* HanekeSwift.xcconfig */;
+			baseConfigurationReference = 24EBFBAE33130836F34460B8F4A3B7BC /* HanekeSwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1240,7 +1292,7 @@
 		};
 		EB7E99AB65B80742CFF9385A758EAEAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 157030D63120D1D9D689191288BC31E5 /* INSPhotoGallery.xcconfig */;
+			baseConfigurationReference = 42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
