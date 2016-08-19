@@ -216,7 +216,9 @@ class NotificationsVC: UIViewController {
     }
     
     func refreshView(sender: AnyObject){
-        checkForRequests()
+        if let uid = uid {
+            checkForRequests()
+        }
         self.refreshControl.endRefreshing()
     }
     

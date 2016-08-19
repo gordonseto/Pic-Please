@@ -9,6 +9,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>HanekeSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>INSPhotoGallery-INSPhotoGallery.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>INSPhotoGallery.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Pic Please.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>11CE68AE3792AF70D145CA149CFA59EB</key>
+		<key>0FA17EA0843BE281A2FE8696971CC6F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22B791967D3052626446503D1E993B30</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2C2B1953A91633859BF7AD238FF567A0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>948A46EC641E4DA25A0C1AA1762AF963</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A429EBC77A3DF03E63ADAF40C0D14A41</key>
 		<dict>
 			<key>primary</key>
 			<true/>

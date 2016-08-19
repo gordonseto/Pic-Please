@@ -10,4 +10,6 @@ target 'Pic Please' do
   pod 'Firebase/Database'
   pod 'DKCamera'
   pod 'Firebase/Storage'
+  pod 'INSPhotoGallery'
+  pod 'HanekeSwift'
 end

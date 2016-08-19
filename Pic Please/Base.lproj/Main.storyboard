@@ -17,6 +17,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Ash-Z8-gNY"/>
                         <segue destination="zgg-ys-8kz" kind="relationship" relationship="viewControllers" id="VEw-7h-gCD"/>
+                        <segue destination="Qqh-Zd-y6i" kind="relationship" relationship="viewControllers" id="s7u-Sj-WSi"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dQb-az-cIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -74,6 +75,65 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="234.5" y="328.5"/>
+        </scene>
+        <!--GalleryVC-->
+        <scene sceneID="gox-Re-nDg">
+            <objects>
+                <viewController id="Qqh-Zd-y6i" customClass="GalleryVC" customModule="Pic_Please" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XwB-az-kIR"/>
+                        <viewControllerLayoutGuide type="bottom" id="xpo-Y3-NBc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pwj-81-j5H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jo8-w8-UAG">
+                                <rect key="frame" x="0.0" y="28" width="375" height="639"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rdC-fH-kRU">
+                                    <size key="itemSize" width="93" height="89"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotoCell" id="Bcc-RA-vMM" customClass="PhotoCell" customModule="Pic_Please" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="93" height="89"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="93" height="89"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="029-Pv-wek">
+                                                    <rect key="frame" x="0.0" y="0.0" width="93" height="89"/>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="029-Pv-wek" secondAttribute="bottom" id="4gy-ry-8Hk"/>
+                                            <constraint firstAttribute="trailing" secondItem="029-Pv-wek" secondAttribute="trailing" id="Fnn-7j-5gR"/>
+                                            <constraint firstItem="029-Pv-wek" firstAttribute="leading" secondItem="Bcc-RA-vMM" secondAttribute="leading" id="Odk-Pb-loD"/>
+                                            <constraint firstItem="029-Pv-wek" firstAttribute="top" secondItem="Bcc-RA-vMM" secondAttribute="top" id="qIw-EE-TU3"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imageView" destination="029-Pv-wek" id="0uN-Bp-RV1"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.069146760469999999" green="0.069146760469999999" blue="0.069146760469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="downloads" id="kDp-Cf-9Qd"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="collectionView" destination="jo8-w8-UAG" id="1oo-IC-oQf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IXe-Hu-FtF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-232.5" y="1379.5"/>
         </scene>
         <!--NotificationsVC-->
         <scene sceneID="Gp4-Vu-I3e">
