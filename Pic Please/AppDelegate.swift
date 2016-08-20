@@ -55,6 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        BatchPush.dismissNotifications()
     }
 
     func applicationWillTerminate(application: UIApplication) {
@@ -63,9 +64,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject], fetchCompletionHandler completionHandler: (UIBackgroundFetchResult) -> Void) {
         print(userInfo)
+        print(userInfo["com.batch"])
+        print(userInfo["com.batch"]!["l"])
+        
         if let tabBarController = self.window?.rootViewController as? UITabBarController {
             updateTabBarBadges(tabBarController)
         }
+        
         completionHandler(UIBackgroundFetchResult.NewData)
     }
 
@@ -77,6 +82,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         print(queryType)
         
+        if let tabBarController = self.window?.rootViewController as? UITabBarController {
+            updateTabBarBadges(tabBarController)
+        }
         if queryType == "pictures" {
             goToGallery()
         } else if queryType == "requests"{

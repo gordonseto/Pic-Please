@@ -182,7 +182,9 @@ class NotificationsVC: UIViewController {
                 self.requestLabel.text = "Pic sent!"
                 self.sendPictureNotification()
                 self.removePictureRequest()
-                removeFromNotifications(self.uid, type: "requests")
+                removeFromNotifications(self.uid, type: "requests"){
+                    updateTabBarBadges(self.tabBarController!)
+                }
             }
         }
         
@@ -318,15 +320,21 @@ func updateUsersNotifications(uid: String, type: String){
     firebase.child("notifications").child(uid).child(type).setValue(time)
 }
 
-func removeFromNotifications(uid: String, type: String){
+func removeFromNotifications(uid: String, type: String, completion: ()->()){
     let firebase = FIRDatabase.database().reference()
-    firebase.child("notifications").child(uid).child(type).setValue(nil)
+    firebase.child("notifications").child(uid).child(type).setValue(nil) { (
+        error, reference) in
+        completion()
+    }
 }
 
 func updateTabBarBadges(tabBarController: UITabBarController){
     if let uid = FIRAuth.auth()?.currentUser?.uid {
         let firebase = FIRDatabase.database().reference()
         firebase.child("notifications").child(uid).observeSingleEventOfType(.Value, withBlock: {(snapshot) in
+            
+            tabBarController.tabBar.items?[GALLERY_INDEX].badgeValue = nil
+            tabBarController.tabBar.items?[NOTIFICATIONS_INDEX].badgeValue = nil
             for child in snapshot.children {
                 if child.key == "pictures" {
                     tabBarController.tabBar.items?[GALLERY_INDEX].badgeValue = "1"

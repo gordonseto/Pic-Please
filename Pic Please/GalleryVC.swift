@@ -119,7 +119,9 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
                 appendUrl(url)
             }
         }
-        removeFromNotifications(uid, type: "pictures")
+        removeFromNotifications(uid, type: "pictures"){
+            updateTabBarBadges(self.tabBarController!)
+        }
         collectionView.reloadData()
     }
     

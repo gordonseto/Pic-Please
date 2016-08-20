@@ -30,6 +30,7 @@ class ViewController: UIViewController {
         
         if let uid = FIRAuth.auth()?.currentUser?.uid {
             self.uid = uid
+            updateTabBarBadges(tbc!)
         }
     }
 
