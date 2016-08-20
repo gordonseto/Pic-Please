@@ -141,8 +141,8 @@ class NotificationsVC: UIViewController {
         
         sendButton = UIButton()
         sendButton.addTarget(self, action: #selector(sendImage), forControlEvents: .TouchUpInside)
-        sendButton.setImage(UIImage(named:"send_btn"), forState: .Normal)
-        sendButton.sizeToFit()
+        sendButton.setImage(UIImage(named:"sendbutton"), forState: .Normal)
+        sendButton.frame.size = CGSizeMake(60, 60)
         sendButton.frame.origin = CGPoint(x: imageView.bounds.width - sendButton.bounds.width - 15, y: imageView.bounds.height - sendButton.bounds.height - 15)
         sendButton.autoresizingMask = [.FlexibleBottomMargin, .FlexibleLeftMargin]
         imageView.addSubview(sendButton)
@@ -182,6 +182,7 @@ class NotificationsVC: UIViewController {
                 self.requestLabel.text = "Pic sent!"
                 self.sendPictureNotification()
                 self.removePictureRequest()
+                removeFromNotifications(self.uid, type: "requests")
             }
         }
         
@@ -221,10 +222,12 @@ class NotificationsVC: UIViewController {
             findOtherUser(){(otherUserUid) in
                 if let otherUserUid = otherUserUid {
                     self.otherUserUid = otherUserUid
+                    updateUsersNotifications(otherUserUid, type: "pictures")
                     sendNotification(otherUserUid, hasSound: true, groupId: "pictures", message: message, deeplink: "pic-please://pictures/\(self.uid)")
                 }
             }
         } else {
+            updateUsersNotifications(otherUserUid, type: "pictures")
             sendNotification(otherUserUid, hasSound: true, groupId: "pictures", message: message, deeplink: "pic-please://pictures/\(self.uid)")
         }
     }
@@ -280,4 +283,60 @@ func findOtherUser(completion:(String!)->()) {
     }
 }
 
+func sendNotification(toUserUid: String, hasSound: Bool, groupId: String, message: String, deeplink: String){
+    if let pushClient = BatchClientPush(apiKey: BATCH_API_KEY, restKey: BATCH_REST_KEY) {
+        
+        pushClient.sandbox = false
+        if hasSound {
+            pushClient.customPayload = ["aps": ["badge": 1, "content-available": 1]]
+        } else {
+            pushClient.customPayload = ["aps": ["badge": 1, "sound": NSNull(), "content-available": 1]]
+        }
+        pushClient.groupId = groupId
+        pushClient.message.title = "Pic Please"
+        pushClient.message.body = message
+        pushClient.recipients.customIds = [toUserUid]
+        pushClient.deeplink = deeplink
+        
+        pushClient.send { (response, error) in
+            if let error = error {
+                print("Something happened while sending the push: \(response) \(error.localizedDescription)")
+            } else {
+                print(toUserUid)
+                print("Push sent \(response)")
+            }
+        }
+        
+    } else {
+        print("Error while initializing BatchClientPush")
+    }
+}
 
+func updateUsersNotifications(uid: String, type: String){
+    let firebase = FIRDatabase.database().reference()
+    let time = NSDate().timeIntervalSince1970
+    firebase.child("notifications").child(uid).child(type).setValue(time)
+}
+
+func removeFromNotifications(uid: String, type: String){
+    let firebase = FIRDatabase.database().reference()
+    firebase.child("notifications").child(uid).child(type).setValue(nil)
+}
+
+func updateTabBarBadges(tabBarController: UITabBarController){
+    if let uid = FIRAuth.auth()?.currentUser?.uid {
+        let firebase = FIRDatabase.database().reference()
+        firebase.child("notifications").child(uid).observeSingleEventOfType(.Value, withBlock: {(snapshot) in
+            for child in snapshot.children {
+                if child.key == "pictures" {
+                    tabBarController.tabBar.items?[GALLERY_INDEX].badgeValue = "1"
+                }
+                if child.key == "requests" {
+                    tabBarController.tabBar.items?[NOTIFICATIONS_INDEX].badgeValue = "1"
+                }
+            }
+        }) { (error) in
+            print(error.localizedDescription)
+        }
+    }
+}

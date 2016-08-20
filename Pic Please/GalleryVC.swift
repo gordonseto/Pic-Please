@@ -68,6 +68,7 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
             for child in snapshot.children {
                 imageKeys.append(child.key)
             }
+            imageKeys = imageKeys.reverse()
             self.downloadUrlsFromKeys(imageKeys)
         }) { (error) in
             print(error.debugDescription)
@@ -102,6 +103,9 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
                 }
             }
         }
+        if imageKeys.count == 0 {
+            doneGettingUrls(imageKeys, imageUrls: [:])
+        }
     }
     
     func appendUrl(URL: NSURL){
@@ -115,6 +119,7 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
                 appendUrl(url)
             }
         }
+        removeFromNotifications(uid, type: "pictures")
         collectionView.reloadData()
     }
     

@@ -60,7 +60,49 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject], fetchCompletionHandler completionHandler: (UIBackgroundFetchResult) -> Void) {
+        print(userInfo)
+        if let tabBarController = self.window?.rootViewController as? UITabBarController {
+            updateTabBarBadges(tabBarController)
+        }
+        completionHandler(UIBackgroundFetchResult.NewData)
+    }
 
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+        
+        let urlString = url.absoluteString
+        let queryArray = urlString.componentsSeparatedByString("/")
+        let queryType = queryArray[2]
+        
+        print(queryType)
+        
+        if queryType == "pictures" {
+            goToGallery()
+        } else if queryType == "requests"{
+            goToNotifications()
+        }
+        
+        return true
+    }
+    
+    func goToNotifications(){
+        if let tabBarController: UITabBarController = self.window?.rootViewController as? UITabBarController {
+            tabBarController.selectedIndex = NOTIFICATIONS_INDEX
+            if let notificationsVC = tabBarController.viewControllers![NOTIFICATIONS_INDEX] as? NotificationsVC {
+                notificationsVC.checkForRequests()
+            }
+        }
+    }
+    
+    func goToGallery(){
+        if let tabBarController: UITabBarController = self.window?.rootViewController as? UITabBarController {
+            tabBarController.selectedIndex = GALLERY_INDEX
+            if let galleryVC = tabBarController.viewControllers![NOTIFICATIONS_INDEX] as? GalleryVC {
+                galleryVC.getUsersImages()
+            }
+        }
+    }
 
 }
 

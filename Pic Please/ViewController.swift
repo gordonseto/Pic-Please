@@ -13,7 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var picRequestedLabel: UILabel!
     
-    let MIN_TIME_BETWEEN_NOTIFICATIONS: Double = 60 * 2
+    //let MIN_TIME_BETWEEN_NOTIFICATIONS: Double = 60 * 2
+    let MIN_TIME_BETWEEN_NOTIFICATIONS: Double = 0
     
     var uid: String!
     var otherUserUid: String!
@@ -43,22 +44,26 @@ class ViewController: UIViewController {
     }
     
     func sendRequestNotification(){
-        if NSDate().timeIntervalSince1970 -  lastRequest > MIN_TIME_BETWEEN_NOTIFICATIONS {
-            lastRequest = NSDate().timeIntervalSince1970
-            var message: String = ""
-            if uid == "U9LsPZ6PYjOl81cuyQyQqD552FH3" {
-                message = "Gordon has requested a picture!"
-            } else {
-                message = "Aliya has requested a picture!"
-            }
-            if otherUserUid == nil {
-                findOtherUser(){(otherUserUid) in
-                    if let otherUserUid = otherUserUid {
-                        self.otherUserUid = otherUserUid
-                        sendNotification(otherUserUid, hasSound: true, groupId: "requests", message: message, deeplink: "pic-please://requests/\(self.uid)")
+        var message: String = ""
+        if uid == "U9LsPZ6PYjOl81cuyQyQqD552FH3" {
+            message = "Gordon has requested a picture!"
+        } else {
+            message = "Aliya has requested a picture!"
+        }
+        if otherUserUid == nil {
+            findOtherUser(){(otherUserUid) in
+                if let otherUserUid = otherUserUid {
+                    self.otherUserUid = otherUserUid
+                    updateUsersNotifications(otherUserUid, type: "requests")
+                    if NSDate().timeIntervalSince1970 -  self.lastRequest > self.MIN_TIME_BETWEEN_NOTIFICATIONS {
+                        self.lastRequest = NSDate().timeIntervalSince1970
+                    sendNotification(otherUserUid, hasSound: true, groupId: "requests", message: message, deeplink: "pic-please://requests/\(self.uid)")
                     }
                 }
-            } else {
+            }
+        } else {
+            updateUsersNotifications(otherUserUid, type: "requests")
+            if NSDate().timeIntervalSince1970 -  lastRequest > MIN_TIME_BETWEEN_NOTIFICATIONS {
                 sendNotification(otherUserUid, hasSound: true, groupId: "requests", message: message, deeplink: "pic-please://requests/\(self.uid)")
             }
         }
