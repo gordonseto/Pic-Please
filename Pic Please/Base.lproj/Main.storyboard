@@ -23,7 +23,7 @@
             </objects>
             <point key="canvasLocation" x="-490" y="547"/>
         </scene>
-        <!--View Controller-->
+        <!--Cochon-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pic_Please" customModuleProvider="target" sceneMemberID="viewController">
@@ -71,7 +71,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="contacts" id="MJu-El-mJ5"/>
+                    <tabBarItem key="tabBarItem" title="Cochon" image="requests_icon" id="MJu-El-mJ5"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="picRequestedLabel" destination="tnn-2b-Lf7" id="BnY-oI-qEh"/>
@@ -81,7 +81,7 @@
             </objects>
             <point key="canvasLocation" x="234.5" y="328.5"/>
         </scene>
-        <!--GalleryVC-->
+        <!--Photos-->
         <scene sceneID="gox-Re-nDg">
             <objects>
                 <viewController id="Qqh-Zd-y6i" customClass="GalleryVC" customModule="Pic_Please" customModuleProvider="target" sceneMemberID="viewController">
@@ -128,7 +128,7 @@
                                 </cells>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" red="0.069146760469999999" green="0.069146760469999999" blue="0.069146760469999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="jo8-w8-UAG" secondAttribute="trailing" id="0bE-p6-oXP"/>
                             <constraint firstItem="jo8-w8-UAG" firstAttribute="leading" secondItem="pwj-81-j5H" secondAttribute="leading" id="AZd-OL-G7t"/>
@@ -136,7 +136,7 @@
                             <constraint firstItem="jo8-w8-UAG" firstAttribute="top" secondItem="XwB-az-kIR" secondAttribute="bottom" constant="8" id="rFX-zw-TW4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="kDp-Cf-9Qd"/>
+                    <tabBarItem key="tabBarItem" title="Photos" image="photos" id="kDp-Cf-9Qd"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="collectionView" destination="jo8-w8-UAG" id="1oo-IC-oQf"/>
@@ -146,7 +146,7 @@
             </objects>
             <point key="canvasLocation" x="-232.5" y="1379.5"/>
         </scene>
-        <!--NotificationsVC-->
+        <!--Requests-->
         <scene sceneID="Gp4-Vu-I3e">
             <objects>
                 <viewController id="zgg-ys-8kz" customClass="NotificationsVC" customModule="Pic_Please" customModuleProvider="target" sceneMemberID="viewController">
@@ -227,7 +227,7 @@
                             <constraint firstAttribute="trailing" secondItem="8YD-1h-HqG" secondAttribute="trailing" id="xy3-K4-KVC"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="25X-Mv-euE"/>
+                    <tabBarItem key="tabBarItem" title="Requests" image="notifications_icon" id="25X-Mv-euE"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="cameraButton" destination="Vcj-vi-tXV" id="PGB-5j-wCD"/>
@@ -243,6 +243,9 @@
     </scenes>
     <resources>
         <image name="bigcamera" width="457" height="352"/>
+        <image name="notifications_icon" width="17" height="20"/>
+        <image name="photos" width="15" height="15"/>
         <image name="picpleaselogo" width="640" height="640"/>
+        <image name="requests_icon" width="20" height="20"/>
     </resources>
 </document>

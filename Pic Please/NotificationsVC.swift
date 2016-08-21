@@ -11,6 +11,7 @@ import DKCamera
 import FirebaseStorage
 import FirebaseDatabase
 import FirebaseAuth
+import Batch
 
 class NotificationsVC: UIViewController {
 
@@ -51,6 +52,12 @@ class NotificationsVC: UIViewController {
             requestLabel.text = "Checking for requests..."
             checkForRequests()
         }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        BatchPush.dismissNotifications()
+        UIApplication.sharedApplication().applicationIconBadgeNumber = 0
     }
     
     func checkForRequests(){
@@ -128,6 +135,7 @@ class NotificationsVC: UIViewController {
         imageView.hidden = false
         imageView.userInteractionEnabled = true
         self.tabBarController?.tabBar.hidden = true
+        UIApplication.sharedApplication().statusBarHidden = true
         
         // cancel button
         cancelButton = UIButton()
@@ -155,6 +163,7 @@ class NotificationsVC: UIViewController {
         imageView.hidden = true
         imageView.userInteractionEnabled = false
         self.tabBarController?.tabBar.hidden = false
+        UIApplication.sharedApplication().statusBarHidden = false
         
         firebase = FIRDatabase.database().reference()
         let key = firebase.child("users").child(uid).child("images").childByAutoId().key
@@ -236,6 +245,7 @@ class NotificationsVC: UIViewController {
     
     func cancelImagePreview(){
         let camera = DKCamera()
+        UIApplication.sharedApplication().statusBarHidden = false
         
         camera.didCancel = { () in
             print("didCancel")
@@ -346,5 +356,37 @@ func updateTabBarBadges(tabBarController: UITabBarController){
         }) { (error) in
             print(error.localizedDescription)
         }
+    }
+}
+
+func startLoadingAnimation(activityIndicator: UIActivityIndicatorView, loadingLabel: UILabel, viewToAdd: UIView){
+    activityIndicator.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
+    activityIndicator.center = CGPointMake(UIScreen.mainScreen().bounds.size.width/2 - 32, UIScreen.mainScreen().bounds.size.height/2 - 90)
+    activityIndicator.startAnimating()
+    viewToAdd.addSubview(activityIndicator)
+    
+    loadingLabel.center = CGPointMake(UIScreen.mainScreen().bounds.size.width/2 + 32, UIScreen.mainScreen().bounds.size.height/2 - 90)
+    loadingLabel.text = "Loading..."
+    loadingLabel.textColor = UIColor.whiteColor()
+    viewToAdd.addSubview(loadingLabel)
+}
+
+func stopLoadingAnimation(activityIndicator: UIActivityIndicatorView, loadingLabel: UILabel){
+    activityIndicator.removeFromSuperview()
+    loadingLabel.removeFromSuperview()
+}
+
+func displayBackgroundMessage(message: String, label: UILabel, viewToAdd: UIView) {
+    label.center = CGPointMake(UIScreen.mainScreen().bounds.size.width/2, UIScreen.mainScreen().bounds.size.height/2 - 90)
+    label.text = message
+    label.textAlignment = .Center
+    label.font = UIFont(name: "HelveticaNeue", size: 15)
+    label.textColor = UIColor.darkGrayColor()
+    viewToAdd.addSubview(label)
+}
+
+func removeBackgroundMessage(label: UILabel!){
+    if let label = label {
+        label.removeFromSuperview()
     }
 }

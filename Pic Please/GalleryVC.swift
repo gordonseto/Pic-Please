@@ -11,29 +11,23 @@ import INSPhotoGallery
 import FirebaseAuth
 import FirebaseDatabase
 import FirebaseStorage
+import Batch
 
 class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
     var refreshControl: UIRefreshControl!
+    var activityIndicator: UIActivityIndicatorView!
+    var loadingLabel: UILabel!
+    var noPicturesLabel: UILabel!
     
     let screenWidth = UIScreen.mainScreen().bounds.size.width
     
     var firebase: FIRDatabaseReference!
     
     var uid: String!
-    
-    var photos: [CustomPhotoModel] = {
-        return [
-            CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/13-3f15416ddd11d38619289335fafd498d.jpg"), thumbnailImage: UIImage(named: "testProfileImage")!),
-            CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/13-3f15416ddd11d38619289335fafd498d.jpg"), thumbnailImage: UIImage(named: "testProfileImage")!),
-            CustomPhotoModel(image: UIImage(named: "testProfileImage")!, thumbnailImage: UIImage(named: "testProfileImage")!),
-            CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg"), thumbnailImageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg")),
-            CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg"), thumbnailImageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg")),
-            CustomPhotoModel(imageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg"), thumbnailImageURL: NSURL(string: "http://inspace.io/assets/portfolio/thumb/6-d793b947f57cc3df688eeb1d36b04ddb.jpg"))
-        ]
-    }()
+    var otherUserUid: String!
     
     var usersPhotos: [CustomPhotoModel] = []
     
@@ -54,15 +48,38 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
         collectionView.scrollEnabled = true
         collectionView.alwaysBounceVertical = true
         
+        activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.White)
+        loadingLabel = UILabel(frame: CGRectMake(0, 0, 100, 30))
+        noPicturesLabel = UILabel(frame: CGRectMake(0, 0, 300, 30))
+        
         if let uid = FIRAuth.auth()?.currentUser?.uid {
             self.uid = uid
-            getUsersImages()
+            if otherUserUid == nil {
+                findOtherUser(){(otherUserUid) in
+                    if otherUserUid != nil {
+                        self.otherUserUid = otherUserUid
+                        self.getUsersImages()
+                    }
+                }
+            } else {
+                getUsersImages()   
+            }
         }
     }
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        BatchPush.dismissNotifications()
+        UIApplication.sharedApplication().applicationIconBadgeNumber = 0
+    }
+    
     func getUsersImages(){
+        if usersPhotos.count == 0 {
+            startLoadingAnimation(activityIndicator, loadingLabel: loadingLabel, viewToAdd: collectionView)
+            removeBackgroundMessage(noPicturesLabel)
+        }
         firebase = FIRDatabase.database().reference()
-        firebase.child("users").child(uid).child("images").queryOrderedByValue().observeSingleEventOfType(.Value, withBlock: {(snapshot) in
+        firebase.child("users").child(otherUserUid).child("images").queryOrderedByValue().observeSingleEventOfType(.Value, withBlock: {(snapshot) in
             print(snapshot)
             var imageKeys: [String] = []
             for child in snapshot.children {
@@ -122,6 +139,12 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
         removeFromNotifications(uid, type: "pictures"){
             updateTabBarBadges(self.tabBarController!)
         }
+        stopLoadingAnimation(activityIndicator, loadingLabel: loadingLabel)
+        if usersPhotos.count == 0{
+            displayBackgroundMessage("You have not received any photos yet.", label: noPicturesLabel, viewToAdd: collectionView)
+        } else {
+            removeBackgroundMessage(noPicturesLabel)
+        }
         collectionView.reloadData()
     }
     
@@ -177,7 +200,16 @@ class GalleryVC: UIViewController, UICollectionViewDataSource, UICollectionViewD
     
     func refreshView(sender: AnyObject){
         if let _ = uid {
-            getUsersImages()
+            if otherUserUid == nil {
+                findOtherUser(){(otherUserUid) in
+                    if otherUserUid != nil {
+                        self.otherUserUid = otherUserUid
+                        self.getUsersImages()
+                    }
+                }
+            } else {
+                getUsersImages()
+            }
         }
         refreshControl.endRefreshing()
     }

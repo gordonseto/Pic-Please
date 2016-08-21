@@ -8,13 +8,14 @@
 
 import UIKit
 import FirebaseAuth
+import Batch
 
 class ViewController: UIViewController {
     
     @IBOutlet weak var picRequestedLabel: UILabel!
     
-    //let MIN_TIME_BETWEEN_NOTIFICATIONS: Double = 60 * 2
-    let MIN_TIME_BETWEEN_NOTIFICATIONS: Double = 0
+    let MIN_TIME_BETWEEN_NOTIFICATIONS: Double = 60 * 2
+    //let MIN_TIME_BETWEEN_NOTIFICATIONS: Double = 0
     
     var uid: String!
     var otherUserUid: String!
@@ -32,6 +33,12 @@ class ViewController: UIViewController {
             self.uid = uid
             updateTabBarBadges(tbc!)
         }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        BatchPush.dismissNotifications()
+        UIApplication.sharedApplication().applicationIconBadgeNumber = 0
     }
 
 

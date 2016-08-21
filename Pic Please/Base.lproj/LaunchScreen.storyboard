@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
@@ -16,7 +15,20 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="picpleaselogodark" translatesAutoresizingMaskIntoConstraints="NO" id="6OJ-xa-041">
+                                <rect key="frame" x="87" y="249" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="6jJ-Lb-nB1"/>
+                                    <constraint firstAttribute="width" constant="200" id="r7Y-H8-bF7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.069146760471204161" green="0.069146760471204161" blue="0.069146760471204161" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6OJ-xa-041" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="15" id="E0s-Vc-HPg"/>
+                            <constraint firstItem="6OJ-xa-041" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qTa-3J-kFX"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
@@ -25,4 +37,7 @@
             <point key="canvasLocation" x="52.5" y="374.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="picpleaselogodark" width="640" height="640"/>
+    </resources>
 </document>

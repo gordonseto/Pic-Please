@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
@@ -26,6 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             Batch.startWithAPIKey(BATCH_API_KEY)
             BatchPush.registerForRemoteNotifications()
             BatchPush.dismissNotifications()
+            
+            let settings = UIUserNotificationSettings(forTypes: [.Alert, .Badge, .Sound], categories: nil)
+            UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+            UIApplication.sharedApplication().registerForRemoteNotifications()
             
             let editor = BatchUser.editor()
             editor.setIdentifier(user!.uid)
@@ -51,11 +54,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+        BatchPush.dismissNotifications()
+        UIApplication.sharedApplication().applicationIconBadgeNumber = 0
     }
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
         BatchPush.dismissNotifications()
+        UIApplication.sharedApplication().applicationIconBadgeNumber = 0
     }
 
     func applicationWillTerminate(application: UIApplication) {
@@ -63,17 +69,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject], fetchCompletionHandler completionHandler: (UIBackgroundFetchResult) -> Void) {
-        print(userInfo)
-        print(userInfo["com.batch"])
-        print(userInfo["com.batch"]!["l"])
-        
         if let tabBarController = self.window?.rootViewController as? UITabBarController {
             updateTabBarBadges(tabBarController)
         }
-        
-        completionHandler(UIBackgroundFetchResult.NewData)
+        completionHandler(UIBackgroundFetchResult.Failed)
     }
-
+    
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
         
         let urlString = url.absoluteString
