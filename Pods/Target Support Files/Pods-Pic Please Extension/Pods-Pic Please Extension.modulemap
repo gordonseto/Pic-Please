@@ -1,0 +1,6 @@
+framework module Pods_Pic_Please_Extension {
+  umbrella header "Pods-Pic Please Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

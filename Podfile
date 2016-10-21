@@ -14,3 +14,16 @@ target 'Pic Please' do
   pod 'HanekeSwift'
   pod 'Batch'
 end
+
+target 'Pic Please Extension' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'DKCamera'
+  pod 'Firebase/Storage'
+  pod 'INSPhotoGallery'
+  pod 'HanekeSwift'
+  pod 'Batch'
+end

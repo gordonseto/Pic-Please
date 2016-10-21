@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BD861D0B2C57CD5314E3624E2291F423"
-               BuildableName = "Pods_Pic_Please.framework"
-               BlueprintName = "Pods-Pic Please"
+               BlueprintIdentifier = "98A7E18A71A199B9BB789E0E66F66FED"
+               BuildableName = "INSPhotoGallery.framework"
+               BlueprintName = "INSPhotoGallery-iOS9.0"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BD861D0B2C57CD5314E3624E2291F423"
-            BuildableName = "Pods_Pic_Please.framework"
-            BlueprintName = "Pods-Pic Please"
+            BlueprintIdentifier = "98A7E18A71A199B9BB789E0E66F66FED"
+            BuildableName = "INSPhotoGallery.framework"
+            BlueprintName = "INSPhotoGallery-iOS9.0"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
