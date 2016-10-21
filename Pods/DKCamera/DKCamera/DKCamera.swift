@@ -287,11 +287,11 @@ public class DKCamera: UIViewController {
                             
                             let outputRect = self.previewLayer.metadataOutputRectOfInterestForRect(self.previewLayer.bounds)
                             let takenCGImage = takenImage.CGImage
-                            let width = CGFloat(CGImageGetWidth(takenCGImage))
-                            let height = CGFloat(CGImageGetHeight(takenCGImage))
+                            let width = CGFloat(CGImageGetWidth(takenCGImage!))
+                            let height = CGFloat(CGImageGetHeight(takenCGImage!))
                             let cropRect = CGRectMake(outputRect.origin.x * width, outputRect.origin.y * height, outputRect.size.width * width, outputRect.size.height * height)
                             
-                            let cropCGImage = CGImageCreateWithImageInRect(takenCGImage, cropRect)
+                            let cropCGImage = CGImageCreateWithImageInRect(takenCGImage!, cropRect)
                             let cropTakenImage = UIImage(CGImage: cropCGImage!, scale: 1, orientation: takenImage.imageOrientation)
                             
                             didFinishCapturingImage(image: cropTakenImage)

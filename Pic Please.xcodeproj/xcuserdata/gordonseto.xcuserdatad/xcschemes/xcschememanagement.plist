@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pic Please Extension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Pic Please.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8E0663AC1DBACC2700949712</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8EB56A7C1D663FEA009E114B</key>
 		<dict>
 			<key>primary</key>
