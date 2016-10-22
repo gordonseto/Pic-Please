@@ -15,6 +15,10 @@
 		8E0663B71DBACC2800949712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0663B61DBACC2800949712 /* Assets.xcassets */; };
 		8E0663BB1DBACC2800949712 /* Pic Please Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E0663AD1DBACC2700949712 /* Pic Please Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8E43B31D1DBADE020010BAAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B31C1DBADE020010BAAB /* GoogleService-Info.plist */; };
+		8E43B31F1DBAE0830010BAAB /* RequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B31E1DBAE0830010BAAB /* RequestVC.swift */; };
+		8E43B3241DBAEA970010BAAB /* PictureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7599991D6655D10094237F /* PictureRequest.swift */; };
+		8E43B3251DBAEB770010BAAB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7599A51D66924C0094237F /* Constants.swift */; };
+		8E43B3271DBAEC240010BAAB /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B3261DBAEC240010BAAB /* General.swift */; };
 		8E75999A1D6655D10094237F /* PictureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7599991D6655D10094237F /* PictureRequest.swift */; };
 		8E75999C1D665E230094237F /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75999B1D665E230094237F /* NotificationsVC.swift */; };
 		8E7599A61D66924C0094237F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7599A51D66924C0094237F /* Constants.swift */; };
@@ -66,6 +70,8 @@
 		8E0663B61DBACC2800949712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E0663B81DBACC2800949712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E43B31C1DBADE020010BAAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E43B31E1DBAE0830010BAAB /* RequestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestVC.swift; sourceTree = "<group>"; };
+		8E43B3261DBAEC240010BAAB /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
 		8E7599991D6655D10094237F /* PictureRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureRequest.swift; sourceTree = "<group>"; };
 		8E75999B1D665E230094237F /* NotificationsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
 		8E7599A51D66924C0094237F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -120,7 +126,9 @@
 		8E0663B01DBACC2800949712 /* Pic Please Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8E43B3261DBAEC240010BAAB /* General.swift */,
 				8E0663B11DBACC2800949712 /* MessagesViewController.swift */,
+				8E43B31E1DBAE0830010BAAB /* RequestVC.swift */,
 				8E0663B31DBACC2800949712 /* MainInterface.storyboard */,
 				8E0663B61DBACC2800949712 /* Assets.xcassets */,
 				8E0663B81DBACC2800949712 /* Info.plist */,
@@ -404,7 +412,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E43B31F1DBAE0830010BAAB /* RequestVC.swift in Sources */,
 				8E0663B21DBACC2800949712 /* MessagesViewController.swift in Sources */,
+				8E43B3241DBAEA970010BAAB /* PictureRequest.swift in Sources */,
+				8E43B3251DBAEB770010BAAB /* Constants.swift in Sources */,
+				8E43B3271DBAEC240010BAAB /* General.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

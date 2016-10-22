@@ -13,20 +13,53 @@ import FirebaseAuth
 
 class MessagesViewController: MSMessagesAppViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    
+
+    override func willBecomeActiveWithConversation(conversation: MSConversation) {
+        super.willBecomeActiveWithConversation(conversation)
+        
         firebaseSignIn(){
-            
+            self.presentViewController(for: conversation, with: self.presentationStyle)
         }
     }
     
-    func firebaseSignIn(completion:()->()){
-        FIRApp.configure()
+
+    
+    private func presentViewController(for conversation: MSConversation, with presentationStyle: MSMessagesAppPresentationStyle){
         
-        FIRAuth.auth()?.signInAnonymouslyWithCompletion(){ (user, error) in
+        let controller = UIStoryboard(name: "MainInterface", bundle: nil).instantiateViewControllerWithIdentifier("RequestVC") as! RequestVC
+        controller.conversation = conversation
+        
+        for child in childViewControllers {
+            child.willMoveToParentViewController(nil)
+            child.view.removeFromSuperview()
+            child.removeFromParentViewController()
+        }
+        
+        addChildViewController(controller)
+        
+        controller.view.frame = view.bounds
+        controller.view.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(controller.view)
+        
+        controller.view.leftAnchor.constraintEqualToAnchor(view.leftAnchor).active = true
+        controller.view.rightAnchor.constraintEqualToAnchor(view.rightAnchor).active = true
+        controller.view.topAnchor.constraintEqualToAnchor(view.topAnchor).active = true
+        controller.view.bottomAnchor.constraintEqualToAnchor(view.bottomAnchor).active = true
+        
+        controller.didMoveToParentViewController(self)
+    }
+    
+    func firebaseSignIn(completion:()->()){
+        if let _ = FIRAuth.auth()?.currentUser {
+            completion()
+        } else {
+            FIRApp.configure()
+        
+            FIRAuth.auth()?.signInAnonymouslyWithCompletion(){ (user, error) in
             
-            print(user?.uid)
+                print(user?.uid)
+                completion()
+            }
         }
     }
 
