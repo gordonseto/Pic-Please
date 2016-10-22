@@ -168,6 +168,11 @@ public class DKCamera: UIViewController {
     
     let bottomView = UIView()
     
+    let NAVIGATION_BAR_HEIGHT: CGFloat = 70
+    let MESSAGE_INPUT_HEIGHT: CGFloat = 45
+    
+    public var isMessageMode: Bool = false
+    
     public func setupUI() {
         self.view.backgroundColor = UIColor.blackColor()
         self.view.addSubview(self.contentView)
@@ -176,7 +181,11 @@ public class DKCamera: UIViewController {
         
         let bottomViewHeight: CGFloat = 70
         bottomView.bounds.size = CGSize(width: contentView.bounds.width, height: bottomViewHeight)
-        bottomView.frame.origin = CGPoint(x: 0, y: contentView.bounds.height - bottomViewHeight)
+        if isMessageMode {
+            bottomView.frame.origin = CGPoint(x: 0, y: contentView.bounds.height - bottomViewHeight - MESSAGE_INPUT_HEIGHT)
+        } else {
+            bottomView.frame.origin = CGPoint(x: 0, y: contentView.bounds.height - bottomViewHeight)
+        }
         bottomView.autoresizingMask = [.FlexibleWidth, .FlexibleTopMargin]
         bottomView.backgroundColor = UIColor(white: 0, alpha: 0.4)
         contentView.addSubview(bottomView)
@@ -245,7 +254,11 @@ public class DKCamera: UIViewController {
             cancelButton.frame.size = CGSizeMake(50, 50)
             return cancelButton
         }()
-        cancelButton.frame.origin = CGPoint(x: 0, y: 15)
+        if isMessageMode {
+            cancelButton.frame.origin = CGPoint(x: 0, y: 15 + NAVIGATION_BAR_HEIGHT)
+        } else {
+            cancelButton.frame.origin = CGPoint(x: 0, y: 15)
+        }
         cancelButton.autoresizingMask = [.FlexibleBottomMargin, .FlexibleLeftMargin]
         contentView.addSubview(cancelButton)
         

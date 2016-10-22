@@ -16,47 +16,52 @@ class RequestVC: UIViewController {
     
     var conversation: MSConversation!
     
+    var uid: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        if let uid = FIRAuth.auth()?.currentUser?.uid {
+            self.uid = uid
+        }
     }
 
     @IBAction func onRequestButtonPressed(sender: AnyObject) {
-        if let image = createImageForMessage(), let conversation = conversation {
-            let layout = MSMessageTemplateLayout()
-            layout.image = image
-            layout.caption = "Pic Requested!"
+        if let uid = uid {
+            if let image = createImageForMessage(), let conversation = conversation {
+                let layout = MSMessageTemplateLayout()
+                layout.image = image
+                layout.caption = "Pic Requested!"
             
-            let message = MSMessage()
-            message.layout = layout
-            message.URL = NSURL(fileURLWithPath: "")
+                let message = MSMessage()
+                message.layout = layout
+                message.URL = NSURLComponents(string: uid)?.URL
             
-            self.sendRequest()
-            conversation.insertMessage(message, completionHandler: {error in
-                if error != nil {
-                    print(error)
-                }
-            })
+                self.sendRequest()
+                conversation.insertMessage(message, completionHandler: {error in
+                    if error != nil {
+                        print(error)
+                    }
+                })
+            }
         }
     }
     
     private func sendRequest(){
-        if let uid = FIRAuth.auth()?.currentUser?.uid {
-            var currentUid: String
-            var otherUserUid: String
+        var currentUid: String
+        var otherUserUid: String
             
-            if uid == EXTENSION_GORDON {
-                currentUid = MAIN_GORDON
-                otherUserUid = MAIN_ALIYA
-            } else {
-                currentUid = MAIN_ALIYA
-                otherUserUid = MAIN_GORDON
-            }
-            
-            let pictureRequest = PictureRequest(requesterUid: currentUid)
-            pictureRequest.sendRequest()
-            updateUsersNotifications(otherUserUid, type: "requests")
+        if self.uid == EXTENSION_GORDON {
+            currentUid = MAIN_GORDON
+            otherUserUid = MAIN_ALIYA
+        } else {
+            currentUid = MAIN_ALIYA
+            otherUserUid = MAIN_GORDON
         }
+            
+        let pictureRequest = PictureRequest(requesterUid: currentUid)
+        pictureRequest.sendRequest()
+        updateUsersNotifications(otherUserUid, type: "requests")
     }
     
     private func createImageForMessage() -> UIImage? {

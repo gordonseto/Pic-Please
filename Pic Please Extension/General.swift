@@ -8,6 +8,10 @@
 
 import Foundation
 import FirebaseDatabase
+import UIKit
+
+let MESSAGE_INPUT_HEIGHT: CGFloat = 45
+let NAVIGATION_BAR_HEIGHT: CGFloat = 70
 
 func updateUsersNotifications(uid: String, type: String){
     let firebase = FIRDatabase.database().reference()

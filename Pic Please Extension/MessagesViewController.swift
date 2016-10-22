@@ -11,9 +11,10 @@ import Messages
 import Firebase
 import FirebaseAuth
 
-class MessagesViewController: MSMessagesAppViewController {
+class MessagesViewController: MSMessagesAppViewController, CameraVCDelegate {
     
-
+    var uid: String!
+    
     override func willBecomeActiveWithConversation(conversation: MSConversation) {
         super.willBecomeActiveWithConversation(conversation)
         
@@ -22,13 +23,31 @@ class MessagesViewController: MSMessagesAppViewController {
         }
     }
     
-
-    
     private func presentViewController(for conversation: MSConversation, with presentationStyle: MSMessagesAppPresentationStyle){
         
-        let controller = UIStoryboard(name: "MainInterface", bundle: nil).instantiateViewControllerWithIdentifier("RequestVC") as! RequestVC
-        controller.conversation = conversation
-        
+        if let url = conversation.selectedMessage?.URL {
+            //this is a selected message
+            print(url)
+            
+            let controller = CameraVC()
+            controller.delegate = self
+            controller.conversation = conversation
+            initializeViewController(controller)
+        } else {
+            //this is not a selected message, show RequestVC
+            let controller = UIStoryboard(name: "MainInterface", bundle: nil).instantiateViewControllerWithIdentifier("RequestVC") as! RequestVC
+            controller.conversation = conversation
+            
+            initializeViewController(controller)
+        }
+    }
+    
+    func finishedCreatingMessage() {
+        print("wat")
+        self.dismiss()
+    }
+    
+    func initializeViewController(controller: UIViewController){
         for child in childViewControllers {
             child.willMoveToParentViewController(nil)
             child.view.removeFromSuperview()
@@ -56,7 +75,7 @@ class MessagesViewController: MSMessagesAppViewController {
             FIRApp.configure()
         
             FIRAuth.auth()?.signInAnonymouslyWithCompletion(){ (user, error) in
-            
+                self.uid = user?.uid
                 print(user?.uid)
                 completion()
             }
