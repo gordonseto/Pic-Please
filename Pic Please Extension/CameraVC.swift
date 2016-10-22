@@ -13,7 +13,7 @@ import FirebaseDatabase
 import FirebaseStorage
 import Messages
 
-protocol CameraVCDelegate {
+protocol MessageVCDelegate {
     func finishedCreatingMessage()
 }
 
@@ -34,7 +34,7 @@ class CameraVC: UIViewController {
     
     var conversation: MSConversation!
     
-    var delegate: CameraVCDelegate!
+    var delegate: MessageVCDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,24 +48,24 @@ class CameraVC: UIViewController {
                 self.otherUserUid = MAIN_GORDON
             }
             
-            showCamera()
+            self.presentViewController(createDKCamera(), animated: false, completion: nil)
         }
     }
     
-    func showCamera(){
+    func createDKCamera() -> DKCamera {
         let camera = DKCamera()
         camera.isMessageMode = true
         
         camera.didCancel = { () in
             print("didCancel")
-            self.dismissViewControllerAnimated(true, completion: nil)
+            self.delegate?.finishedCreatingMessage()
         }
         
         camera.didFinishCapturingImage = {(image: UIImage) in
             self.imageCaptured(camera, image: image)
         }
         
-        self.presentViewController(camera, animated: true, completion: nil)
+        return camera
     }
     
     func imageCaptured(camera: DKCamera, image: UIImage){
@@ -172,7 +172,7 @@ class CameraVC: UIViewController {
     func createImageForMessage() -> UIImage? {
         var image: UIImage
         if isFront {
-            image = UIImage(CGImage: capturedImage.CGImage!, scale: 1.0, orientation: .LeftMirrored)
+            image = UIImage(CGImage: capturedImage.CGImage!, scale: 1.0, orientation: .RightMirrored)
         } else {
             image = capturedImage
         }
@@ -189,18 +189,8 @@ class CameraVC: UIViewController {
     }
     
     func cancelImagePreview(){
-        let camera = DKCamera()
         
-        camera.didCancel = { () in
-            print("didCancel")
-            
-            self.dismissViewControllerAnimated(true, completion: nil)
-        }
-        
-        camera.didFinishCapturingImage = {(image: UIImage) in
-            self.imageCaptured(camera, image: image)
-        }
-        self.presentViewController(camera, animated: false){
+        self.presentViewController(createDKCamera(), animated: false){
             self.cancelButton.removeFromSuperview()
             self.sendButton.removeFromSuperview()
             self.imageView.hidden = true

@@ -18,6 +18,8 @@ class RequestVC: UIViewController {
     
     var uid: String!
     
+    var delegate: MessageVCDelegate!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -42,6 +44,7 @@ class RequestVC: UIViewController {
                     if error != nil {
                         print(error)
                     }
+                    self.delegate?.finishedCreatingMessage()
                 })
             }
         }

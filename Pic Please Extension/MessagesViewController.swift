@@ -11,7 +11,7 @@ import Messages
 import Firebase
 import FirebaseAuth
 
-class MessagesViewController: MSMessagesAppViewController, CameraVCDelegate {
+class MessagesViewController: MSMessagesAppViewController, MessageVCDelegate {
     
     var uid: String!
     
@@ -36,6 +36,7 @@ class MessagesViewController: MSMessagesAppViewController, CameraVCDelegate {
         } else {
             //this is not a selected message, show RequestVC
             let controller = UIStoryboard(name: "MainInterface", bundle: nil).instantiateViewControllerWithIdentifier("RequestVC") as! RequestVC
+            controller.delegate = self
             controller.conversation = conversation
             
             initializeViewController(controller)
