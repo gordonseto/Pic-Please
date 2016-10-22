@@ -4,22 +4,47 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DKCamera.xcscheme</key>
+		<key>DKCamera-iOS10.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>HanekeSwift.xcscheme</key>
+		<key>DKCamera-iOS9.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>INSPhotoGallery-INSPhotoGallery.xcscheme</key>
+		<key>HanekeSwift-iOS10.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>INSPhotoGallery.xcscheme</key>
+		<key>HanekeSwift-iOS9.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>INSPhotoGallery-iOS10.0-INSPhotoGallery.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>INSPhotoGallery-iOS10.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>INSPhotoGallery-iOS9.0-INSPhotoGallery.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>INSPhotoGallery-iOS9.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Pic Please Extension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,27 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0FA17EA0843BE281A2FE8696971CC6F9</key>
+		<key>35C033BA3F78E7347C85D0605D0E1F39</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>22B791967D3052626446503D1E993B30</key>
+		<key>3F599B1FE598CBCF9C7DEAAF7228269A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2C2B1953A91633859BF7AD238FF567A0</key>
+		<key>4E0FCA0382ECCD3A4CF8B9CF18EEC650</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>948A46EC641E4DA25A0C1AA1762AF963</key>
+		<key>62FF049BEBFB618095B590A7A772BCD4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A429EBC77A3DF03E63ADAF40C0D14A41</key>
+		<key>63B7C2FA5F41247FC48E798C77E27831</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>98A7E18A71A199B9BB789E0E66F66FED</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD861D0B2C57CD5314E3624E2291F423</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9E7853D6716DEC1A276A61567435283</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D6C80D3F0BD6BC486FF242C16081044F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FD9C8743253185BC897DE0E1DA09D3C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

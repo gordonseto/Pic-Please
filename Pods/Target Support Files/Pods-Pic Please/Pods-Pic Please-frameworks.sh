@@ -84,12 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/DKCamera/DKCamera.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/HanekeSwift/Haneke.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/INSPhotoGallery/INSPhotoGallery.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DKCamera-iOS9.0/DKCamera.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HanekeSwift-iOS9.0/Haneke.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/INSPhotoGallery-iOS9.0/INSPhotoGallery.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "$BUILT_PRODUCTS_DIR/DKCamera/DKCamera.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/HanekeSwift/Haneke.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/INSPhotoGallery/INSPhotoGallery.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DKCamera-iOS9.0/DKCamera.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HanekeSwift-iOS9.0/Haneke.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/INSPhotoGallery-iOS9.0/INSPhotoGallery.framework"
 fi

@@ -7,275 +7,456 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0821C839B9D9116E03C0C9B51E136144 /* DKCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E140556F9B3EEB73E73158F3BA661491 /* DKCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D361BC02EA3B8C476545E29A293CCB8 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDE77109BB1FCC1F61EA2B26E4AD6A4 /* Format.swift */; };
-		11417F7E0087C4BB8FC52A509FD63D32 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B45AB320A0A4DBEFC229911F136F39F /* DKCamera.swift */; };
-		148DC29064EBBB2618ADBA1D3564BC74 /* INSPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7643903E04C843CBED000E19E2E725F0 /* INSPhotoViewController.swift */; };
-		16C6BD8F14D0314E55548CAD80F59890 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E9471FA7B4171737E30BD974695F2BD /* INSPhotoGalleryCloseLandscape@2x.png */; };
-		18B3ACF4B22E4C3041453D65ACBFCDBE /* INSPhotoGallery.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 549F214448A670ED17B87383294750AA /* INSPhotoGallery.bundle */; };
-		1D27B06296C346D4F23F5ED14B0A5D1A /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDE8448C920C279D047E8B8037AADA3 /* UIButton+Haneke.swift */; };
-		1E28B151C828B85EFE985A38F78B7392 /* INSPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438F45FE9DC29C1F21965E517DC79312 /* INSPhoto.swift */; };
-		1E48973DF718A44AE0F8FFE3127D426B /* INSPhotoGalleryCloseLandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B21D005702CC07FAE20932BACD281 /* INSPhotoGalleryCloseLandscape@3x.png */; };
-		206A4EC16AB67809DD5B4D4C90743F2F /* Pods-Pic Please-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8034581EF5754448FE3321C864879C /* Pods-Pic Please-dummy.m */; };
-		24E7FCE3DF42DC6D616DC39F8AC69566 /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39105A979CED1A4EE97DCEA1DE6C2B85 /* UIImageView+Haneke.swift */; };
-		3D90F67A3A10F71FD01DEDA59496C1D7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AE629885571F703071AF392F1A3535 /* Data.swift */; };
-		3EA2C091B8672D75066EEEEFE63B5A86 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCC4761859D6C9E985BEA0BD23EB5E /* NetworkFetcher.swift */; };
-		410D0641B813947CA53F07D75F4624CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
-		439D6AE635FEC171B5D3A5E7ED205154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
-		49A5E2B820A83801CEE267AA6E1D923F /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF1D4CCABFE6284BE4A889F429DF38 /* DiskFetcher.swift */; };
-		4D4B863CBFF5D5CDB91A634B7E5F3924 /* INSPhotosInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CA17D530E7E502F3BCC6014B7E2618 /* INSPhotosInteractionAnimator.swift */; };
-		55F3BC1465BB2EB6F02ADC5A2D1F9F83 /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946170662F65BBF322EE87A671D955E0 /* String+Haneke.swift */; };
-		6085E303BBFBC2375CDBFC9B8F742562 /* INSPhotoGalleryClose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8BA4C1A7A7E0D603231AFC678775F7C /* INSPhotoGalleryClose@3x.png */; };
-		65AD8D82E2717ED54FD09DB2DACF13FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
-		6856278E4A2BC48DDF4D6276C18DB9FD /* INSPhotoGalleryCloseLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 9110CDE8770DC0751D098FF2C2EB22AA /* INSPhotoGalleryCloseLandscape.png */; };
-		6A27A4CD047E056FF9D79F1D779E173D /* INSPhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F21B5E5475A17AA815AF1927D7739F /* INSPhotosDataSource.swift */; };
-		6AF68CA14B6CB99A1962B45CD2D30A2F /* INSPhotosTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683D68145A23CC22FF175730DD49F7F1 /* INSPhotosTransitionAnimator.swift */; };
-		755D27DCC46E3C4C63DA379BF7D27487 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC72C95DDC5703A67DA8DB5C57BF4C5D /* AVFoundation.framework */; };
-		76044F20BABAF5ADC0A67FCEA91DB41C /* Pods-Pic Please-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B468C121A17D65D07B87F6821293E4E6 /* Pods-Pic Please-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7877171170BB48A84F126E698B715290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
-		8A85C4CDF0FE775E0BD0C44B0C3E6159 /* NSURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1391C0339117321084666EE8649A3B /* NSURLResponse+Haneke.swift */; };
-		8BB94131FF51F686744BD0D2CC36D28C /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9BFF78F22C42883136FA031817ED16C /* DKCameraResource.bundle */; };
-		8C357B44EA2BC147AA0219CD8CC03B5F /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2CC9176F102AB0EAAB9EF0229C97AB /* Fetcher.swift */; };
-		8F523965660987457BC0245AB584840F /* INSPhotoGalleryClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C90E3995A12DEE760400A425D41D35B /* INSPhotoGalleryClose@2x.png */; };
-		92A2D4839D45ABA48D77923C035C8943 /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EDCCEA308EF71B5CE40969846B1D7 /* NSFileManager+Haneke.swift */; };
-		9831DDC5256EF014D93FF2DBE055E7B6 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC578D822F9B2AD7A3D0F80EFAE02E0 /* Cache.swift */; };
-		9911E1A886CD44872C07FAA6A1521A85 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36350D9F82C09D79E0C978F06C09FD45 /* Log.swift */; };
-		994B68FCAC51B6A903ECE890192503AB /* INSScalingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FFFD044A107671E3D88AA723FCE685 /* INSScalingImageView.swift */; };
-		9D5F6868132325D38051C5A07F128C5C /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2938D4DB08C9384310E4BC019DBA5261 /* UIView+Haneke.swift */; };
-		9E629066D218DC1DC616E339DB68E49C /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC8C22C0C787878EDA0F44BCA6CE0A0 /* CryptoSwiftMD5.swift */; };
-		9F4D113C6A4469F0DFAC637F1CA2C087 /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB48F2DF284DED4B21ED66947D1A1863 /* CGSize+Swift.swift */; };
-		A19EC195A24B7788935653C989BDB81A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */; };
-		A8CF635DBE430F95FB17D371B918B3FB /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FC4ACF80A41BA85817DAE0DE049BE1 /* UIImage+Haneke.swift */; };
-		AB02DD775A289B55B03F87A73525B611 /* HanekeSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3EA4E84889099217BD44BA3BBF7AF6F /* HanekeSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEB48C925DC8D4B812C4ABF9F15C822E /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA12C63195686B8B5C38240E1762A2F4 /* DiskCache.swift */; };
-		B1CCF02E757EE856275CE85BF171ED90 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51827569FB5CB4DD2AD2DA4C36523E6 /* Fetch.swift */; };
-		B3B1BE7A6BB15F166AAB163441829801 /* INSPhotoGalleryClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 789251D701F4B42B2E0AF7B61C0F5463 /* INSPhotoGalleryClose.png */; };
-		BA9F856925CE6AC934FDAE4C6449EE28 /* INSPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE0478A4E8DF9E3E61F79C261A16D4E /* INSPhotosViewController.swift */; };
-		BD038EFFD2D1B49B136B42B5E07D59C5 /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62D46F51CD0AD308D48218555775272 /* Haneke.swift */; };
-		BD80369F2A12E53B8D417169367B1D02 /* UIVIew+INSPhotoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0CF125F4B854CC1FA07D2CC0BED135 /* UIVIew+INSPhotoViewer.swift */; };
-		C53BBBDA9EB6B23CC76CFCC06CEEC721 /* INSPhotoGallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BFE89FA46CCAF68830AC16EDA5D48D4 /* INSPhotoGallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D747620EA73E85CB7D6840FADBADE542 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */; };
-		D9AA4190BA6CB567F8087104C9B8D6CD /* DKCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B0FD64F7E40965E9AEECFC99E1C652 /* DKCamera-dummy.m */; };
-		DC178BDED25CC834988588370C9B8AB6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA526B0D319CCD8F98FC7233B4942EE7 /* CoreMotion.framework */; };
-		DF6DBB5FA4E663A5AE7F272CA1CBA3BB /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5379A2CD1814227248EDA3A068B264F6 /* NSHTTPURLResponse+Haneke.swift */; };
-		E5ABC928846F6D1B4EA0B75B6DF1DCD3 /* INSPhotoGallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F5DAAC2C07DFCF847C1F5DD0D31612 /* INSPhotoGallery-dummy.m */; };
-		F03916F3658FFB4643AD5FC815A4F5A7 /* HanekeSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4A43786CC61F20B6CD7DDDAC630A2 /* HanekeSwift-dummy.m */; };
-		F0738973E807ED9D59BD239ABF0D30B0 /* INSPhotosOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3E3B0E324AA2FBA938D7C3574F0D7E /* INSPhotosOverlayView.swift */; };
+		0069C4CB2B9A479295449FAC942C3144 /* Pods-Pic Please-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D64487DD6DD3F277490088A4513E319F /* Pods-Pic Please-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		009125C7E78AFD28BC8E17989E84FBE4 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC224A767C9027EF26943C5A8786F1B /* NetworkFetcher.swift */; };
+		0162F3746771F2BC5B23D4818B72C3F8 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD391A8A4B3E416C2133BE09884F5997 /* Fetcher.swift */; };
+		0279E74CF81C438F94342A82ABA6E1C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		04098B93C92FE1B308C0E96B7B33672C /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3397EFB3A3CC1591A219F4CEE8D254 /* String+Haneke.swift */; };
+		06DA5B8D5280506E1C82ED877D78FA2F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AEC3C6085F98691B78B8B3085F10CC /* Data.swift */; };
+		077090B038A5E197AF59A08E0CDB2659 /* DKCamera-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB9D87323DEC03D54726A2EAD319136 /* DKCamera-iOS10.0-dummy.m */; };
+		0C909F18EEF0D129BA815F210A7472AE /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B7A8D8FF6B01A0224B374EF8CF70EE18 /* DKCameraResource.bundle */; };
+		0EF280744857BE2ED5FDAC07FD182436 /* INSPhotoGalleryClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B559D783119ABDB43D8787C27D6778E9 /* INSPhotoGalleryClose@2x.png */; };
+		12384F457DA02C4740C3A4FA936FAC88 /* HanekeSwift-iOS9.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AACA8800421E9E234DA3675984109D6A /* HanekeSwift-iOS9.0-dummy.m */; };
+		15096FFC2C6B60E6EE0A894F535CD306 /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F992D1B3F914C66F1D1D394A4A9CD6 /* NSHTTPURLResponse+Haneke.swift */; };
+		172D5B7DF2C61507C13E3CEA87C08E7F /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0400FBD4D8BB2AD28526BDADDED19 /* DiskCache.swift */; };
+		1D46A18A72357D93B18CE6A0D867B6E9 /* NSURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F876832C274E1F8BB8805E53285212 /* NSURLResponse+Haneke.swift */; };
+		229F108A6EEAAE699620B02F033022E3 /* INSPhotoGallery-iOS9.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CA23ED46F39F05BA6A8E51187DFDA0 /* INSPhotoGallery-iOS9.0-dummy.m */; };
+		22AFC437C927A00854E858F3FFA10B92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		24FEFF346DB7BF66A14C6389B0A84CE8 /* INSPhotosOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625AB26AADC27AA756005780DC9610A /* INSPhotosOverlayView.swift */; };
+		2AB966B2A04B19D910EA40CF9896BC4A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC72C95DDC5703A67DA8DB5C57BF4C5D /* AVFoundation.framework */; };
+		2AF797EEB60D5C6E03DD5D6C76BC6A07 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC224A767C9027EF26943C5A8786F1B /* NetworkFetcher.swift */; };
+		2EA7549C7EA8825918D29884F02E723F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		2EB5E015616B12FB131421723AEBCC36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		2FB08092E569BCC252E98E2FA0B6DEFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		325FD1F707BBC72364BC9E721E2FBE23 /* INSPhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD621E1DD9A9D5D5743AF575DF94809 /* INSPhotosDataSource.swift */; };
+		338091867E0EB561BFE4B8AC42CB731D /* INSPhotosInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B975664BDD561640EE223CED639980 /* INSPhotosInteractionAnimator.swift */; };
+		343CFE32E1D9F23AB71FFA8D03867692 /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A30980932CC45965FD6607E2D6201C /* UIButton+Haneke.swift */; };
+		346804976DA891F039FA4878FBDEC13F /* String+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3397EFB3A3CC1591A219F4CEE8D254 /* String+Haneke.swift */; };
+		3484D65A17276D400EB0DF101C6C426A /* INSPhotoGallery-iOS9.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AC4F2C643BB89F1E078668CF4E4EEB /* INSPhotoGallery-iOS9.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F60E36588FD80032BFDA17EF5E495E /* Pods-Pic Please Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D324AD4A8E6CCF87C875DA657CA42EAE /* Pods-Pic Please Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3750A31CF6C03B58ECD8E2B038D24EA6 /* INSPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1759FB220AAAC98A4E4FA0D6B4BCC7 /* INSPhotosViewController.swift */; };
+		3793609A0203AD071210E071DF3F1B73 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E6BEA84623F025FF6B7DCA7941B24 /* Cache.swift */; };
+		38467F6A5728CA5A40483901919350A8 /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA82B088EDFC4EF63F7F9FF91D02465A /* NSFileManager+Haneke.swift */; };
+		3AD3B54204923B6E836ED0F4A570DF41 /* INSPhotosTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060A019C2025C843951E8FD3CCE77D6 /* INSPhotosTransitionAnimator.swift */; };
+		41890D57E8DCF1115213F5970285AE90 /* NSHTTPURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F992D1B3F914C66F1D1D394A4A9CD6 /* NSHTTPURLResponse+Haneke.swift */; };
+		47304DA7FB50BC7A7B28B40EEA16E991 /* DKCamera-iOS9.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF4577F0E08E743047054DF0C8E9B70 /* DKCamera-iOS9.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49FC6611CC8A65929B5862525E6B1F89 /* UIVIew+INSPhotoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220DE01FF5A86E53387D99A5C7D5016 /* UIVIew+INSPhotoViewer.swift */; };
+		4A644A512214E13E2153EE4BA75F38F2 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF261EC00C13006E6B620688E3712E /* DKCamera.swift */; };
+		4A9BAE04E18CDDE7D646E92EC0A39336 /* INSPhotosTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060A019C2025C843951E8FD3CCE77D6 /* INSPhotosTransitionAnimator.swift */; };
+		4B833FADFF56A76F70C0A30A6EBB91FA /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D7E9201361BA896FE3A4AEC9E120A /* DiskFetcher.swift */; };
+		4F4AF65795DD55E5037A81A2C7E01AB9 /* INSPhotoGalleryCloseLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 8706BD9303781F75F3FE7185D98AF045 /* INSPhotoGalleryCloseLandscape.png */; };
+		54AF20261CC52F628027CFBCD8537D0E /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81842A041BB49DB52DDB466C808DB398 /* UIImage+Haneke.swift */; };
+		54BDD2B952EC1E19B88035C31D78C65C /* UIImage+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81842A041BB49DB52DDB466C808DB398 /* UIImage+Haneke.swift */; };
+		55FA4F3C2F22C037A21AE5E779A29F33 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5F22258FCF70AFA378E787C2ADF88 /* INSPhotoGalleryCloseLandscape@2x.png */; };
+		5956E7704310CD95BFDC49BF96E6A231 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */; };
+		59CB1D3ACAF7BD12BDCBF65F271120E5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA526B0D319CCD8F98FC7233B4942EE7 /* CoreMotion.framework */; };
+		5CD00CF2C9CCA2153E7F16913C68AC69 /* DKCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF261EC00C13006E6B620688E3712E /* DKCamera.swift */; };
+		5D4A4151F6C3264D00F773495E3A9945 /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7335E11A0A55DFEC673FC5AE363724 /* UIImageView+Haneke.swift */; };
+		5E902C8FACE3DDA0E4AFEA7636BC82C0 /* INSPhotoGalleryCloseLandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8535DEEBF54639039824B90ECE099C29 /* INSPhotoGalleryCloseLandscape@3x.png */; };
+		61C23D307F0C1FE780858BCD485A0B61 /* INSPhotoGalleryClose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28F69A50D7627D536C1EF71AA6C8A0 /* INSPhotoGalleryClose@3x.png */; };
+		624D85EBC212A32DC88EB797D6E65F9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		64480DE42A579B42F533C403E35CB9F0 /* HanekeSwift-iOS9.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6D7DC28C98B68ADE26A26959D576BF0 /* HanekeSwift-iOS9.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		663907F1EA7515753D0FC9668E00060C /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E6BEA84623F025FF6B7DCA7941B24 /* Cache.swift */; };
+		6696D072AD271CFBD6945C04812D873A /* INSPhotoGallery.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19BB91AFBCB1F12DE3C428A7C0386432 /* INSPhotoGallery.bundle */; };
+		681AC9F216090688A83A936AFD9AD720 /* INSPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5360D7AF2A67A1652A16070869EC03 /* INSPhotoViewController.swift */; };
+		6B077D6F6B321DD815E03FAABFBC9287 /* INSScalingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568D775874BF80B90E1D9F57785703D /* INSScalingImageView.swift */; };
+		6B317DDCF821C46011FFB820058FE36B /* INSPhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD621E1DD9A9D5D5743AF575DF94809 /* INSPhotosDataSource.swift */; };
+		6B36BCCB22C3D2E3AE2707FAD7FF79EE /* INSPhotoGalleryCloseLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 8706BD9303781F75F3FE7185D98AF045 /* INSPhotoGalleryCloseLandscape.png */; };
+		6C5FFF1E0D95C28A704CB5B64B1C1FB8 /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C0400FBD4D8BB2AD28526BDADDED19 /* DiskCache.swift */; };
+		6E87271191E366425003F7EBCB19A18B /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF8627056513D06B5656A5A4B5A151 /* CryptoSwiftMD5.swift */; };
+		73058B2907A71A458B67AACEFD2A2756 /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF74FCFFD659E8B72A37B20E815A30CA /* CGSize+Swift.swift */; };
+		759C9BBEB34AA208ADC8E637AD033E90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */; };
+		77C4AA2D0C17B19A6C8FB3960E673D10 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AEC3C6085F98691B78B8B3085F10CC /* Data.swift */; };
+		77D39629A4220E23E5AD2D7DA88E6DC2 /* INSPhotoGalleryClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB09F2C040929577BFEEEA10CCF1539 /* INSPhotoGalleryClose.png */; };
+		7C16D1E2A675652154041CD8A61A4C47 /* INSPhotoGallery-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF35A2874DAEF5E060B7547C8B0435B /* INSPhotoGallery-iOS10.0-dummy.m */; };
+		7CBF19ABE97DDC3A3365EE1EF9673CAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */; };
+		7DCC928874AD79854FD8CA6778FD5F79 /* INSPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1759FB220AAAC98A4E4FA0D6B4BCC7 /* INSPhotosViewController.swift */; };
+		8094B9F730FD447D92D40AA504554694 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA526B0D319CCD8F98FC7233B4942EE7 /* CoreMotion.framework */; };
+		81AECA791105E2E4031D659B6AAF1D37 /* DKCamera-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B09C28C17AEE76B590435B133510ADB /* DKCamera-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82DDCF153AC0E9F28E58F9B929400028 /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF40E646F7B39D1811D3492F1FD6E874 /* Fetch.swift */; };
+		8D64CE99FE9DEABFBC5622E309ECCE77 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D612E81050BDB439742398362DCA63 /* Log.swift */; };
+		923D430961BA7D40672C39E478AF8EB2 /* INSPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B0634ED330E83C9415E2C6BDC8D4D /* INSPhoto.swift */; };
+		9645C832A2918CFFC4416EAB9D501082 /* INSPhotoGalleryClose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE28F69A50D7627D536C1EF71AA6C8A0 /* INSPhotoGalleryClose@3x.png */; };
+		96AEB548C09ABD8C29A7E0D39072DDE0 /* CryptoSwiftMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF8627056513D06B5656A5A4B5A151 /* CryptoSwiftMD5.swift */; };
+		97955E55AEBD8BA077E9B05AB836EF32 /* NSURLResponse+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F876832C274E1F8BB8805E53285212 /* NSURLResponse+Haneke.swift */; };
+		989C22821064C1F49D2023F53A170DB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		9D4E23D9213A72F8DFEA85EBB62CD974 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5F22258FCF70AFA378E787C2ADF88 /* INSPhotoGalleryCloseLandscape@2x.png */; };
+		A6E8F8A5812E3B737F2D366BF98F0C30 /* INSScalingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A568D775874BF80B90E1D9F57785703D /* INSScalingImageView.swift */; };
+		AA615A7CF4422739C7E372B9A2962E4B /* INSPhotoGallery-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AF0FEED0CCA1F1DFC0A949C02F1D1C /* INSPhotoGallery-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB057F580EFA38277C4235C27E813B0 /* INSPhotosOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625AB26AADC27AA756005780DC9610A /* INSPhotosOverlayView.swift */; };
+		AB30B96A15E8462CC210097572681D46 /* HanekeSwift-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFDF3766289919094CB747E2FA6F8C2 /* HanekeSwift-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACE31D0A4AB43B412F1C2AD0D7BCDAEA /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97749C4CF1282E5FCF910034FB82E745 /* Haneke.swift */; };
+		B02841025CA10C31BE69870318B304B7 /* UIButton+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A30980932CC45965FD6607E2D6201C /* UIButton+Haneke.swift */; };
+		B94B4EEA99B7EFE237F83997E7095D1A /* INSPhotoGallery.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19BB91AFBCB1F12DE3C428A7C0386432 /* INSPhotoGallery.bundle */; };
+		BB21D3422D5CEA994383ED9863B73F87 /* INSPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5360D7AF2A67A1652A16070869EC03 /* INSPhotoViewController.swift */; };
+		C0DDD7A341B9835ED67309B3DD0C46CB /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA98EB6F5EE62EC18BC37F95EF18F24 /* Format.swift */; };
+		C46F7B40C3D0271F2F18D6EA04E62815 /* DiskFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409D7E9201361BA896FE3A4AEC9E120A /* DiskFetcher.swift */; };
+		C565B44E12070F04E87E8F06311E153C /* CGSize+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF74FCFFD659E8B72A37B20E815A30CA /* CGSize+Swift.swift */; };
+		C84BF4DFA06603DF38AA8E75EFEB560B /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF40E646F7B39D1811D3492F1FD6E874 /* Fetch.swift */; };
+		C8CF3930137509C1643F150B1BC3506C /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C8DFD03BAAFC3D4F47224CEF27FEA /* UIView+Haneke.swift */; };
+		C8D1A90BCDAE41D2B65274E7B530015F /* DKCamera-iOS9.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A53B69DF21EB2D30E24D226645291AC /* DKCamera-iOS9.0-dummy.m */; };
+		C903085E93B1C3DF0944C530A1CC61BD /* HanekeSwift-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C797DF15DEA86351782F812726A1831C /* HanekeSwift-iOS10.0-dummy.m */; };
+		C9D1436D3DD1C4198B2E6E3F6E691AC8 /* Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97749C4CF1282E5FCF910034FB82E745 /* Haneke.swift */; };
+		CB963492F2B1EC20EB8CBCD26BA036B2 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA98EB6F5EE62EC18BC37F95EF18F24 /* Format.swift */; };
+		CD10B13F79B6B0C69EFA53D4C66535E9 /* NSFileManager+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA82B088EDFC4EF63F7F9FF91D02465A /* NSFileManager+Haneke.swift */; };
+		D9FCCA5B784609E53F60DE6559B60D2C /* INSPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31B0634ED330E83C9415E2C6BDC8D4D /* INSPhoto.swift */; };
+		DE212CEFED5FA46543ECA6A42385C806 /* UIView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C8DFD03BAAFC3D4F47224CEF27FEA /* UIView+Haneke.swift */; };
+		E13E2480B73765036B1561BDEA822751 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */; };
+		E2789F2E7199B4B441677F883A934083 /* UIVIew+INSPhotoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220DE01FF5A86E53387D99A5C7D5016 /* UIVIew+INSPhotoViewer.swift */; };
+		E346795BC60F44A93908DBFD7AAA53C2 /* Pods-Pic Please Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F188BB821B379218ED2D79170069057A /* Pods-Pic Please Extension-dummy.m */; };
+		E3CC2C120C596B86BE3CAE063B68D47D /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D612E81050BDB439742398362DCA63 /* Log.swift */; };
+		E4F86E4C5C4BEDE5C4400F096D464AD1 /* INSPhotosInteractionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B975664BDD561640EE223CED639980 /* INSPhotosInteractionAnimator.swift */; };
+		E71C07BC8E4D007C1135940E7EEADBCA /* UIImageView+Haneke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7335E11A0A55DFEC673FC5AE363724 /* UIImageView+Haneke.swift */; };
+		ECC5BA8FE78EBD935679421487A49E5A /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD391A8A4B3E416C2133BE09884F5997 /* Fetcher.swift */; };
+		EE355F75D0242E532005345FFEBA99B1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC72C95DDC5703A67DA8DB5C57BF4C5D /* AVFoundation.framework */; };
+		EFA45D32DA89A9EBA625152697EC975B /* INSPhotoGalleryCloseLandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8535DEEBF54639039824B90ECE099C29 /* INSPhotoGalleryCloseLandscape@3x.png */; };
+		F0F3B3119CC7452187E42D9898B8F1CB /* Pods-Pic Please-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC1223736E2E431F2AF5A4B1511B60 /* Pods-Pic Please-dummy.m */; };
+		F5569D3775A26A8C6122108908FCF0DE /* INSPhotoGalleryClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B559D783119ABDB43D8787C27D6778E9 /* INSPhotoGalleryClose@2x.png */; };
+		F61E59666411A95D44FE4E22FAF90018 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */; };
+		FAC3CBC4513A699EB95F01C2E36092D7 /* INSPhotoGalleryClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EB09F2C040929577BFEEEA10CCF1539 /* INSPhotoGalleryClose.png */; };
+		FFAF97808B59E2E48E744E1C597DB4AE /* DKCameraResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B7A8D8FF6B01A0224B374EF8CF70EE18 /* DKCameraResource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		24A834B3B229AF753F3EF1062F30EE7E /* PBXContainerItemProxy */ = {
+		0C9C1935576EA86BE9453C8853CDB3D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0FA17EA0843BE281A2FE8696971CC6F9;
-			remoteInfo = INSPhotoGallery;
+			remoteGlobalIDString = 4E0FCA0382ECCD3A4CF8B9CF18EEC650;
+			remoteInfo = "INSPhotoGallery-iOS10.0";
 		};
-		746244B957186CF333CD6412C65E78CD /* PBXContainerItemProxy */ = {
+		0F75831561BFF17E37B6934450147BF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22B791967D3052626446503D1E993B30;
-			remoteInfo = "INSPhotoGallery-INSPhotoGallery";
+			remoteGlobalIDString = FD9C8743253185BC897DE0E1DA09D3C7;
+			remoteInfo = "HanekeSwift-iOS10.0";
 		};
-		88FDF95E185C8F0CDE2900342E0091E0 /* PBXContainerItemProxy */ = {
+		204981A95A4642D35EC2BC237F9934A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C2B1953A91633859BF7AD238FF567A0;
-			remoteInfo = HanekeSwift;
+			remoteGlobalIDString = 3F599B1FE598CBCF9C7DEAAF7228269A;
+			remoteInfo = "INSPhotoGallery-iOS10.0-INSPhotoGallery";
 		};
-		DAE1BFE7CDC874C9B8881AE2B4A38D37 /* PBXContainerItemProxy */ = {
+		274D61CE0A2555EBAE5E367CFA371489 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 948A46EC641E4DA25A0C1AA1762AF963;
-			remoteInfo = DKCamera;
+			remoteGlobalIDString = 63B7C2FA5F41247FC48E798C77E27831;
+			remoteInfo = "DKCamera-iOS9.0";
+		};
+		27F7617695ABBCDD1F8383B8694F3C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A7E18A71A199B9BB789E0E66F66FED;
+			remoteInfo = "INSPhotoGallery-iOS9.0";
+		};
+		3383017AD2CEBE88BDC4F90A19E97376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9E7853D6716DEC1A276A61567435283;
+			remoteInfo = "HanekeSwift-iOS9.0";
+		};
+		68130756198A3C332DB4EBC9B5844022 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C80D3F0BD6BC486FF242C16081044F;
+			remoteInfo = "INSPhotoGallery-iOS9.0-INSPhotoGallery";
+		};
+		DAED3827CDEE18EF926489C1884D4EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62FF049BEBFB618095B590A7A772BCD4;
+			remoteInfo = "DKCamera-iOS10.0";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025647D9BE68F2D5A6C1B68CA8317C50 /* Pods-Pic Please.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please.release.xcconfig"; sourceTree = "<group>"; };
-		02D6390BC2EB99A62DD802605524F378 /* BatchError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchError.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchError.h; sourceTree = "<group>"; };
-		03CA17D530E7E502F3BCC6014B7E2618 /* INSPhotosInteractionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosInteractionAnimator.swift; path = INSPhotoGallery/INSPhotosInteractionAnimator.swift; sourceTree = "<group>"; };
-		063A5882912F6ED0143E99258583A677 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		075201800A0EDF120B7673B99A70AAF6 /* Pods-Pic Please-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please-frameworks.sh"; sourceTree = "<group>"; };
-		0C1B21D005702CC07FAE20932BACD281 /* INSPhotoGalleryCloseLandscape@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@3x.png"; sourceTree = "<group>"; };
-		0C90E3995A12DEE760400A425D41D35B /* INSPhotoGalleryClose@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@2x.png"; sourceTree = "<group>"; };
-		0CE0478A4E8DF9E3E61F79C261A16D4E /* INSPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosViewController.swift; path = INSPhotoGallery/INSPhotosViewController.swift; sourceTree = "<group>"; };
-		0E0CF125F4B854CC1FA07D2CC0BED135 /* UIVIew+INSPhotoViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIVIew+INSPhotoViewer.swift"; path = "INSPhotoGallery/UIVIew+INSPhotoViewer.swift"; sourceTree = "<group>"; };
-		0E9471FA7B4171737E30BD974695F2BD /* INSPhotoGalleryCloseLandscape@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@2x.png"; sourceTree = "<group>"; };
-		13C412DC8B01FB83E86420674CCF12D6 /* Pods-Pic Please-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pic Please-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1708A805B5C5ABEA76E08193E5E7FAED /* BatchUnlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchUnlock.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchUnlock.h; sourceTree = "<group>"; };
-		18CCC4761859D6C9E985BEA0BD23EB5E /* NetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
-		1EE4A43786CC61F20B6CD7DDDAC630A2 /* HanekeSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanekeSwift-dummy.m"; sourceTree = "<group>"; };
-		210895A63A8FAC48EF357BE6BA550E54 /* Pods-Pic Please-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pic Please-acknowledgements.plist"; sourceTree = "<group>"; };
-		2146369C47F87F2F6EC6B6B905EB0942 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
-		225EDCCEA308EF71B5CE40969846B1D7 /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
-		239BE41688CA4B9B537CB7EE60C71C82 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
-		23D70113FF33D2655F5EA019C5F50858 /* DKCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKCamera.xcconfig; sourceTree = "<group>"; };
-		24EBFBAE33130836F34460B8F4A3B7BC /* HanekeSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HanekeSwift.xcconfig; sourceTree = "<group>"; };
-		27333E826C3B4801A68C7E941E1ECDF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2938D4DB08C9384310E4BC019DBA5261 /* UIView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
-		32BF1D4CCABFE6284BE4A889F429DF38 /* DiskFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
-		33B0FA43D73A15CD71C349E0F58DC246 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
-		35F21B5E5475A17AA815AF1927D7739F /* INSPhotosDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosDataSource.swift; path = INSPhotoGallery/INSPhotosDataSource.swift; sourceTree = "<group>"; };
-		36350D9F82C09D79E0C978F06C09FD45 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Haneke/Log.swift; sourceTree = "<group>"; };
-		39105A979CED1A4EE97DCEA1DE6C2B85 /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
-		3FD437CBF10A500DA41CD018AEDA0017 /* Pods-Pic Please.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please.debug.xcconfig"; sourceTree = "<group>"; };
-		42AE629885571F703071AF392F1A3535 /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Haneke/Data.swift; sourceTree = "<group>"; };
-		42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = INSPhotoGallery.xcconfig; sourceTree = "<group>"; };
-		438F45FE9DC29C1F21965E517DC79312 /* INSPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhoto.swift; path = INSPhotoGallery/INSPhoto.swift; sourceTree = "<group>"; };
-		4427FFD9FE675600DECDEFF5B76A78B0 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
-		4B45AB320A0A4DBEFC229911F136F39F /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
-		4CD3F26CE77C10AA08148235BA0CC82F /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
-		4D3E3B0E324AA2FBA938D7C3574F0D7E /* INSPhotosOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosOverlayView.swift; path = INSPhotoGallery/INSPhotosOverlayView.swift; sourceTree = "<group>"; };
-		4E8034581EF5754448FE3321C864879C /* Pods-Pic Please-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pic Please-dummy.m"; sourceTree = "<group>"; };
-		5379A2CD1814227248EDA3A068B264F6 /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
-		549F214448A670ED17B87383294750AA /* INSPhotoGallery.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INSPhotoGallery.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		571DD1B82D39D14F191C060A04597028 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		5830B7437C34A422173020380FC75FB3 /* Batch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Batch.h; path = Batch.embeddedframework/Batch.framework/Headers/Batch.h; sourceTree = "<group>"; };
-		5BFE89FA46CCAF68830AC16EDA5D48D4 /* INSPhotoGallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-umbrella.h"; sourceTree = "<group>"; };
-		683D68145A23CC22FF175730DD49F7F1 /* INSPhotosTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosTransitionAnimator.swift; path = INSPhotoGallery/INSPhotosTransitionAnimator.swift; sourceTree = "<group>"; };
-		68888A8C42ABB8B084F8054C603437B6 /* Pods_Pic_Please.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pic_Please.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		68FC4ACF80A41BA85817DAE0DE049BE1 /* UIImage+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
-		69C0369DC4B36A4BF77FDF470C81B166 /* ResourceBundle-INSPhotoGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-INSPhotoGallery-Info.plist"; sourceTree = "<group>"; };
-		6BCC7D187CB7BBC75F1D40A7E092D493 /* DKCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DKCamera.modulemap; sourceTree = "<group>"; };
-		6C2CC9176F102AB0EAAB9EF0229C97AB /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = Haneke/Fetcher.swift; sourceTree = "<group>"; };
-		6DC578D822F9B2AD7A3D0F80EFAE02E0 /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Haneke/Cache.swift; sourceTree = "<group>"; };
-		72B052AA49E73A49649A71BF5B204108 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7643903E04C843CBED000E19E2E725F0 /* INSPhotoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotoViewController.swift; path = INSPhotoGallery/INSPhotoViewController.swift; sourceTree = "<group>"; };
-		789251D701F4B42B2E0AF7B61C0F5463 /* INSPhotoGalleryClose.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryClose.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose.png; sourceTree = "<group>"; };
-		79B50D13C8325417DFD722DE8FD22AD8 /* INSPhotoGallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = INSPhotoGallery.modulemap; sourceTree = "<group>"; };
-		7EDE8448C920C279D047E8B8037AADA3 /* UIButton+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
-		835189FA07A518EA65244DFAE1D7A7FC /* BatchAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchAds.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchAds.h; sourceTree = "<group>"; };
-		8C9C57F27414C786FC136068D244DCC1 /* Batch.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Batch.bundle; path = Batch.embeddedframework/Batch.bundle; sourceTree = "<group>"; };
-		9110CDE8770DC0751D098FF2C2EB22AA /* INSPhotoGalleryCloseLandscape.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryCloseLandscape.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape.png; sourceTree = "<group>"; };
-		927AD6CB5A6402E38000D6C87EADA726 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		00E4F9E04FE19C83FFFD6D99252A03A0 /* Pods-Pic Please-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pic Please-acknowledgements.plist"; sourceTree = "<group>"; };
+		00E6F84BF9F39DBBD80EB83EAE9AF761 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../DKCamera-iOS9.0/Info.plist"; sourceTree = "<group>"; };
+		01E8DCFC34C9C0EA7FAD1F5DD2750F48 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		03AEC3C6085F98691B78B8B3085F10CC /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Haneke/Data.swift; sourceTree = "<group>"; };
+		0633CFD7FE086CD6E64B3466D876EF51 /* ResourceBundle-INSPhotoGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-INSPhotoGallery-Info.plist"; path = "../INSPhotoGallery-iOS9.0/ResourceBundle-INSPhotoGallery-Info.plist"; sourceTree = "<group>"; };
+		06B5D9170225EB8F351222C2CE8B3AC6 /* INSPhotoGallery-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "INSPhotoGallery-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		0A1EAB6FFC22D0801B599804DFFDD663 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB7EE0C045C9FEE2D3B2A2793DFE3A1 /* HanekeSwift-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "HanekeSwift-iOS10.0.modulemap"; sourceTree = "<group>"; };
+		0BF5F22258FCF70AFA378E787C2ADF88 /* INSPhotoGalleryCloseLandscape@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@2x.png"; sourceTree = "<group>"; };
+		0E23289183F4243049B0008CC151D211 /* INSPhotoGallery-iOS9.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "INSPhotoGallery-iOS9.0-prefix.pch"; path = "../INSPhotoGallery-iOS9.0/INSPhotoGallery-iOS9.0-prefix.pch"; sourceTree = "<group>"; };
+		109EFA1F0161954531B33B6C7725A4F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14FCD9BA0298D7F9A8D7AE0786BCB6BB /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		164207B82F9BCD2B179DAA38A80B97E1 /* Pods-Pic Please-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please-frameworks.sh"; sourceTree = "<group>"; };
+		19BB91AFBCB1F12DE3C428A7C0386432 /* INSPhotoGallery.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = INSPhotoGallery.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A53B69DF21EB2D30E24D226645291AC /* DKCamera-iOS9.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DKCamera-iOS9.0-dummy.m"; path = "../DKCamera-iOS9.0/DKCamera-iOS9.0-dummy.m"; sourceTree = "<group>"; };
+		1C3397EFB3A3CC1591A219F4CEE8D254 /* String+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
+		21086018D1CF91BB9A22ABC6D1F3DDA7 /* BatchCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchCore.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchCore.h; sourceTree = "<group>"; };
+		2122314BA343E2CF5B72ED639ADC1940 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		2210DFE7F90652907165D1105AC19753 /* Pods_Pic_Please.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pic_Please.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		243CEB6CBCB38643EED158CBD796EF2D /* BatchPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchPush.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchPush.h; sourceTree = "<group>"; };
+		24693DEA6CFBF33E42AACE600106134E /* Pods-Pic Please-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pic Please-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28C9B44C15B7B8B9C272E183E79091FF /* Pods-Pic Please.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please.release.xcconfig"; sourceTree = "<group>"; };
+		2C45E35E75318D7BD6107D7B8989A24B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../INSPhotoGallery-iOS9.0/Info.plist"; sourceTree = "<group>"; };
+		2C546A450D34D4CA23D2EF4ADC79D9F3 /* BatchError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchError.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchError.h; sourceTree = "<group>"; };
+		2C5877C5700E698AE78E580045F77572 /* HanekeSwift-iOS9.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HanekeSwift-iOS9.0-prefix.pch"; path = "../HanekeSwift-iOS9.0/HanekeSwift-iOS9.0-prefix.pch"; sourceTree = "<group>"; };
+		2E7335E11A0A55DFEC673FC5AE363724 /* UIImageView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Haneke.swift"; path = "Haneke/UIImageView+Haneke.swift"; sourceTree = "<group>"; };
+		337193CD390D7C2B80C31AF00F69A6FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3625AB26AADC27AA756005780DC9610A /* INSPhotosOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosOverlayView.swift; path = INSPhotoGallery/INSPhotosOverlayView.swift; sourceTree = "<group>"; };
+		362E515FA7B9D852C9A56AC14EDA375F /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		392026B616D588A6FEAA25FE27FAC644 /* BatchUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchUserProfile.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchUserProfile.h; sourceTree = "<group>"; };
+		3B09C28C17AEE76B590435B133510ADB /* DKCamera-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
+		3EB09F2C040929577BFEEEA10CCF1539 /* INSPhotoGalleryClose.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryClose.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose.png; sourceTree = "<group>"; };
+		3FF1326407DEBC3BB3E7724C15A6B3A9 /* BatchUnlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchUnlock.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchUnlock.h; sourceTree = "<group>"; };
+		409D7E9201361BA896FE3A4AEC9E120A /* DiskFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskFetcher.swift; path = Haneke/DiskFetcher.swift; sourceTree = "<group>"; };
+		4120C359D6E3B5BBE5AC05DF0E3DE531 /* HanekeSwift-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		44AF0FEED0CCA1F1DFC0A949C02F1D1C /* INSPhotoGallery-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
+		465FED82131303BF578B7E0ECAC15958 /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		468D978D284B3B9641B502CD844ABF89 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		46B910DD09A8B52033598F152DC344D1 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		46EAED39AFFB483FBE56E34D48F47A3F /* INSPhotoGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSPhotoGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FF3593BE5B60404D5F80853464BE2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../HanekeSwift-iOS9.0/Info.plist"; sourceTree = "<group>"; };
+		5060A019C2025C843951E8FD3CCE77D6 /* INSPhotosTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosTransitionAnimator.swift; path = INSPhotoGallery/INSPhotosTransitionAnimator.swift; sourceTree = "<group>"; };
+		544E735C8FCA661B748B4398B25DE55A /* HanekeSwift-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HanekeSwift-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		56A14E9A579BFE7993864F742E73741C /* DKCamera-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "DKCamera-iOS10.0.modulemap"; sourceTree = "<group>"; };
+		59B975664BDD561640EE223CED639980 /* INSPhotosInteractionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosInteractionAnimator.swift; path = INSPhotoGallery/INSPhotosInteractionAnimator.swift; sourceTree = "<group>"; };
+		5CD736EB79C5C3372F3AB7B9B82E5F42 /* Batch.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Batch.bundle; path = Batch.embeddedframework/Batch.bundle; sourceTree = "<group>"; };
+		5CEB3F87226A1B2E743B0A6B03E9DD19 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		5D931F56E5ACFAE5A0FE6714504631EF /* DKCamera-iOS9.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DKCamera-iOS9.0-prefix.pch"; path = "../DKCamera-iOS9.0/DKCamera-iOS9.0-prefix.pch"; sourceTree = "<group>"; };
+		5EB9D87323DEC03D54726A2EAD319136 /* DKCamera-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKCamera-iOS10.0-dummy.m"; sourceTree = "<group>"; };
+		5EC224A767C9027EF26943C5A8786F1B /* NetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = Haneke/NetworkFetcher.swift; sourceTree = "<group>"; };
+		5F5E2907D11FDB565DB7EF2939102CCD /* Pods-Pic Please Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please Extension-frameworks.sh"; sourceTree = "<group>"; };
+		60F876832C274E1F8BB8805E53285212 /* NSURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLResponse+Haneke.swift"; path = "Haneke/NSURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		6284944502262A2A009C2A4DAE132BE3 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		62AC7E38ADE1101C65A8EAED1BF7A09C /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F992D1B3F914C66F1D1D394A4A9CD6 /* NSHTTPURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSHTTPURLResponse+Haneke.swift"; path = "Haneke/NSHTTPURLResponse+Haneke.swift"; sourceTree = "<group>"; };
+		63FF8627056513D06B5656A5A4B5A151 /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
+		6840286023B407FB32AF289DDD3BBA60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6856E468BB6AD0E47F9F28FFD04E2B33 /* BatchNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchNativeAd.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchNativeAd.h; sourceTree = "<group>"; };
+		69AC4F2C643BB89F1E078668CF4E4EEB /* INSPhotoGallery-iOS9.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "INSPhotoGallery-iOS9.0-umbrella.h"; path = "../INSPhotoGallery-iOS9.0/INSPhotoGallery-iOS9.0-umbrella.h"; sourceTree = "<group>"; };
+		6B41D08D4BC7D8D897369113C6E31495 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		6BFDF3766289919094CB747E2FA6F8C2 /* HanekeSwift-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
+		6C1649A748687784550FAC17F6A9F737 /* Pods-Pic Please.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pic Please.modulemap"; sourceTree = "<group>"; };
+		6CFC1223736E2E431F2AF5A4B1511B60 /* Pods-Pic Please-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pic Please-dummy.m"; sourceTree = "<group>"; };
+		6DF12F6798F641974971C88D935DADBF /* Pods-Pic Please.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please.debug.xcconfig"; sourceTree = "<group>"; };
+		74DC93A1997476A41DEF4C768A9F75CA /* INSPhotoGallery-iOS9.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "INSPhotoGallery-iOS9.0.xcconfig"; path = "../INSPhotoGallery-iOS9.0/INSPhotoGallery-iOS9.0.xcconfig"; sourceTree = "<group>"; };
+		7AAAC2EE17AA3F271A9F2F2E1779F857 /* Pods-Pic Please-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please-resources.sh"; sourceTree = "<group>"; };
+		7FED6419C0A0151441138B3B570F0AF1 /* BatchOffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchOffer.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchOffer.h; sourceTree = "<group>"; };
+		81842A041BB49DB52DDB466C808DB398 /* UIImage+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Haneke.swift"; path = "Haneke/UIImage+Haneke.swift"; sourceTree = "<group>"; };
+		8220DE01FF5A86E53387D99A5C7D5016 /* UIVIew+INSPhotoViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIVIew+INSPhotoViewer.swift"; path = "INSPhotoGallery/UIVIew+INSPhotoViewer.swift"; sourceTree = "<group>"; };
+		8535DEEBF54639039824B90ECE099C29 /* INSPhotoGalleryCloseLandscape@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryCloseLandscape@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape@3x.png"; sourceTree = "<group>"; };
+		86BEF9B53A6BC25389864EDE4AF75B35 /* HanekeSwift-iOS9.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "HanekeSwift-iOS9.0.modulemap"; path = "../HanekeSwift-iOS9.0/HanekeSwift-iOS9.0.modulemap"; sourceTree = "<group>"; };
+		8706BD9303781F75F3FE7185D98AF045 /* INSPhotoGalleryCloseLandscape.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = INSPhotoGalleryCloseLandscape.png; path = INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryCloseLandscape.png; sourceTree = "<group>"; };
+		89A6F93E9FB904C9AB506D729582CC5E /* Pods-Pic Please Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		8C8B19871D3B66F47EA3E64E6B3BB94C /* INSPhotoGallery-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		8EFF261EC00C13006E6B620688E3712E /* DKCamera.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKCamera.swift; path = DKCamera/DKCamera.swift; sourceTree = "<group>"; };
+		8FF4577F0E08E743047054DF0C8E9B70 /* DKCamera-iOS9.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DKCamera-iOS9.0-umbrella.h"; path = "../DKCamera-iOS9.0/DKCamera-iOS9.0-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		946170662F65BBF322EE87A671D955E0 /* String+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Haneke.swift"; path = "Haneke/String+Haneke.swift"; sourceTree = "<group>"; };
-		9F5F38FBACF7869379C486E2E5844D66 /* BatchNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchNativeAd.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchNativeAd.h; sourceTree = "<group>"; };
-		A0DF776C723A1BCE01A6389FBB62C3B0 /* Pods-Pic Please.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pic Please.modulemap"; sourceTree = "<group>"; };
-		A51827569FB5CB4DD2AD2DA4C36523E6 /* Fetch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = Haneke/Fetch.swift; sourceTree = "<group>"; };
-		A588920F9749E14E8AEF421CC7467FB7 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		94A30980932CC45965FD6607E2D6201C /* UIButton+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Haneke.swift"; path = "Haneke/UIButton+Haneke.swift"; sourceTree = "<group>"; };
+		97749C4CF1282E5FCF910034FB82E745 /* Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = Haneke/Haneke.swift; sourceTree = "<group>"; };
+		9A40075C6748DAF9E8684FB2E1BE97EC /* INSPhotoGallery-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "INSPhotoGallery-iOS10.0.modulemap"; sourceTree = "<group>"; };
+		9DF35A2874DAEF5E060B7547C8B0435B /* INSPhotoGallery-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSPhotoGallery-iOS10.0-dummy.m"; sourceTree = "<group>"; };
+		9FB2D38C1B9491ED6B4E57320D331703 /* DKCamera-iOS9.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "DKCamera-iOS9.0.xcconfig"; path = "../DKCamera-iOS9.0/DKCamera-iOS9.0.xcconfig"; sourceTree = "<group>"; };
+		A0C383A0F6AE22DB05EF00B53735D55F /* Batch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Batch.h; path = Batch.embeddedframework/Batch.framework/Headers/Batch.h; sourceTree = "<group>"; };
+		A3811DAB59D7BA33BE955E7A1F2E6BE9 /* Pods-Pic Please Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pic Please Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		A568D775874BF80B90E1D9F57785703D /* INSScalingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSScalingImageView.swift; path = INSPhotoGallery/INSScalingImageView.swift; sourceTree = "<group>"; };
 		A6677370C58FC14BF5B45C8273DAC20F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A8EF2CE5F8DD30A0BC70EF98AA88C951 /* BatchAdsDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchAdsDeprecated.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchAdsDeprecated.h; sourceTree = "<group>"; };
-		A9F2534ED1FA75B972A68C073DC18EE9 /* INSPhotoGallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "INSPhotoGallery-prefix.pch"; sourceTree = "<group>"; };
-		ABEA364545A7525296585A29F1A39D8C /* BatchLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchLogger.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchLogger.h; sourceTree = "<group>"; };
-		B0FFFD044A107671E3D88AA723FCE685 /* INSScalingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSScalingImageView.swift; path = INSPhotoGallery/INSScalingImageView.swift; sourceTree = "<group>"; };
-		B468C121A17D65D07B87F6821293E4E6 /* Pods-Pic Please-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pic Please-umbrella.h"; sourceTree = "<group>"; };
-		BA1391C0339117321084666EE8649A3B /* NSURLResponse+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLResponse+Haneke.swift"; path = "Haneke/NSURLResponse+Haneke.swift"; sourceTree = "<group>"; };
-		BADC02BCAF0C795E0162228A67525C20 /* BatchPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchPush.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchPush.h; sourceTree = "<group>"; };
-		BC3C715E123FA2B8E869D467E48D8CA0 /* Pods-Pic Please-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please-resources.sh"; sourceTree = "<group>"; };
-		BD052657F11272C2565F808B27F0A740 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		CA12C63195686B8B5C38240E1762A2F4 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = Haneke/DiskCache.swift; sourceTree = "<group>"; };
+		A72DB6532DEF4DC12BE7A01E538A2AFF /* Pods-Pic Please Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Pic Please Extension.modulemap"; sourceTree = "<group>"; };
+		A8C0400FBD4D8BB2AD28526BDADDED19 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = Haneke/DiskCache.swift; sourceTree = "<group>"; };
+		A8F2922AE8A8D7B391002C216381973C /* ResourceBundle-INSPhotoGallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-INSPhotoGallery-Info.plist"; sourceTree = "<group>"; };
+		AACA8800421E9E234DA3675984109D6A /* HanekeSwift-iOS9.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "HanekeSwift-iOS9.0-dummy.m"; path = "../HanekeSwift-iOS9.0/HanekeSwift-iOS9.0-dummy.m"; sourceTree = "<group>"; };
+		AB50C3CBA59BB6393E44C71922A1EEA7 /* INSPhotoGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSPhotoGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD621E1DD9A9D5D5743AF575DF94809 /* INSPhotosDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosDataSource.swift; path = INSPhotoGallery/INSPhotosDataSource.swift; sourceTree = "<group>"; };
+		AC7C9E617FF1EF933C3AA95630FFD325 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		AC9FEC4361AA02300F560D576CDB3C55 /* BatchUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchUser.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchUser.h; sourceTree = "<group>"; };
+		B26E6BEA84623F025FF6B7DCA7941B24 /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Haneke/Cache.swift; sourceTree = "<group>"; };
+		B344F98DAA4D38A588C184E4CAF349DB /* BatchActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchActions.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchActions.h; sourceTree = "<group>"; };
+		B559D783119ABDB43D8787C27D6778E9 /* INSPhotoGalleryClose@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@2x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@2x.png"; sourceTree = "<group>"; };
+		B6048C105DE79B56DC19627E50C635D4 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		B6525739CD91689E0DE34AF6F0FAFC7A /* INSPhotoGallery-iOS9.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "INSPhotoGallery-iOS9.0.modulemap"; path = "../INSPhotoGallery-iOS9.0/INSPhotoGallery-iOS9.0.modulemap"; sourceTree = "<group>"; };
+		B7A8D8FF6B01A0224B374EF8CF70EE18 /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
+		B8D360487B57CC4042D7FDE5F580506A /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		BB290D4DA00847476106356D67DE07F1 /* DKCamera-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		BC5360D7AF2A67A1652A16070869EC03 /* INSPhotoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotoViewController.swift; path = INSPhotoGallery/INSPhotoViewController.swift; sourceTree = "<group>"; };
+		BD391A8A4B3E416C2133BE09884F5997 /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = Haneke/Fetcher.swift; sourceTree = "<group>"; };
+		BEBE60AC2BAFB49CB44C930CA51501F8 /* DKCamera-iOS9.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "DKCamera-iOS9.0.modulemap"; path = "../DKCamera-iOS9.0/DKCamera-iOS9.0.modulemap"; sourceTree = "<group>"; };
+		C27D283DCA2A956B696E9DF8E08FFBBD /* Pods_Pic_Please_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pic_Please_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F374A3050936CDAD0C553424F060BC /* Batch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Batch.framework; path = Batch.embeddedframework/Batch.framework; sourceTree = "<group>"; };
+		C797DF15DEA86351782F812726A1831C /* HanekeSwift-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HanekeSwift-iOS10.0-dummy.m"; sourceTree = "<group>"; };
 		CA526B0D319CCD8F98FC7233B4942EE7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
-		CBFBD67B79AFC5079E19462659C28B19 /* BatchUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchUser.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchUser.h; sourceTree = "<group>"; };
-		CF49A31E757221C485DF66A828090B64 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
-		D4578E9C2CA16EEA8F171CFB6781F6FB /* INSPhotoGallery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = INSPhotoGallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9BFF78F22C42883136FA031817ED16C /* DKCameraResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = DKCameraResource.bundle; path = DKCamera/DKCameraResource.bundle; sourceTree = "<group>"; };
-		DAE325CD467CB7A7A09B97F1D5E4F177 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB48F2DF284DED4B21ED66947D1A1863 /* CGSize+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
-		DCC75D0954E7E5D66DD2B59D39DC8A85 /* BatchCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchCore.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchCore.h; sourceTree = "<group>"; };
-		DDF48497DA59335BFBB5EC9A58865A1E /* Batch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Batch.framework; path = Batch.embeddedframework/Batch.framework; sourceTree = "<group>"; };
-		DEDE77109BB1FCC1F61EA2B26E4AD6A4 /* Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Haneke/Format.swift; sourceTree = "<group>"; };
-		E140556F9B3EEB73E73158F3BA661491 /* DKCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-umbrella.h"; sourceTree = "<group>"; };
-		E3EA4E84889099217BD44BA3BBF7AF6F /* HanekeSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-umbrella.h"; sourceTree = "<group>"; };
-		E569A1B1A5AF561E597E3148CA8A888A /* HanekeSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HanekeSwift.modulemap; sourceTree = "<group>"; };
-		E65604656D02CBE5DDC346BB5910623A /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E737A2B03C50B06DE407B048ED73478A /* DKCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKCamera-prefix.pch"; sourceTree = "<group>"; };
-		EE3A8752910BE37AB8A73E732F3089A0 /* BatchUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchUserProfile.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchUserProfile.h; sourceTree = "<group>"; };
+		CA82B088EDFC4EF63F7F9FF91D02465A /* NSFileManager+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSFileManager+Haneke.swift"; path = "Haneke/NSFileManager+Haneke.swift"; sourceTree = "<group>"; };
+		CC5726916A36BAC3B3FA91E77F0B6781 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF40E646F7B39D1811D3492F1FD6E874 /* Fetch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = Haneke/Fetch.swift; sourceTree = "<group>"; };
+		D1C8279A3189227930F48B39E2545B4C /* DKCamera-iOS10.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DKCamera-iOS10.0.xcconfig"; sourceTree = "<group>"; };
+		D31B0634ED330E83C9415E2C6BDC8D4D /* INSPhoto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhoto.swift; path = INSPhotoGallery/INSPhoto.swift; sourceTree = "<group>"; };
+		D324AD4A8E6CCF87C875DA657CA42EAE /* Pods-Pic Please Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pic Please Extension-umbrella.h"; sourceTree = "<group>"; };
+		D64487DD6DD3F277490088A4513E319F /* Pods-Pic Please-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pic Please-umbrella.h"; sourceTree = "<group>"; };
+		D7D49C08249FEEA45548091C2A3AC93B /* Pods-Pic Please Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pic Please Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDA98EB6F5EE62EC18BC37F95EF18F24 /* Format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Format.swift; path = Haneke/Format.swift; sourceTree = "<group>"; };
+		DF51CBC543AF42C7B60673221B8D948A /* BatchAdsDeprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchAdsDeprecated.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchAdsDeprecated.h; sourceTree = "<group>"; };
+		DF74FCFFD659E8B72A37B20E815A30CA /* CGSize+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Swift.swift"; path = "Haneke/CGSize+Swift.swift"; sourceTree = "<group>"; };
+		E1C7053EC7584EC942DBDD1430A25099 /* HanekeSwift-iOS9.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "HanekeSwift-iOS9.0.xcconfig"; path = "../HanekeSwift-iOS9.0/HanekeSwift-iOS9.0.xcconfig"; sourceTree = "<group>"; };
+		E6D7DC28C98B68ADE26A26959D576BF0 /* HanekeSwift-iOS9.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HanekeSwift-iOS9.0-umbrella.h"; path = "../HanekeSwift-iOS9.0/HanekeSwift-iOS9.0-umbrella.h"; sourceTree = "<group>"; };
+		E716510F59CCC65DE2C45DDDB7C27CE8 /* Pods-Pic Please Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pic Please Extension-resources.sh"; sourceTree = "<group>"; };
+		E80338706F263559A5B374570E29A9B4 /* Pods-Pic Please Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pic Please Extension.release.xcconfig"; sourceTree = "<group>"; };
+		EA5C8DFD03BAAFC3D4F47224CEF27FEA /* UIView+Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Haneke.swift"; path = "Haneke/UIView+Haneke.swift"; sourceTree = "<group>"; };
+		EC1D05495224EE40A68DB721B14ADAEB /* BatchLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchLogger.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchLogger.h; sourceTree = "<group>"; };
+		EE28F69A50D7627D536C1EF71AA6C8A0 /* INSPhotoGalleryClose@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@3x.png"; sourceTree = "<group>"; };
+		F188BB821B379218ED2D79170069057A /* Pods-Pic Please Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pic Please Extension-dummy.m"; sourceTree = "<group>"; };
 		F2BC394B3E1DE5C0886B04D0E9C29020 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F43B26218A2F3AFE20D644CBABEA10F1 /* BatchOffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchOffer.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchOffer.h; sourceTree = "<group>"; };
-		F62D46F51CD0AD308D48218555775272 /* Haneke.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haneke.swift; path = Haneke/Haneke.swift; sourceTree = "<group>"; };
-		F6B0FD64F7E40965E9AEECFC99E1C652 /* DKCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKCamera-dummy.m"; sourceTree = "<group>"; };
-		F6F5DAAC2C07DFCF847C1F5DD0D31612 /* INSPhotoGallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "INSPhotoGallery-dummy.m"; sourceTree = "<group>"; };
-		F8BA4C1A7A7E0D603231AFC678775F7C /* INSPhotoGalleryClose@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "INSPhotoGalleryClose@3x.png"; path = "INSPhotoGallery/INSPhotoGallery.bundle/INSPhotoGalleryClose@3x.png"; sourceTree = "<group>"; };
-		FA48526692CF2C0A50846883543CFBDF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB4663EFD078C70C05BB19A64926C495 /* HanekeSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HanekeSwift-prefix.pch"; sourceTree = "<group>"; };
+		F3B31714CCC727C8865FF1A21B9A9DE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D612E81050BDB439742398362DCA63 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Haneke/Log.swift; sourceTree = "<group>"; };
+		F9CA23ED46F39F05BA6A8E51187DFDA0 /* INSPhotoGallery-iOS9.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "INSPhotoGallery-iOS9.0-dummy.m"; path = "../INSPhotoGallery-iOS9.0/INSPhotoGallery-iOS9.0-dummy.m"; sourceTree = "<group>"; };
+		FAFBDF681264EC8C3B2EBFCDDC2E34F3 /* BatchAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchAds.h; path = Batch.embeddedframework/Batch.framework/Headers/BatchAds.h; sourceTree = "<group>"; };
+		FB1759FB220AAAC98A4E4FA0D6B4BCC7 /* INSPhotosViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = INSPhotosViewController.swift; path = INSPhotoGallery/INSPhotosViewController.swift; sourceTree = "<group>"; };
 		FC72C95DDC5703A67DA8DB5C57BF4C5D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		FCC8C22C0C787878EDA0F44BCA6CE0A0 /* CryptoSwiftMD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoSwiftMD5.swift; path = Haneke/CryptoSwiftMD5.swift; sourceTree = "<group>"; };
-		FDA25AE6CE413D29AF68F94249C50981 /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE9791B6558BD8E47F9F4B1052645F31 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		FD1E57634F617D479CAF50342837856F /* DKCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A54B3EB5521D8579147B0BBE5422C60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65AD8D82E2717ED54FD09DB2DACF13FA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3432A1556ED8003D66F2B11A188B6ACF /* Frameworks */ = {
+		081E23CF9EE90F1F5A5268A25CB440C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3701E3E00D025C24142030D7CDAF7CBC /* Frameworks */ = {
+		2DB8896603A34D07EFD6A4B436B6DF37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7877171170BB48A84F126E698B715290 /* Foundation.framework in Frameworks */,
-				D747620EA73E85CB7D6840FADBADE542 /* UIKit.framework in Frameworks */,
+				2FB08092E569BCC252E98E2FA0B6DEFB /* Foundation.framework in Frameworks */,
+				7CBF19ABE97DDC3A3365EE1EF9673CAE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		686B7EBCE4CD7EE8695FE0004B2CE2BC /* Frameworks */ = {
+		3806939492AA2ADE0707125BBDB65730 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				755D27DCC46E3C4C63DA379BF7D27487 /* AVFoundation.framework in Frameworks */,
-				DC178BDED25CC834988588370C9B8AB6 /* CoreMotion.framework in Frameworks */,
-				439D6AE635FEC171B5D3A5E7ED205154 /* Foundation.framework in Frameworks */,
-				A19EC195A24B7788935653C989BDB81A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F0E55176A5AF13111D389E09381931E /* Frameworks */ = {
+		475B53CB7D9783E432BA870A8EB039BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				410D0641B813947CA53F07D75F4624CE /* Foundation.framework in Frameworks */,
+				2EA7549C7EA8825918D29884F02E723F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		575C1438DE7A10CBF8F1636D9846944D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0279E74CF81C438F94342A82ABA6E1C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D204BE3163CB79D6D8AB5866209E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB966B2A04B19D910EA40CF9896BC4A /* AVFoundation.framework in Frameworks */,
+				8094B9F730FD447D92D40AA504554694 /* CoreMotion.framework in Frameworks */,
+				989C22821064C1F49D2023F53A170DB8 /* Foundation.framework in Frameworks */,
+				759C9BBEB34AA208ADC8E637AD033E90 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDF35DC7F97298489B25DA191DF75F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61E59666411A95D44FE4E22FAF90018 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB0557ADFEBCCC086E9622604FAFDB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB5E015616B12FB131421723AEBCC36 /* Foundation.framework in Frameworks */,
+				5956E7704310CD95BFDC49BF96E6A231 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E676AEEEB9F4ECE78F174EE216568F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE355F75D0242E532005345FFEBA99B1 /* AVFoundation.framework in Frameworks */,
+				59CB1D3ACAF7BD12BDCBF65F271120E5 /* CoreMotion.framework in Frameworks */,
+				624D85EBC212A32DC88EB797D6E65F9E /* Foundation.framework in Frameworks */,
+				E13E2480B73765036B1561BDEA822751 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF7A5228AB27CAD7ED9358EB1E72F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AFC437C927A00854E858F3FFA10B92 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C3BC3476A023462D8A2C5D5930F009A /* GoogleParsingUtilities */ = {
+		08271F7B4B76517D082F3679D0258BC6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A3BB0E38534BA26571D07B6959905D84 /* Frameworks */,
+				56A14E9A579BFE7993864F742E73741C /* DKCamera-iOS10.0.modulemap */,
+				D1C8279A3189227930F48B39E2545B4C /* DKCamera-iOS10.0.xcconfig */,
+				5EB9D87323DEC03D54726A2EAD319136 /* DKCamera-iOS10.0-dummy.m */,
+				BB290D4DA00847476106356D67DE07F1 /* DKCamera-iOS10.0-prefix.pch */,
+				3B09C28C17AEE76B590435B133510ADB /* DKCamera-iOS10.0-umbrella.h */,
+				BEBE60AC2BAFB49CB44C930CA51501F8 /* DKCamera-iOS9.0.modulemap */,
+				9FB2D38C1B9491ED6B4E57320D331703 /* DKCamera-iOS9.0.xcconfig */,
+				1A53B69DF21EB2D30E24D226645291AC /* DKCamera-iOS9.0-dummy.m */,
+				5D931F56E5ACFAE5A0FE6714504631EF /* DKCamera-iOS9.0-prefix.pch */,
+				8FF4577F0E08E743047054DF0C8E9B70 /* DKCamera-iOS9.0-umbrella.h */,
+				109EFA1F0161954531B33B6C7725A4F0 /* Info.plist */,
+				00E6F84BF9F39DBBD80EB83EAE9AF761 /* Info.plist */,
 			);
-			path = GoogleParsingUtilities;
+			name = "Support Files";
+			path = "../Target Support Files/DKCamera-iOS10.0";
 			sourceTree = "<group>";
 		};
-		0D0509F3DFFE470B48F86BD6916138E5 /* GoogleUtilities */ = {
+		09B8A46A29CE5D94C3725A72DAF67C6C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DDB594403E31B050EF94B35ED958779D /* Frameworks */,
+				B7A8D8FF6B01A0224B374EF8CF70EE18 /* DKCameraResource.bundle */,
 			);
-			path = GoogleUtilities;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		0F4B24EA2218EC92F0A721723B92F6C0 /* Frameworks */ = {
+		0B73D49C005F363E8E6A23058AA17A4D /* GoogleInterchangeUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				063A5882912F6ED0143E99258583A677 /* GoogleNetworkingUtilities.framework */,
+				DE95C5E89718B5260252F237EBBE8381 /* Frameworks */,
 			);
-			name = Frameworks;
+			path = GoogleInterchangeUtilities;
 			sourceTree = "<group>";
 		};
-		12D1F45B267B92E633BD9E9CB2D4E8BE /* Frameworks */ = {
+		1359D784F45E186B37B3E2CEFEB36B51 /* Pods-Pic Please */ = {
 			isa = PBXGroup;
 			children = (
-				CF49A31E757221C485DF66A828090B64 /* FirebaseStorage.framework */,
+				F3B31714CCC727C8865FF1A21B9A9DE1 /* Info.plist */,
+				6C1649A748687784550FAC17F6A9F737 /* Pods-Pic Please.modulemap */,
+				24693DEA6CFBF33E42AACE600106134E /* Pods-Pic Please-acknowledgements.markdown */,
+				00E4F9E04FE19C83FFFD6D99252A03A0 /* Pods-Pic Please-acknowledgements.plist */,
+				6CFC1223736E2E431F2AF5A4B1511B60 /* Pods-Pic Please-dummy.m */,
+				164207B82F9BCD2B179DAA38A80B97E1 /* Pods-Pic Please-frameworks.sh */,
+				7AAAC2EE17AA3F271A9F2F2E1779F857 /* Pods-Pic Please-resources.sh */,
+				D64487DD6DD3F277490088A4513E319F /* Pods-Pic Please-umbrella.h */,
+				6DF12F6798F641974971C88D935DADBF /* Pods-Pic Please.debug.xcconfig */,
+				28C9B44C15B7B8B9C272E183E79091FF /* Pods-Pic Please.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-Pic Please";
+			path = "Target Support Files/Pods-Pic Please";
 			sourceTree = "<group>";
 		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
@@ -286,103 +467,195 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		223D2EA5036CBE1A4B09126E1ACCDCAE /* FirebaseStorage */ = {
+		16CB16E7E4144CA048EF7951D9928E73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				12D1F45B267B92E633BD9E9CB2D4E8BE /* Frameworks */,
-			);
-			path = FirebaseStorage;
-			sourceTree = "<group>";
-		};
-		2608C362CC7E27B50F062002775A49E7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				927AD6CB5A6402E38000D6C87EADA726 /* GoogleSymbolUtilities.framework */,
+				2122314BA343E2CF5B72ED639ADC1940 /* GoogleUtilities.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		30B4946F20772E0E5FD86EB722AD6A8B /* Frameworks */ = {
+		16F61C7B8F9EBB1E986D88901DF7A58D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD052657F11272C2565F808B27F0A740 /* FirebaseInstanceID.framework */,
+				FD1E57634F617D479CAF50342837856F /* DKCamera.framework */,
+				62AC7E38ADE1101C65A8EAED1BF7A09C /* DKCamera.framework */,
+				CC5726916A36BAC3B3FA91E77F0B6781 /* Haneke.framework */,
+				362E515FA7B9D852C9A56AC14EDA375F /* Haneke.framework */,
+				19BB91AFBCB1F12DE3C428A7C0386432 /* INSPhotoGallery.bundle */,
+				AB50C3CBA59BB6393E44C71922A1EEA7 /* INSPhotoGallery.framework */,
+				46EAED39AFFB483FBE56E34D48F47A3F /* INSPhotoGallery.framework */,
+				2210DFE7F90652907165D1105AC19753 /* Pods_Pic_Please.framework */,
+				C27D283DCA2A956B696E9DF8E08FFBBD /* Pods_Pic_Please_Extension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0FF84F64E1C8DD42397EF9D728E55D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B41D08D4BC7D8D897369113C6E31495 /* FirebaseInstanceID.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		365C5AA06F06F0D7294C9543D663747C /* Support Files */ = {
+		22E1DA7277961045158E715AE9A35FFD /* GoogleUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				E569A1B1A5AF561E597E3148CA8A888A /* HanekeSwift.modulemap */,
-				24EBFBAE33130836F34460B8F4A3B7BC /* HanekeSwift.xcconfig */,
-				1EE4A43786CC61F20B6CD7DDDAC630A2 /* HanekeSwift-dummy.m */,
-				FB4663EFD078C70C05BB19A64926C495 /* HanekeSwift-prefix.pch */,
-				E3EA4E84889099217BD44BA3BBF7AF6F /* HanekeSwift-umbrella.h */,
-				27333E826C3B4801A68C7E941E1ECDF2 /* Info.plist */,
+				16CB16E7E4144CA048EF7951D9928E73 /* Frameworks */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/HanekeSwift";
+			path = GoogleUtilities;
 			sourceTree = "<group>";
 		};
-		3ED16F2FFA9FDC678D1BF7B2AC84F12E /* Targets Support Files */ = {
+		259693A649611486C81E16AE493F6E03 /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				B8197A5221518FF6CC57AE017DEA887B /* Pods-Pic Please */,
+				D558D20A6B9D087E967CC6F7D908BAF4 /* Frameworks */,
 			);
-			name = "Targets Support Files";
+			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
-		496F6B40B15B8F49C5B9F5ACF91C2F90 /* Analytics */ = {
+		26FB0D253196C20C5E6CCB7008EDEA9F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A588920F9749E14E8AEF421CC7467FB7 /* Firebase.h */,
+				5CD736EB79C5C3372F3AB7B9B82E5F42 /* Batch.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		292CCFBF84F39B5703AA578920C91DC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8D360487B57CC4042D7FDE5F580506A /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		307CC19D51A3154E168DDDEBD38E6B9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2F374A3050936CDAD0C553424F060BC /* Batch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CABB8ACCFB5DB9AB52F5DABBA1A4B6F /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				D6217A934B001DF876CCF941E9630B77 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		3DC21FFACCAB1C3DFF28811A686A039B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3EB09F2C040929577BFEEEA10CCF1539 /* INSPhotoGalleryClose.png */,
+				B559D783119ABDB43D8787C27D6778E9 /* INSPhotoGalleryClose@2x.png */,
+				EE28F69A50D7627D536C1EF71AA6C8A0 /* INSPhotoGalleryClose@3x.png */,
+				8706BD9303781F75F3FE7185D98AF045 /* INSPhotoGalleryCloseLandscape.png */,
+				0BF5F22258FCF70AFA378E787C2ADF88 /* INSPhotoGalleryCloseLandscape@2x.png */,
+				8535DEEBF54639039824B90ECE099C29 /* INSPhotoGalleryCloseLandscape@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		439133CDB5239CE3F6909641E109D61F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CEB3F87226A1B2E743B0A6B03E9DD19 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43EFACA880838E3D441D90B66354B7E8 /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				CC103DE7B9199A8162AE22F4C66F101C /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		4A02E941DC68E2A32AAD1B2F76675E61 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				01E8DCFC34C9C0EA7FAD1F5DD2750F48 /* Firebase.h */,
 			);
 			name = Analytics;
 			sourceTree = "<group>";
 		};
-		4F3E491B4C728537701D38DD9ADBDBEF /* Batch */ = {
+		5548B8DB75A5AF6E5A085E23C68862F7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5830B7437C34A422173020380FC75FB3 /* Batch.h */,
-				835189FA07A518EA65244DFAE1D7A7FC /* BatchAds.h */,
-				A8EF2CE5F8DD30A0BC70EF98AA88C951 /* BatchAdsDeprecated.h */,
-				DCC75D0954E7E5D66DD2B59D39DC8A85 /* BatchCore.h */,
-				02D6390BC2EB99A62DD802605524F378 /* BatchError.h */,
-				ABEA364545A7525296585A29F1A39D8C /* BatchLogger.h */,
-				9F5F38FBACF7869379C486E2E5844D66 /* BatchNativeAd.h */,
-				F43B26218A2F3AFE20D644CBABEA10F1 /* BatchOffer.h */,
-				BADC02BCAF0C795E0162228A67525C20 /* BatchPush.h */,
-				1708A805B5C5ABEA76E08193E5E7FAED /* BatchUnlock.h */,
-				CBFBD67B79AFC5079E19462659C28B19 /* BatchUser.h */,
-				EE3A8752910BE37AB8A73E732F3089A0 /* BatchUserProfile.h */,
-				850D5305E561E8975899989B5FA33648 /* Frameworks */,
-				A5E0C783E7115511A60744D3E3E0C6B2 /* Resources */,
+				B46B6F2F976B45FAD703901E7084D0FF /* Batch */,
+				7C090EFD7DD7874E0F0F6EF1BFCA7690 /* DKCamera */,
+				7D9EC7FA92149228C6AF69061330B8B6 /* Firebase */,
+				663809CD9CDD71FD210706DF67F3BB9B /* FirebaseAnalytics */,
+				3CABB8ACCFB5DB9AB52F5DABBA1A4B6F /* FirebaseAuth */,
+				259693A649611486C81E16AE493F6E03 /* FirebaseDatabase */,
+				E883CCF5C3C8145C14D9687711CF3F76 /* FirebaseInstanceID */,
+				6E8B8EA8F7A004F33986526196817634 /* FirebaseStorage */,
+				0B73D49C005F363E8E6A23058AA17A4D /* GoogleInterchangeUtilities */,
+				6BC90D4F49DD551E1685A354E9A444D7 /* GoogleNetworkingUtilities */,
+				43EFACA880838E3D441D90B66354B7E8 /* GoogleParsingUtilities */,
+				DDE2C43C3AE726928617BBE5C8B6FB60 /* GoogleSymbolUtilities */,
+				22E1DA7277961045158E715AE9A35FFD /* GoogleUtilities */,
+				A224EE067421C5301B1249AF95A2DBA1 /* HanekeSwift */,
+				BEAA5B2114D8606DD8FEDFBA4F5938B6 /* INSPhotoGallery */,
 			);
-			path = Batch;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		56F2DD5CED7E05FBDAED7D7506AEB899 /* Frameworks */ = {
+		58FE87FCF6A8E139CA8A2E2A87E7C66D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				571DD1B82D39D14F191C060A04597028 /* GoogleInterchangeUtilities.framework */,
+				6284944502262A2A009C2A4DAE132BE3 /* FirebaseStorage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5CE392152E3501E913336F7D9CD236F1 /* GoogleNetworkingUtilities */ = {
+		663809CD9CDD71FD210706DF67F3BB9B /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				0F4B24EA2218EC92F0A721723B92F6C0 /* Frameworks */,
+				292CCFBF84F39B5703AA578920C91DC5 /* Frameworks */,
 			);
-			path = GoogleNetworkingUtilities;
+			path = FirebaseAnalytics;
 			sourceTree = "<group>";
 		};
-		60D65FD7E10B481BD83ED8C52A663B48 /* GoogleSymbolUtilities */ = {
+		667DF74FD0E3DD6B557F98658C6C6B53 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2608C362CC7E27B50F062002775A49E7 /* Frameworks */,
+				0BB7EE0C045C9FEE2D3B2A2793DFE3A1 /* HanekeSwift-iOS10.0.modulemap */,
+				544E735C8FCA661B748B4398B25DE55A /* HanekeSwift-iOS10.0.xcconfig */,
+				C797DF15DEA86351782F812726A1831C /* HanekeSwift-iOS10.0-dummy.m */,
+				4120C359D6E3B5BBE5AC05DF0E3DE531 /* HanekeSwift-iOS10.0-prefix.pch */,
+				6BFDF3766289919094CB747E2FA6F8C2 /* HanekeSwift-iOS10.0-umbrella.h */,
+				86BEF9B53A6BC25389864EDE4AF75B35 /* HanekeSwift-iOS9.0.modulemap */,
+				E1C7053EC7584EC942DBDD1430A25099 /* HanekeSwift-iOS9.0.xcconfig */,
+				AACA8800421E9E234DA3675984109D6A /* HanekeSwift-iOS9.0-dummy.m */,
+				2C5877C5700E698AE78E580045F77572 /* HanekeSwift-iOS9.0-prefix.pch */,
+				E6D7DC28C98B68ADE26A26959D576BF0 /* HanekeSwift-iOS9.0-umbrella.h */,
+				0A1EAB6FFC22D0801B599804DFFDD663 /* Info.plist */,
+				47FF3593BE5B60404D5F80853464BE2F /* Info.plist */,
 			);
-			path = GoogleSymbolUtilities;
+			name = "Support Files";
+			path = "../Target Support Files/HanekeSwift-iOS10.0";
+			sourceTree = "<group>";
+		};
+		6AD5004BB78F3F3EF0AB9C568A60346E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6048C105DE79B56DC19627E50C635D4 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BC90D4F49DD551E1685A354E9A444D7 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				6AD5004BB78F3F3EF0AB9C568A60346E /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
 			sourceTree = "<group>";
 		};
 		6C6B47F0278F250814D006DAD71D3BAD /* iOS */ = {
@@ -396,407 +669,459 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		6E8B8EA8F7A004F33986526196817634 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				58FE87FCF6A8E139CA8A2E2A87E7C66D /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		7C090EFD7DD7874E0F0F6EF1BFCA7690 /* DKCamera */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF261EC00C13006E6B620688E3712E /* DKCamera.swift */,
+				09B8A46A29CE5D94C3725A72DAF67C6C /* Resources */,
+				08271F7B4B76517D082F3679D0258BC6 /* Support Files */,
+			);
+			path = DKCamera;
+			sourceTree = "<group>";
+		};
+		7D9EC7FA92149228C6AF69061330B8B6 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				4A02E941DC68E2A32AAD1B2F76675E61 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FC2673EE28B08A411AC883A79DEE9BE0 /* Pods */,
-				D70B3A00FE77250C0D4B4D6E05B6182A /* Products */,
-				3ED16F2FFA9FDC678D1BF7B2AC84F12E /* Targets Support Files */,
+				5548B8DB75A5AF6E5A085E23C68862F7 /* Pods */,
+				16F61C7B8F9EBB1E986D88901DF7A58D /* Products */,
+				8803E733B4380370E581C4DF3323416F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7ECF1BD950FF64633F9B3C72A2FCA2D8 /* Resources */ = {
+		8803E733B4380370E581C4DF3323416F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D9BFF78F22C42883136FA031817ED16C /* DKCameraResource.bundle */,
+				1359D784F45E186B37B3E2CEFEB36B51 /* Pods-Pic Please */,
+				D53B109720387D3CBC9A830A1EA459A6 /* Pods-Pic Please Extension */,
 			);
-			name = Resources;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		850D5305E561E8975899989B5FA33648 /* Frameworks */ = {
+		A224EE067421C5301B1249AF95A2DBA1 /* HanekeSwift */ = {
 			isa = PBXGroup;
 			children = (
-				DDF48497DA59335BFBB5EC9A58865A1E /* Batch.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		88F4B147ADCE35DA0697A6E2F2951C2B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DAE325CD467CB7A7A09B97F1D5E4F177 /* Info.plist */,
-				79B50D13C8325417DFD722DE8FD22AD8 /* INSPhotoGallery.modulemap */,
-				42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */,
-				F6F5DAAC2C07DFCF847C1F5DD0D31612 /* INSPhotoGallery-dummy.m */,
-				A9F2534ED1FA75B972A68C073DC18EE9 /* INSPhotoGallery-prefix.pch */,
-				5BFE89FA46CCAF68830AC16EDA5D48D4 /* INSPhotoGallery-umbrella.h */,
-				69C0369DC4B36A4BF77FDF470C81B166 /* ResourceBundle-INSPhotoGallery-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/INSPhotoGallery";
-			sourceTree = "<group>";
-		};
-		8BBBE95920D2288E32F27B6956BD25B6 /* FirebaseDatabase */ = {
-			isa = PBXGroup;
-			children = (
-				D82AEF628C2C7AE03BB419583C8EDC46 /* Frameworks */,
-			);
-			path = FirebaseDatabase;
-			sourceTree = "<group>";
-		};
-		94E536C002CEBC6383A8D9F7E5AC2250 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4CD3F26CE77C10AA08148235BA0CC82F /* FirebaseAnalytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9ADE21F7CA4C594566C43A96DB27D1B3 /* FirebaseAuth */ = {
-			isa = PBXGroup;
-			children = (
-				E27BF86EEA92BD77C8A35297A80A153D /* Frameworks */,
-			);
-			path = FirebaseAuth;
-			sourceTree = "<group>";
-		};
-		A3BB0E38534BA26571D07B6959905D84 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4427FFD9FE675600DECDEFF5B76A78B0 /* GoogleParsingUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A5E0C783E7115511A60744D3E3E0C6B2 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8C9C57F27414C786FC136068D244DCC1 /* Batch.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		B8197A5221518FF6CC57AE017DEA887B /* Pods-Pic Please */ = {
-			isa = PBXGroup;
-			children = (
-				FA48526692CF2C0A50846883543CFBDF /* Info.plist */,
-				A0DF776C723A1BCE01A6389FBB62C3B0 /* Pods-Pic Please.modulemap */,
-				13C412DC8B01FB83E86420674CCF12D6 /* Pods-Pic Please-acknowledgements.markdown */,
-				210895A63A8FAC48EF357BE6BA550E54 /* Pods-Pic Please-acknowledgements.plist */,
-				4E8034581EF5754448FE3321C864879C /* Pods-Pic Please-dummy.m */,
-				075201800A0EDF120B7673B99A70AAF6 /* Pods-Pic Please-frameworks.sh */,
-				BC3C715E123FA2B8E869D467E48D8CA0 /* Pods-Pic Please-resources.sh */,
-				B468C121A17D65D07B87F6821293E4E6 /* Pods-Pic Please-umbrella.h */,
-				3FD437CBF10A500DA41CD018AEDA0017 /* Pods-Pic Please.debug.xcconfig */,
-				025647D9BE68F2D5A6C1B68CA8317C50 /* Pods-Pic Please.release.xcconfig */,
-			);
-			name = "Pods-Pic Please";
-			path = "Target Support Files/Pods-Pic Please";
-			sourceTree = "<group>";
-		};
-		C549A80EF17106866ABFC39741D09CC8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6BCC7D187CB7BBC75F1D40A7E092D493 /* DKCamera.modulemap */,
-				23D70113FF33D2655F5EA019C5F50858 /* DKCamera.xcconfig */,
-				F6B0FD64F7E40965E9AEECFC99E1C652 /* DKCamera-dummy.m */,
-				E737A2B03C50B06DE407B048ED73478A /* DKCamera-prefix.pch */,
-				E140556F9B3EEB73E73158F3BA661491 /* DKCamera-umbrella.h */,
-				72B052AA49E73A49649A71BF5B204108 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DKCamera";
-			sourceTree = "<group>";
-		};
-		CA7C2C6417FDD49D73808EFDB78038FD /* GoogleInterchangeUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				56F2DD5CED7E05FBDAED7D7506AEB899 /* Frameworks */,
-			);
-			path = GoogleInterchangeUtilities;
-			sourceTree = "<group>";
-		};
-		CB90E299E3A06AB0B9DEE5A5F9C598CF /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				496F6B40B15B8F49C5B9F5ACF91C2F90 /* Analytics */,
-			);
-			path = Firebase;
-			sourceTree = "<group>";
-		};
-		D3473587041229287A1DE62060AD2563 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				789251D701F4B42B2E0AF7B61C0F5463 /* INSPhotoGalleryClose.png */,
-				0C90E3995A12DEE760400A425D41D35B /* INSPhotoGalleryClose@2x.png */,
-				F8BA4C1A7A7E0D603231AFC678775F7C /* INSPhotoGalleryClose@3x.png */,
-				9110CDE8770DC0751D098FF2C2EB22AA /* INSPhotoGalleryCloseLandscape.png */,
-				0E9471FA7B4171737E30BD974695F2BD /* INSPhotoGalleryCloseLandscape@2x.png */,
-				0C1B21D005702CC07FAE20932BACD281 /* INSPhotoGalleryCloseLandscape@3x.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		D70B3A00FE77250C0D4B4D6E05B6182A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E65604656D02CBE5DDC346BB5910623A /* DKCamera.framework */,
-				FDA25AE6CE413D29AF68F94249C50981 /* Haneke.framework */,
-				549F214448A670ED17B87383294750AA /* INSPhotoGallery.bundle */,
-				D4578E9C2CA16EEA8F171CFB6781F6FB /* INSPhotoGallery.framework */,
-				68888A8C42ABB8B084F8054C603437B6 /* Pods_Pic_Please.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D82AEF628C2C7AE03BB419583C8EDC46 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				33B0FA43D73A15CD71C349E0F58DC246 /* FirebaseDatabase.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DDB594403E31B050EF94B35ED958779D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2146369C47F87F2F6EC6B6B905EB0942 /* GoogleUtilities.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E27BF86EEA92BD77C8A35297A80A153D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FE9791B6558BD8E47F9F4B1052645F31 /* FirebaseAuth.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E67D0FE329348AF3B241F8AB15FC6C1F /* DKCamera */ = {
-			isa = PBXGroup;
-			children = (
-				4B45AB320A0A4DBEFC229911F136F39F /* DKCamera.swift */,
-				7ECF1BD950FF64633F9B3C72A2FCA2D8 /* Resources */,
-				C549A80EF17106866ABFC39741D09CC8 /* Support Files */,
-			);
-			path = DKCamera;
-			sourceTree = "<group>";
-		};
-		EF4B0A7DB58EB9D2A65FDE5E021A171E /* FirebaseInstanceID */ = {
-			isa = PBXGroup;
-			children = (
-				239BE41688CA4B9B537CB7EE60C71C82 /* FIRInstanceID.h */,
-				30B4946F20772E0E5FD86EB722AD6A8B /* Frameworks */,
-			);
-			path = FirebaseInstanceID;
-			sourceTree = "<group>";
-		};
-		F26F4172ECEF01A748DD02C9D1E06D51 /* HanekeSwift */ = {
-			isa = PBXGroup;
-			children = (
-				6DC578D822F9B2AD7A3D0F80EFAE02E0 /* Cache.swift */,
-				DB48F2DF284DED4B21ED66947D1A1863 /* CGSize+Swift.swift */,
-				FCC8C22C0C787878EDA0F44BCA6CE0A0 /* CryptoSwiftMD5.swift */,
-				42AE629885571F703071AF392F1A3535 /* Data.swift */,
-				CA12C63195686B8B5C38240E1762A2F4 /* DiskCache.swift */,
-				32BF1D4CCABFE6284BE4A889F429DF38 /* DiskFetcher.swift */,
-				A51827569FB5CB4DD2AD2DA4C36523E6 /* Fetch.swift */,
-				6C2CC9176F102AB0EAAB9EF0229C97AB /* Fetcher.swift */,
-				DEDE77109BB1FCC1F61EA2B26E4AD6A4 /* Format.swift */,
-				F62D46F51CD0AD308D48218555775272 /* Haneke.swift */,
-				36350D9F82C09D79E0C978F06C09FD45 /* Log.swift */,
-				18CCC4761859D6C9E985BEA0BD23EB5E /* NetworkFetcher.swift */,
-				225EDCCEA308EF71B5CE40969846B1D7 /* NSFileManager+Haneke.swift */,
-				5379A2CD1814227248EDA3A068B264F6 /* NSHTTPURLResponse+Haneke.swift */,
-				BA1391C0339117321084666EE8649A3B /* NSURLResponse+Haneke.swift */,
-				946170662F65BBF322EE87A671D955E0 /* String+Haneke.swift */,
-				7EDE8448C920C279D047E8B8037AADA3 /* UIButton+Haneke.swift */,
-				68FC4ACF80A41BA85817DAE0DE049BE1 /* UIImage+Haneke.swift */,
-				39105A979CED1A4EE97DCEA1DE6C2B85 /* UIImageView+Haneke.swift */,
-				2938D4DB08C9384310E4BC019DBA5261 /* UIView+Haneke.swift */,
-				365C5AA06F06F0D7294C9543D663747C /* Support Files */,
+				B26E6BEA84623F025FF6B7DCA7941B24 /* Cache.swift */,
+				DF74FCFFD659E8B72A37B20E815A30CA /* CGSize+Swift.swift */,
+				63FF8627056513D06B5656A5A4B5A151 /* CryptoSwiftMD5.swift */,
+				03AEC3C6085F98691B78B8B3085F10CC /* Data.swift */,
+				A8C0400FBD4D8BB2AD28526BDADDED19 /* DiskCache.swift */,
+				409D7E9201361BA896FE3A4AEC9E120A /* DiskFetcher.swift */,
+				CF40E646F7B39D1811D3492F1FD6E874 /* Fetch.swift */,
+				BD391A8A4B3E416C2133BE09884F5997 /* Fetcher.swift */,
+				DDA98EB6F5EE62EC18BC37F95EF18F24 /* Format.swift */,
+				97749C4CF1282E5FCF910034FB82E745 /* Haneke.swift */,
+				F7D612E81050BDB439742398362DCA63 /* Log.swift */,
+				5EC224A767C9027EF26943C5A8786F1B /* NetworkFetcher.swift */,
+				CA82B088EDFC4EF63F7F9FF91D02465A /* NSFileManager+Haneke.swift */,
+				62F992D1B3F914C66F1D1D394A4A9CD6 /* NSHTTPURLResponse+Haneke.swift */,
+				60F876832C274E1F8BB8805E53285212 /* NSURLResponse+Haneke.swift */,
+				1C3397EFB3A3CC1591A219F4CEE8D254 /* String+Haneke.swift */,
+				94A30980932CC45965FD6607E2D6201C /* UIButton+Haneke.swift */,
+				81842A041BB49DB52DDB466C808DB398 /* UIImage+Haneke.swift */,
+				2E7335E11A0A55DFEC673FC5AE363724 /* UIImageView+Haneke.swift */,
+				EA5C8DFD03BAAFC3D4F47224CEF27FEA /* UIView+Haneke.swift */,
+				667DF74FD0E3DD6B557F98658C6C6B53 /* Support Files */,
 			);
 			path = HanekeSwift;
 			sourceTree = "<group>";
 		};
-		F302EE5841FE1C76B5D095EDEAD3594C /* FirebaseAnalytics */ = {
+		B46B6F2F976B45FAD703901E7084D0FF /* Batch */ = {
 			isa = PBXGroup;
 			children = (
-				94E536C002CEBC6383A8D9F7E5AC2250 /* Frameworks */,
+				A0C383A0F6AE22DB05EF00B53735D55F /* Batch.h */,
+				B344F98DAA4D38A588C184E4CAF349DB /* BatchActions.h */,
+				FAFBDF681264EC8C3B2EBFCDDC2E34F3 /* BatchAds.h */,
+				DF51CBC543AF42C7B60673221B8D948A /* BatchAdsDeprecated.h */,
+				21086018D1CF91BB9A22ABC6D1F3DDA7 /* BatchCore.h */,
+				2C546A450D34D4CA23D2EF4ADC79D9F3 /* BatchError.h */,
+				EC1D05495224EE40A68DB721B14ADAEB /* BatchLogger.h */,
+				6856E468BB6AD0E47F9F28FFD04E2B33 /* BatchNativeAd.h */,
+				7FED6419C0A0151441138B3B570F0AF1 /* BatchOffer.h */,
+				243CEB6CBCB38643EED158CBD796EF2D /* BatchPush.h */,
+				3FF1326407DEBC3BB3E7724C15A6B3A9 /* BatchUnlock.h */,
+				AC9FEC4361AA02300F560D576CDB3C55 /* BatchUser.h */,
+				392026B616D588A6FEAA25FE27FAC644 /* BatchUserProfile.h */,
+				307CC19D51A3154E168DDDEBD38E6B9A /* Frameworks */,
+				26FB0D253196C20C5E6CCB7008EDEA9F /* Resources */,
 			);
-			path = FirebaseAnalytics;
+			path = Batch;
 			sourceTree = "<group>";
 		};
-		FC07875A4C649E1DDABAC18D15755FCC /* INSPhotoGallery */ = {
+		BEAA5B2114D8606DD8FEDFBA4F5938B6 /* INSPhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
-				438F45FE9DC29C1F21965E517DC79312 /* INSPhoto.swift */,
-				35F21B5E5475A17AA815AF1927D7739F /* INSPhotosDataSource.swift */,
-				03CA17D530E7E502F3BCC6014B7E2618 /* INSPhotosInteractionAnimator.swift */,
-				4D3E3B0E324AA2FBA938D7C3574F0D7E /* INSPhotosOverlayView.swift */,
-				683D68145A23CC22FF175730DD49F7F1 /* INSPhotosTransitionAnimator.swift */,
-				0CE0478A4E8DF9E3E61F79C261A16D4E /* INSPhotosViewController.swift */,
-				7643903E04C843CBED000E19E2E725F0 /* INSPhotoViewController.swift */,
-				B0FFFD044A107671E3D88AA723FCE685 /* INSScalingImageView.swift */,
-				0E0CF125F4B854CC1FA07D2CC0BED135 /* UIVIew+INSPhotoViewer.swift */,
-				D3473587041229287A1DE62060AD2563 /* Resources */,
-				88F4B147ADCE35DA0697A6E2F2951C2B /* Support Files */,
+				D31B0634ED330E83C9415E2C6BDC8D4D /* INSPhoto.swift */,
+				ABD621E1DD9A9D5D5743AF575DF94809 /* INSPhotosDataSource.swift */,
+				59B975664BDD561640EE223CED639980 /* INSPhotosInteractionAnimator.swift */,
+				3625AB26AADC27AA756005780DC9610A /* INSPhotosOverlayView.swift */,
+				5060A019C2025C843951E8FD3CCE77D6 /* INSPhotosTransitionAnimator.swift */,
+				FB1759FB220AAAC98A4E4FA0D6B4BCC7 /* INSPhotosViewController.swift */,
+				BC5360D7AF2A67A1652A16070869EC03 /* INSPhotoViewController.swift */,
+				A568D775874BF80B90E1D9F57785703D /* INSScalingImageView.swift */,
+				8220DE01FF5A86E53387D99A5C7D5016 /* UIVIew+INSPhotoViewer.swift */,
+				3DC21FFACCAB1C3DFF28811A686A039B /* Resources */,
+				DF63EB1EB7B07EFCC9C4D53A9FD5407C /* Support Files */,
 			);
 			path = INSPhotoGallery;
 			sourceTree = "<group>";
 		};
-		FC2673EE28B08A411AC883A79DEE9BE0 /* Pods */ = {
+		CC103DE7B9199A8162AE22F4C66F101C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4F3E491B4C728537701D38DD9ADBDBEF /* Batch */,
-				E67D0FE329348AF3B241F8AB15FC6C1F /* DKCamera */,
-				CB90E299E3A06AB0B9DEE5A5F9C598CF /* Firebase */,
-				F302EE5841FE1C76B5D095EDEAD3594C /* FirebaseAnalytics */,
-				9ADE21F7CA4C594566C43A96DB27D1B3 /* FirebaseAuth */,
-				8BBBE95920D2288E32F27B6956BD25B6 /* FirebaseDatabase */,
-				EF4B0A7DB58EB9D2A65FDE5E021A171E /* FirebaseInstanceID */,
-				223D2EA5036CBE1A4B09126E1ACCDCAE /* FirebaseStorage */,
-				CA7C2C6417FDD49D73808EFDB78038FD /* GoogleInterchangeUtilities */,
-				5CE392152E3501E913336F7D9CD236F1 /* GoogleNetworkingUtilities */,
-				0C3BC3476A023462D8A2C5D5930F009A /* GoogleParsingUtilities */,
-				60D65FD7E10B481BD83ED8C52A663B48 /* GoogleSymbolUtilities */,
-				0D0509F3DFFE470B48F86BD6916138E5 /* GoogleUtilities */,
-				F26F4172ECEF01A748DD02C9D1E06D51 /* HanekeSwift */,
-				FC07875A4C649E1DDABAC18D15755FCC /* INSPhotoGallery */,
+				465FED82131303BF578B7E0ECAC15958 /* GoogleParsingUtilities.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D53B109720387D3CBC9A830A1EA459A6 /* Pods-Pic Please Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6840286023B407FB32AF289DDD3BBA60 /* Info.plist */,
+				A72DB6532DEF4DC12BE7A01E538A2AFF /* Pods-Pic Please Extension.modulemap */,
+				D7D49C08249FEEA45548091C2A3AC93B /* Pods-Pic Please Extension-acknowledgements.markdown */,
+				A3811DAB59D7BA33BE955E7A1F2E6BE9 /* Pods-Pic Please Extension-acknowledgements.plist */,
+				F188BB821B379218ED2D79170069057A /* Pods-Pic Please Extension-dummy.m */,
+				5F5E2907D11FDB565DB7EF2939102CCD /* Pods-Pic Please Extension-frameworks.sh */,
+				E716510F59CCC65DE2C45DDDB7C27CE8 /* Pods-Pic Please Extension-resources.sh */,
+				D324AD4A8E6CCF87C875DA657CA42EAE /* Pods-Pic Please Extension-umbrella.h */,
+				89A6F93E9FB904C9AB506D729582CC5E /* Pods-Pic Please Extension.debug.xcconfig */,
+				E80338706F263559A5B374570E29A9B4 /* Pods-Pic Please Extension.release.xcconfig */,
+			);
+			name = "Pods-Pic Please Extension";
+			path = "Target Support Files/Pods-Pic Please Extension";
+			sourceTree = "<group>";
+		};
+		D558D20A6B9D087E967CC6F7D908BAF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC7C9E617FF1EF933C3AA95630FFD325 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6217A934B001DF876CCF941E9630B77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				468D978D284B3B9641B502CD844ABF89 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE2C43C3AE726928617BBE5C8B6FB60 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				439133CDB5239CE3F6909641E109D61F /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		DE95C5E89718B5260252F237EBBE8381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46B910DD09A8B52033598F152DC344D1 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF63EB1EB7B07EFCC9C4D53A9FD5407C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C45E35E75318D7BD6107D7B8989A24B /* Info.plist */,
+				337193CD390D7C2B80C31AF00F69A6FB /* Info.plist */,
+				9A40075C6748DAF9E8684FB2E1BE97EC /* INSPhotoGallery-iOS10.0.modulemap */,
+				06B5D9170225EB8F351222C2CE8B3AC6 /* INSPhotoGallery-iOS10.0.xcconfig */,
+				9DF35A2874DAEF5E060B7547C8B0435B /* INSPhotoGallery-iOS10.0-dummy.m */,
+				8C8B19871D3B66F47EA3E64E6B3BB94C /* INSPhotoGallery-iOS10.0-prefix.pch */,
+				44AF0FEED0CCA1F1DFC0A949C02F1D1C /* INSPhotoGallery-iOS10.0-umbrella.h */,
+				B6525739CD91689E0DE34AF6F0FAFC7A /* INSPhotoGallery-iOS9.0.modulemap */,
+				74DC93A1997476A41DEF4C768A9F75CA /* INSPhotoGallery-iOS9.0.xcconfig */,
+				F9CA23ED46F39F05BA6A8E51187DFDA0 /* INSPhotoGallery-iOS9.0-dummy.m */,
+				0E23289183F4243049B0008CC151D211 /* INSPhotoGallery-iOS9.0-prefix.pch */,
+				69AC4F2C643BB89F1E078668CF4E4EEB /* INSPhotoGallery-iOS9.0-umbrella.h */,
+				0633CFD7FE086CD6E64B3466D876EF51 /* ResourceBundle-INSPhotoGallery-Info.plist */,
+				A8F2922AE8A8D7B391002C216381973C /* ResourceBundle-INSPhotoGallery-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/INSPhotoGallery-iOS10.0";
+			sourceTree = "<group>";
+		};
+		E883CCF5C3C8145C14D9687711CF3F76 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				14FCD9BA0298D7F9A8D7AE0786BCB6BB /* FIRInstanceID.h */,
+				1A0FF84F64E1C8DD42397EF9D728E55D /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C64655B97B501711541511851F1C8EB /* Headers */ = {
+		357747A698A81D7008C4796303B3C266 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB02DD775A289B55B03F87A73525B611 /* HanekeSwift-umbrella.h in Headers */,
+				34F60E36588FD80032BFDA17EF5E495E /* Pods-Pic Please Extension-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5FA47AB33592E3C69BB5111ABE57F760 /* Headers */ = {
+		501774A5C2EC03BAECCE13F3D85B09FE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0821C839B9D9116E03C0C9B51E136144 /* DKCamera-umbrella.h in Headers */,
+				AA615A7CF4422739C7E372B9A2962E4B /* INSPhotoGallery-iOS10.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97AE6EC0EEE000A55BC6E7F24F8D5582 /* Headers */ = {
+		7503079A16BBA8ED00358C30705E2971 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76044F20BABAF5ADC0A67FCEA91DB41C /* Pods-Pic Please-umbrella.h in Headers */,
+				81AECA791105E2E4031D659B6AAF1D37 /* DKCamera-iOS10.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3AAF2442A4FC326BDBA4206DE035D3F /* Headers */ = {
+		9592E5640E983FC3A408ECC6A20A7BFF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C53BBBDA9EB6B23CC76CFCC06CEEC721 /* INSPhotoGallery-umbrella.h in Headers */,
+				AB30B96A15E8462CC210097572681D46 /* HanekeSwift-iOS10.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		989D429D4031782637E9D371460C5760 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0069C4CB2B9A479295449FAC942C3144 /* Pods-Pic Please-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34621AF75C41C60A47E86603E38ACC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3484D65A17276D400EB0DF101C6C426A /* INSPhotoGallery-iOS9.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E06BCFDADF9C760E75508380ABBE5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47304DA7FB50BC7A7B28B40EEA16E991 /* DKCamera-iOS9.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA34598B5A988EE5B9AD646E0576AF86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64480DE42A579B42F533C403E35CB9F0 /* HanekeSwift-iOS9.0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0FA17EA0843BE281A2FE8696971CC6F9 /* INSPhotoGallery */ = {
+		35C033BA3F78E7347C85D0605D0E1F39 /* Pods-Pic Please Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6824EC8B468D8C3F458C1BDDC099A45 /* Build configuration list for PBXNativeTarget "INSPhotoGallery" */;
+			buildConfigurationList = 1D907B48357AF5B82812F3F5107FC479 /* Build configuration list for PBXNativeTarget "Pods-Pic Please Extension" */;
 			buildPhases = (
-				6E48CF8DF4FDD59F9C07BECEAF89DFDA /* Sources */,
-				3701E3E00D025C24142030D7CDAF7CBC /* Frameworks */,
-				FF53CF5A5D5403EF56BB938531F19105 /* Resources */,
-				C3AAF2442A4FC326BDBA4206DE035D3F /* Headers */,
+				76F5B32CD7CC99A98E75DF0CE01FEEDD /* Sources */,
+				575C1438DE7A10CBF8F1636D9846944D /* Frameworks */,
+				357747A698A81D7008C4796303B3C266 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FA5E91B84322C10B1BAED05279C49B13 /* PBXTargetDependency */,
+				5E601ED76EC15E5214A161EDD27EA6B6 /* PBXTargetDependency */,
+				56CA7683D1E7D806866A5737D128713A /* PBXTargetDependency */,
+				3CBC64B3F9BD4A124D4288029C3A00D3 /* PBXTargetDependency */,
 			);
-			name = INSPhotoGallery;
-			productName = INSPhotoGallery;
-			productReference = D4578E9C2CA16EEA8F171CFB6781F6FB /* INSPhotoGallery.framework */;
+			name = "Pods-Pic Please Extension";
+			productName = "Pods-Pic Please Extension";
+			productReference = C27D283DCA2A956B696E9DF8E08FFBBD /* Pods_Pic_Please_Extension.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		22B791967D3052626446503D1E993B30 /* INSPhotoGallery-INSPhotoGallery */ = {
+		3F599B1FE598CBCF9C7DEAAF7228269A /* INSPhotoGallery-iOS10.0-INSPhotoGallery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0784E7D104C2D56938474FD361C5C88A /* Build configuration list for PBXNativeTarget "INSPhotoGallery-INSPhotoGallery" */;
+			buildConfigurationList = B97308D351220A70F3EE5BEB17B14DBF /* Build configuration list for PBXNativeTarget "INSPhotoGallery-iOS10.0-INSPhotoGallery" */;
 			buildPhases = (
-				81FC551483578F4BB3788D0C6FEA1DE3 /* Sources */,
-				3432A1556ED8003D66F2B11A188B6ACF /* Frameworks */,
-				3A19E27735AAD1D7C332ED2391159AFC /* Resources */,
+				DDDFFE630469AE21F8E608BFE2BA46F1 /* Sources */,
+				081E23CF9EE90F1F5A5268A25CB440C5 /* Frameworks */,
+				E267A59076CF3BB302A7471F8E9EE77B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "INSPhotoGallery-INSPhotoGallery";
-			productName = "INSPhotoGallery-INSPhotoGallery";
-			productReference = 549F214448A670ED17B87383294750AA /* INSPhotoGallery.bundle */;
+			name = "INSPhotoGallery-iOS10.0-INSPhotoGallery";
+			productName = "INSPhotoGallery-iOS10.0-INSPhotoGallery";
+			productReference = 19BB91AFBCB1F12DE3C428A7C0386432 /* INSPhotoGallery.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		2C2B1953A91633859BF7AD238FF567A0 /* HanekeSwift */ = {
+		4E0FCA0382ECCD3A4CF8B9CF18EEC650 /* INSPhotoGallery-iOS10.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72681BE87943D4976033F6522AE72050 /* Build configuration list for PBXNativeTarget "HanekeSwift" */;
+			buildConfigurationList = 5BF85221DAEAB8CFF09DEC1F836E1D33 /* Build configuration list for PBXNativeTarget "INSPhotoGallery-iOS10.0" */;
 			buildPhases = (
-				CF172C07C6DA054AC5D84164A26DAE24 /* Sources */,
-				8F0E55176A5AF13111D389E09381931E /* Frameworks */,
-				0C64655B97B501711541511851F1C8EB /* Headers */,
+				98485D150F49800AED489E00523E558C /* Sources */,
+				BDB0557ADFEBCCC086E9622604FAFDB5 /* Frameworks */,
+				C55F868139DE561FEDAA2AC9FB0F958F /* Resources */,
+				501774A5C2EC03BAECCE13F3D85B09FE /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0B1C74C3E9352B8D2DD5F1FB97B2715F /* PBXTargetDependency */,
 			);
-			name = HanekeSwift;
-			productName = HanekeSwift;
-			productReference = FDA25AE6CE413D29AF68F94249C50981 /* Haneke.framework */;
+			name = "INSPhotoGallery-iOS10.0";
+			productName = "INSPhotoGallery-iOS10.0";
+			productReference = 46EAED39AFFB483FBE56E34D48F47A3F /* INSPhotoGallery.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		948A46EC641E4DA25A0C1AA1762AF963 /* DKCamera */ = {
+		62FF049BEBFB618095B590A7A772BCD4 /* DKCamera-iOS10.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B90C555B6E5832D73F97789C04CC0D9E /* Build configuration list for PBXNativeTarget "DKCamera" */;
+			buildConfigurationList = 1EB88151EDB511E029D862956381BF7B /* Build configuration list for PBXNativeTarget "DKCamera-iOS10.0" */;
 			buildPhases = (
-				42CED2E9A32615C0F1CE24780E7D0AE3 /* Sources */,
-				686B7EBCE4CD7EE8695FE0004B2CE2BC /* Frameworks */,
-				B1FCDB45F8E1477BD0371F2B7B4C9448 /* Resources */,
-				5FA47AB33592E3C69BB5111ABE57F760 /* Headers */,
+				9831BE923D52443E764CD166246DB485 /* Sources */,
+				78D204BE3163CB79D6D8AB5866209E81 /* Frameworks */,
+				633CD137347B6EA733E5CC1821D49089 /* Resources */,
+				7503079A16BBA8ED00358C30705E2971 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DKCamera;
-			productName = DKCamera;
-			productReference = E65604656D02CBE5DDC346BB5910623A /* DKCamera.framework */;
+			name = "DKCamera-iOS10.0";
+			productName = "DKCamera-iOS10.0";
+			productReference = FD1E57634F617D479CAF50342837856F /* DKCamera.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A429EBC77A3DF03E63ADAF40C0D14A41 /* Pods-Pic Please */ = {
+		63B7C2FA5F41247FC48E798C77E27831 /* DKCamera-iOS9.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F20F96B377DB9D156E592FCDE68FC5CE /* Build configuration list for PBXNativeTarget "Pods-Pic Please" */;
+			buildConfigurationList = 7C68C8FB7ADA61C67A7E04493312DC0C /* Build configuration list for PBXNativeTarget "DKCamera-iOS9.0" */;
 			buildPhases = (
-				4F65F3803BAE19E02865E2CCE6822BA4 /* Sources */,
-				2A54B3EB5521D8579147B0BBE5422C60 /* Frameworks */,
-				97AE6EC0EEE000A55BC6E7F24F8D5582 /* Headers */,
+				3EA8C4E856F2F7648E353CF98CFFD9A1 /* Sources */,
+				E676AEEEB9F4ECE78F174EE216568F0F /* Frameworks */,
+				F2B412F9697A6BE6881B2FFA95EE9902 /* Resources */,
+				F7E06BCFDADF9C760E75508380ABBE5F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				481B54F0F98C419B3293848A41EDB629 /* PBXTargetDependency */,
-				8E735745F6158B66F4F2270AFFF79B0C /* PBXTargetDependency */,
-				D4D46106D33629F72A84E9E86509A9F3 /* PBXTargetDependency */,
+			);
+			name = "DKCamera-iOS9.0";
+			productName = "DKCamera-iOS9.0";
+			productReference = 62AC7E38ADE1101C65A8EAED1BF7A09C /* DKCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A7E18A71A199B9BB789E0E66F66FED /* INSPhotoGallery-iOS9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37CBFAA3DB24091BFAFBBB8CA62789E /* Build configuration list for PBXNativeTarget "INSPhotoGallery-iOS9.0" */;
+			buildPhases = (
+				EFF416736923A00EC7465FE79135B817 /* Sources */,
+				2DB8896603A34D07EFD6A4B436B6DF37 /* Frameworks */,
+				CC5388C3E81650E958069045357258AC /* Resources */,
+				BC34621AF75C41C60A47E86603E38ACC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35577C608C798F700BE38EC93672D6C2 /* PBXTargetDependency */,
+			);
+			name = "INSPhotoGallery-iOS9.0";
+			productName = "INSPhotoGallery-iOS9.0";
+			productReference = AB50C3CBA59BB6393E44C71922A1EEA7 /* INSPhotoGallery.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD861D0B2C57CD5314E3624E2291F423 /* Pods-Pic Please */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 889E5C462EC930E71EC2BE9C19F7FEBF /* Build configuration list for PBXNativeTarget "Pods-Pic Please" */;
+			buildPhases = (
+				7511ECCBBB199AA73F730A783202C377 /* Sources */,
+				EAF7A5228AB27CAD7ED9358EB1E72F8B /* Frameworks */,
+				989D429D4031782637E9D371460C5760 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14DD1DF925FD2FD27D5E1A4A9FACFB71 /* PBXTargetDependency */,
+				FA2345CE7B22A33FEE915C3EF4E10007 /* PBXTargetDependency */,
+				40FE5E030F8CA8E4DEF51C9CB80275A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-Pic Please";
 			productName = "Pods-Pic Please";
-			productReference = 68888A8C42ABB8B084F8054C603437B6 /* Pods_Pic_Please.framework */;
+			productReference = 2210DFE7F90652907165D1105AC19753 /* Pods_Pic_Please.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9E7853D6716DEC1A276A61567435283 /* HanekeSwift-iOS9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3959F35BFC113D65D4CD36B7C3EC7E6 /* Build configuration list for PBXNativeTarget "HanekeSwift-iOS9.0" */;
+			buildPhases = (
+				6E45F375806577F0B9B810FB99A36FF6 /* Sources */,
+				7FDF35DC7F97298489B25DA191DF75F1 /* Frameworks */,
+				FA34598B5A988EE5B9AD646E0576AF86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HanekeSwift-iOS9.0";
+			productName = "HanekeSwift-iOS9.0";
+			productReference = 362E515FA7B9D852C9A56AC14EDA375F /* Haneke.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6C80D3F0BD6BC486FF242C16081044F /* INSPhotoGallery-iOS9.0-INSPhotoGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C79152D867CF7D9FD42CD35ABA444E /* Build configuration list for PBXNativeTarget "INSPhotoGallery-iOS9.0-INSPhotoGallery" */;
+			buildPhases = (
+				1F800AE0213CA8203CE756176ED4B595 /* Sources */,
+				3806939492AA2ADE0707125BBDB65730 /* Frameworks */,
+				4CCFA7C20AEEFAD18883EEE9A1FF9517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "INSPhotoGallery-iOS9.0-INSPhotoGallery";
+			productName = "INSPhotoGallery-iOS9.0-INSPhotoGallery";
+			productReference = 19BB91AFBCB1F12DE3C428A7C0386432 /* INSPhotoGallery.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FD9C8743253185BC897DE0E1DA09D3C7 /* HanekeSwift-iOS10.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AACF65D21AAF3E4AE09DD3B038EFB18 /* Build configuration list for PBXNativeTarget "HanekeSwift-iOS10.0" */;
+			buildPhases = (
+				091D2C002CECA37DF31112DC24CA522D /* Sources */,
+				475B53CB7D9783E432BA870A8EB039BA /* Frameworks */,
+				9592E5640E983FC3A408ECC6A20A7BFF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HanekeSwift-iOS10.0";
+			productName = "HanekeSwift-iOS10.0";
+			productReference = CC5726916A36BAC3B3FA91E77F0B6781 /* Haneke.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -816,147 +1141,274 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D70B3A00FE77250C0D4B4D6E05B6182A /* Products */;
+			productRefGroup = 16F61C7B8F9EBB1E986D88901DF7A58D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				948A46EC641E4DA25A0C1AA1762AF963 /* DKCamera */,
-				2C2B1953A91633859BF7AD238FF567A0 /* HanekeSwift */,
-				0FA17EA0843BE281A2FE8696971CC6F9 /* INSPhotoGallery */,
-				22B791967D3052626446503D1E993B30 /* INSPhotoGallery-INSPhotoGallery */,
-				A429EBC77A3DF03E63ADAF40C0D14A41 /* Pods-Pic Please */,
+				62FF049BEBFB618095B590A7A772BCD4 /* DKCamera-iOS10.0 */,
+				63B7C2FA5F41247FC48E798C77E27831 /* DKCamera-iOS9.0 */,
+				FD9C8743253185BC897DE0E1DA09D3C7 /* HanekeSwift-iOS10.0 */,
+				C9E7853D6716DEC1A276A61567435283 /* HanekeSwift-iOS9.0 */,
+				4E0FCA0382ECCD3A4CF8B9CF18EEC650 /* INSPhotoGallery-iOS10.0 */,
+				3F599B1FE598CBCF9C7DEAAF7228269A /* INSPhotoGallery-iOS10.0-INSPhotoGallery */,
+				98A7E18A71A199B9BB789E0E66F66FED /* INSPhotoGallery-iOS9.0 */,
+				D6C80D3F0BD6BC486FF242C16081044F /* INSPhotoGallery-iOS9.0-INSPhotoGallery */,
+				BD861D0B2C57CD5314E3624E2291F423 /* Pods-Pic Please */,
+				35C033BA3F78E7347C85D0605D0E1F39 /* Pods-Pic Please Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3A19E27735AAD1D7C332ED2391159AFC /* Resources */ = {
+		4CCFA7C20AEEFAD18883EEE9A1FF9517 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B1BE7A6BB15F166AAB163441829801 /* INSPhotoGalleryClose.png in Resources */,
-				8F523965660987457BC0245AB584840F /* INSPhotoGalleryClose@2x.png in Resources */,
-				6085E303BBFBC2375CDBFC9B8F742562 /* INSPhotoGalleryClose@3x.png in Resources */,
-				6856278E4A2BC48DDF4D6276C18DB9FD /* INSPhotoGalleryCloseLandscape.png in Resources */,
-				16C6BD8F14D0314E55548CAD80F59890 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */,
-				1E48973DF718A44AE0F8FFE3127D426B /* INSPhotoGalleryCloseLandscape@3x.png in Resources */,
+				77D39629A4220E23E5AD2D7DA88E6DC2 /* INSPhotoGalleryClose.png in Resources */,
+				0EF280744857BE2ED5FDAC07FD182436 /* INSPhotoGalleryClose@2x.png in Resources */,
+				9645C832A2918CFFC4416EAB9D501082 /* INSPhotoGalleryClose@3x.png in Resources */,
+				6B36BCCB22C3D2E3AE2707FAD7FF79EE /* INSPhotoGalleryCloseLandscape.png in Resources */,
+				9D4E23D9213A72F8DFEA85EBB62CD974 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */,
+				EFA45D32DA89A9EBA625152697EC975B /* INSPhotoGalleryCloseLandscape@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1FCDB45F8E1477BD0371F2B7B4C9448 /* Resources */ = {
+		633CD137347B6EA733E5CC1821D49089 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB94131FF51F686744BD0D2CC36D28C /* DKCameraResource.bundle in Resources */,
+				0C909F18EEF0D129BA815F210A7472AE /* DKCameraResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF53CF5A5D5403EF56BB938531F19105 /* Resources */ = {
+		C55F868139DE561FEDAA2AC9FB0F958F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B3ACF4B22E4C3041453D65ACBFCDBE /* INSPhotoGallery.bundle in Resources */,
+				6696D072AD271CFBD6945C04812D873A /* INSPhotoGallery.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5388C3E81650E958069045357258AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94B4EEA99B7EFE237F83997E7095D1A /* INSPhotoGallery.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E267A59076CF3BB302A7471F8E9EE77B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3CBC4513A699EB95F01C2E36092D7 /* INSPhotoGalleryClose.png in Resources */,
+				F5569D3775A26A8C6122108908FCF0DE /* INSPhotoGalleryClose@2x.png in Resources */,
+				61C23D307F0C1FE780858BCD485A0B61 /* INSPhotoGalleryClose@3x.png in Resources */,
+				4F4AF65795DD55E5037A81A2C7E01AB9 /* INSPhotoGalleryCloseLandscape.png in Resources */,
+				55FA4F3C2F22C037A21AE5E779A29F33 /* INSPhotoGalleryCloseLandscape@2x.png in Resources */,
+				5E902C8FACE3DDA0E4AFEA7636BC82C0 /* INSPhotoGalleryCloseLandscape@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B412F9697A6BE6881B2FFA95EE9902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAF97808B59E2E48E744E1C597DB4AE /* DKCameraResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		42CED2E9A32615C0F1CE24780E7D0AE3 /* Sources */ = {
+		091D2C002CECA37DF31112DC24CA522D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9AA4190BA6CB567F8087104C9B8D6CD /* DKCamera-dummy.m in Sources */,
-				11417F7E0087C4BB8FC52A509FD63D32 /* DKCamera.swift in Sources */,
+				663907F1EA7515753D0FC9668E00060C /* Cache.swift in Sources */,
+				C565B44E12070F04E87E8F06311E153C /* CGSize+Swift.swift in Sources */,
+				96AEB548C09ABD8C29A7E0D39072DDE0 /* CryptoSwiftMD5.swift in Sources */,
+				06DA5B8D5280506E1C82ED877D78FA2F /* Data.swift in Sources */,
+				6C5FFF1E0D95C28A704CB5B64B1C1FB8 /* DiskCache.swift in Sources */,
+				4B833FADFF56A76F70C0A30A6EBB91FA /* DiskFetcher.swift in Sources */,
+				82DDCF153AC0E9F28E58F9B929400028 /* Fetch.swift in Sources */,
+				ECC5BA8FE78EBD935679421487A49E5A /* Fetcher.swift in Sources */,
+				C0DDD7A341B9835ED67309B3DD0C46CB /* Format.swift in Sources */,
+				C9D1436D3DD1C4198B2E6E3F6E691AC8 /* Haneke.swift in Sources */,
+				C903085E93B1C3DF0944C530A1CC61BD /* HanekeSwift-iOS10.0-dummy.m in Sources */,
+				E3CC2C120C596B86BE3CAE063B68D47D /* Log.swift in Sources */,
+				2AF797EEB60D5C6E03DD5D6C76BC6A07 /* NetworkFetcher.swift in Sources */,
+				38467F6A5728CA5A40483901919350A8 /* NSFileManager+Haneke.swift in Sources */,
+				15096FFC2C6B60E6EE0A894F535CD306 /* NSHTTPURLResponse+Haneke.swift in Sources */,
+				1D46A18A72357D93B18CE6A0D867B6E9 /* NSURLResponse+Haneke.swift in Sources */,
+				04098B93C92FE1B308C0E96B7B33672C /* String+Haneke.swift in Sources */,
+				343CFE32E1D9F23AB71FFA8D03867692 /* UIButton+Haneke.swift in Sources */,
+				54BDD2B952EC1E19B88035C31D78C65C /* UIImage+Haneke.swift in Sources */,
+				5D4A4151F6C3264D00F773495E3A9945 /* UIImageView+Haneke.swift in Sources */,
+				DE212CEFED5FA46543ECA6A42385C806 /* UIView+Haneke.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F65F3803BAE19E02865E2CCE6822BA4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				206A4EC16AB67809DD5B4D4C90743F2F /* Pods-Pic Please-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E48CF8DF4FDD59F9C07BECEAF89DFDA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E28B151C828B85EFE985A38F78B7392 /* INSPhoto.swift in Sources */,
-				E5ABC928846F6D1B4EA0B75B6DF1DCD3 /* INSPhotoGallery-dummy.m in Sources */,
-				6A27A4CD047E056FF9D79F1D779E173D /* INSPhotosDataSource.swift in Sources */,
-				4D4B863CBFF5D5CDB91A634B7E5F3924 /* INSPhotosInteractionAnimator.swift in Sources */,
-				F0738973E807ED9D59BD239ABF0D30B0 /* INSPhotosOverlayView.swift in Sources */,
-				6AF68CA14B6CB99A1962B45CD2D30A2F /* INSPhotosTransitionAnimator.swift in Sources */,
-				BA9F856925CE6AC934FDAE4C6449EE28 /* INSPhotosViewController.swift in Sources */,
-				148DC29064EBBB2618ADBA1D3564BC74 /* INSPhotoViewController.swift in Sources */,
-				994B68FCAC51B6A903ECE890192503AB /* INSScalingImageView.swift in Sources */,
-				BD80369F2A12E53B8D417169367B1D02 /* UIVIew+INSPhotoViewer.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		81FC551483578F4BB3788D0C6FEA1DE3 /* Sources */ = {
+		1F800AE0213CA8203CE756176ED4B595 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF172C07C6DA054AC5D84164A26DAE24 /* Sources */ = {
+		3EA8C4E856F2F7648E353CF98CFFD9A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9831DDC5256EF014D93FF2DBE055E7B6 /* Cache.swift in Sources */,
-				9F4D113C6A4469F0DFAC637F1CA2C087 /* CGSize+Swift.swift in Sources */,
-				9E629066D218DC1DC616E339DB68E49C /* CryptoSwiftMD5.swift in Sources */,
-				3D90F67A3A10F71FD01DEDA59496C1D7 /* Data.swift in Sources */,
-				AEB48C925DC8D4B812C4ABF9F15C822E /* DiskCache.swift in Sources */,
-				49A5E2B820A83801CEE267AA6E1D923F /* DiskFetcher.swift in Sources */,
-				B1CCF02E757EE856275CE85BF171ED90 /* Fetch.swift in Sources */,
-				8C357B44EA2BC147AA0219CD8CC03B5F /* Fetcher.swift in Sources */,
-				0D361BC02EA3B8C476545E29A293CCB8 /* Format.swift in Sources */,
-				BD038EFFD2D1B49B136B42B5E07D59C5 /* Haneke.swift in Sources */,
-				F03916F3658FFB4643AD5FC815A4F5A7 /* HanekeSwift-dummy.m in Sources */,
-				9911E1A886CD44872C07FAA6A1521A85 /* Log.swift in Sources */,
-				3EA2C091B8672D75066EEEEFE63B5A86 /* NetworkFetcher.swift in Sources */,
-				92A2D4839D45ABA48D77923C035C8943 /* NSFileManager+Haneke.swift in Sources */,
-				DF6DBB5FA4E663A5AE7F272CA1CBA3BB /* NSHTTPURLResponse+Haneke.swift in Sources */,
-				8A85C4CDF0FE775E0BD0C44B0C3E6159 /* NSURLResponse+Haneke.swift in Sources */,
-				55F3BC1465BB2EB6F02ADC5A2D1F9F83 /* String+Haneke.swift in Sources */,
-				1D27B06296C346D4F23F5ED14B0A5D1A /* UIButton+Haneke.swift in Sources */,
-				A8CF635DBE430F95FB17D371B918B3FB /* UIImage+Haneke.swift in Sources */,
-				24E7FCE3DF42DC6D616DC39F8AC69566 /* UIImageView+Haneke.swift in Sources */,
-				9D5F6868132325D38051C5A07F128C5C /* UIView+Haneke.swift in Sources */,
+				C8D1A90BCDAE41D2B65274E7B530015F /* DKCamera-iOS9.0-dummy.m in Sources */,
+				4A644A512214E13E2153EE4BA75F38F2 /* DKCamera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E45F375806577F0B9B810FB99A36FF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3793609A0203AD071210E071DF3F1B73 /* Cache.swift in Sources */,
+				73058B2907A71A458B67AACEFD2A2756 /* CGSize+Swift.swift in Sources */,
+				6E87271191E366425003F7EBCB19A18B /* CryptoSwiftMD5.swift in Sources */,
+				77C4AA2D0C17B19A6C8FB3960E673D10 /* Data.swift in Sources */,
+				172D5B7DF2C61507C13E3CEA87C08E7F /* DiskCache.swift in Sources */,
+				C46F7B40C3D0271F2F18D6EA04E62815 /* DiskFetcher.swift in Sources */,
+				C84BF4DFA06603DF38AA8E75EFEB560B /* Fetch.swift in Sources */,
+				0162F3746771F2BC5B23D4818B72C3F8 /* Fetcher.swift in Sources */,
+				CB963492F2B1EC20EB8CBCD26BA036B2 /* Format.swift in Sources */,
+				ACE31D0A4AB43B412F1C2AD0D7BCDAEA /* Haneke.swift in Sources */,
+				12384F457DA02C4740C3A4FA936FAC88 /* HanekeSwift-iOS9.0-dummy.m in Sources */,
+				8D64CE99FE9DEABFBC5622E309ECCE77 /* Log.swift in Sources */,
+				009125C7E78AFD28BC8E17989E84FBE4 /* NetworkFetcher.swift in Sources */,
+				CD10B13F79B6B0C69EFA53D4C66535E9 /* NSFileManager+Haneke.swift in Sources */,
+				41890D57E8DCF1115213F5970285AE90 /* NSHTTPURLResponse+Haneke.swift in Sources */,
+				97955E55AEBD8BA077E9B05AB836EF32 /* NSURLResponse+Haneke.swift in Sources */,
+				346804976DA891F039FA4878FBDEC13F /* String+Haneke.swift in Sources */,
+				B02841025CA10C31BE69870318B304B7 /* UIButton+Haneke.swift in Sources */,
+				54AF20261CC52F628027CFBCD8537D0E /* UIImage+Haneke.swift in Sources */,
+				E71C07BC8E4D007C1135940E7EEADBCA /* UIImageView+Haneke.swift in Sources */,
+				C8CF3930137509C1643F150B1BC3506C /* UIView+Haneke.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7511ECCBBB199AA73F730A783202C377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F3B3119CC7452187E42D9898B8F1CB /* Pods-Pic Please-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76F5B32CD7CC99A98E75DF0CE01FEEDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E346795BC60F44A93908DBFD7AAA53C2 /* Pods-Pic Please Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9831BE923D52443E764CD166246DB485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077090B038A5E197AF59A08E0CDB2659 /* DKCamera-iOS10.0-dummy.m in Sources */,
+				5CD00CF2C9CCA2153E7F16913C68AC69 /* DKCamera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98485D150F49800AED489E00523E558C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FCCA5B784609E53F60DE6559B60D2C /* INSPhoto.swift in Sources */,
+				7C16D1E2A675652154041CD8A61A4C47 /* INSPhotoGallery-iOS10.0-dummy.m in Sources */,
+				325FD1F707BBC72364BC9E721E2FBE23 /* INSPhotosDataSource.swift in Sources */,
+				E4F86E4C5C4BEDE5C4400F096D464AD1 /* INSPhotosInteractionAnimator.swift in Sources */,
+				AAB057F580EFA38277C4235C27E813B0 /* INSPhotosOverlayView.swift in Sources */,
+				4A9BAE04E18CDDE7D646E92EC0A39336 /* INSPhotosTransitionAnimator.swift in Sources */,
+				3750A31CF6C03B58ECD8E2B038D24EA6 /* INSPhotosViewController.swift in Sources */,
+				681AC9F216090688A83A936AFD9AD720 /* INSPhotoViewController.swift in Sources */,
+				A6E8F8A5812E3B737F2D366BF98F0C30 /* INSScalingImageView.swift in Sources */,
+				49FC6611CC8A65929B5862525E6B1F89 /* UIVIew+INSPhotoViewer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDFFE630469AE21F8E608BFE2BA46F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF416736923A00EC7465FE79135B817 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923D430961BA7D40672C39E478AF8EB2 /* INSPhoto.swift in Sources */,
+				229F108A6EEAAE699620B02F033022E3 /* INSPhotoGallery-iOS9.0-dummy.m in Sources */,
+				6B317DDCF821C46011FFB820058FE36B /* INSPhotosDataSource.swift in Sources */,
+				338091867E0EB561BFE4B8AC42CB731D /* INSPhotosInteractionAnimator.swift in Sources */,
+				24FEFF346DB7BF66A14C6389B0A84CE8 /* INSPhotosOverlayView.swift in Sources */,
+				3AD3B54204923B6E836ED0F4A570DF41 /* INSPhotosTransitionAnimator.swift in Sources */,
+				7DCC928874AD79854FD8CA6778FD5F79 /* INSPhotosViewController.swift in Sources */,
+				BB21D3422D5CEA994383ED9863B73F87 /* INSPhotoViewController.swift in Sources */,
+				6B077D6F6B321DD815E03FAABFBC9287 /* INSScalingImageView.swift in Sources */,
+				E2789F2E7199B4B441677F883A934083 /* UIVIew+INSPhotoViewer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		481B54F0F98C419B3293848A41EDB629 /* PBXTargetDependency */ = {
+		0B1C74C3E9352B8D2DD5F1FB97B2715F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DKCamera;
-			target = 948A46EC641E4DA25A0C1AA1762AF963 /* DKCamera */;
-			targetProxy = DAE1BFE7CDC874C9B8881AE2B4A38D37 /* PBXContainerItemProxy */;
+			name = "INSPhotoGallery-iOS10.0-INSPhotoGallery";
+			target = 3F599B1FE598CBCF9C7DEAAF7228269A /* INSPhotoGallery-iOS10.0-INSPhotoGallery */;
+			targetProxy = 204981A95A4642D35EC2BC237F9934A0 /* PBXContainerItemProxy */;
 		};
-		8E735745F6158B66F4F2270AFFF79B0C /* PBXTargetDependency */ = {
+		14DD1DF925FD2FD27D5E1A4A9FACFB71 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HanekeSwift;
-			target = 2C2B1953A91633859BF7AD238FF567A0 /* HanekeSwift */;
-			targetProxy = 88FDF95E185C8F0CDE2900342E0091E0 /* PBXContainerItemProxy */;
+			name = "DKCamera-iOS9.0";
+			target = 63B7C2FA5F41247FC48E798C77E27831 /* DKCamera-iOS9.0 */;
+			targetProxy = 274D61CE0A2555EBAE5E367CFA371489 /* PBXContainerItemProxy */;
 		};
-		D4D46106D33629F72A84E9E86509A9F3 /* PBXTargetDependency */ = {
+		35577C608C798F700BE38EC93672D6C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = INSPhotoGallery;
-			target = 0FA17EA0843BE281A2FE8696971CC6F9 /* INSPhotoGallery */;
-			targetProxy = 24A834B3B229AF753F3EF1062F30EE7E /* PBXContainerItemProxy */;
+			name = "INSPhotoGallery-iOS9.0-INSPhotoGallery";
+			target = D6C80D3F0BD6BC486FF242C16081044F /* INSPhotoGallery-iOS9.0-INSPhotoGallery */;
+			targetProxy = 68130756198A3C332DB4EBC9B5844022 /* PBXContainerItemProxy */;
 		};
-		FA5E91B84322C10B1BAED05279C49B13 /* PBXTargetDependency */ = {
+		3CBC64B3F9BD4A124D4288029C3A00D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "INSPhotoGallery-INSPhotoGallery";
-			target = 22B791967D3052626446503D1E993B30 /* INSPhotoGallery-INSPhotoGallery */;
-			targetProxy = 746244B957186CF333CD6412C65E78CD /* PBXContainerItemProxy */;
+			name = "INSPhotoGallery-iOS10.0";
+			target = 4E0FCA0382ECCD3A4CF8B9CF18EEC650 /* INSPhotoGallery-iOS10.0 */;
+			targetProxy = 0C9C1935576EA86BE9453C8853CDB3D3 /* PBXContainerItemProxy */;
+		};
+		40FE5E030F8CA8E4DEF51C9CB80275A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "INSPhotoGallery-iOS9.0";
+			target = 98A7E18A71A199B9BB789E0E66F66FED /* INSPhotoGallery-iOS9.0 */;
+			targetProxy = 27F7617695ABBCDD1F8383B8694F3C19 /* PBXContainerItemProxy */;
+		};
+		56CA7683D1E7D806866A5737D128713A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HanekeSwift-iOS10.0";
+			target = FD9C8743253185BC897DE0E1DA09D3C7 /* HanekeSwift-iOS10.0 */;
+			targetProxy = 0F75831561BFF17E37B6934450147BF7 /* PBXContainerItemProxy */;
+		};
+		5E601ED76EC15E5214A161EDD27EA6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DKCamera-iOS10.0";
+			target = 62FF049BEBFB618095B590A7A772BCD4 /* DKCamera-iOS10.0 */;
+			targetProxy = DAED3827CDEE18EF926489C1884D4EC7 /* PBXContainerItemProxy */;
+		};
+		FA2345CE7B22A33FEE915C3EF4E10007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HanekeSwift-iOS9.0";
+			target = C9E7853D6716DEC1A276A61567435283 /* HanekeSwift-iOS9.0 */;
+			targetProxy = 3383017AD2CEBE88BDC4F90A19E97376 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1003,56 +1455,99 @@
 			};
 			name = Debug;
 		};
-		09C98037DC03EC9D6662F16AC8F7998D /* Debug */ = {
+		05540ACAFDC6C88E2453246C2A2A9A08 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */;
+			baseConfigurationReference = 544E735C8FCA661B748B4398B25DE55A /* HanekeSwift-iOS10.0.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/INSPhotoGallery/INSPhotoGallery-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift-iOS10.0/HanekeSwift-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeSwift-iOS10.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/INSPhotoGallery/INSPhotoGallery.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = INSPhotoGallery;
+				MODULEMAP_FILE = "Target Support Files/HanekeSwift-iOS10.0/HanekeSwift-iOS10.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Haneke;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		46EAFA2FB6B2B2A41DB942727BABFD9A /* Release */ = {
+		086D7D4758CC6BF6161324C6FE2F78E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */;
+			baseConfigurationReference = 06B5D9170225EB8F351222C2CE8B3AC6 /* INSPhotoGallery-iOS10.0.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery/ResourceBundle-INSPhotoGallery-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/INSPhotoGallery-iOS10.0/INSPhotoGallery-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery-iOS10.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSPhotoGallery-iOS10.0/INSPhotoGallery-iOS10.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = INSPhotoGallery;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6396977BD54CF323E225E3BA478F0B6B /* Debug */ = {
+		1024163DA1D7A8D58F9561E73F3C5DAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24EBFBAE33130836F34460B8F4A3B7BC /* HanekeSwift.xcconfig */;
+			baseConfigurationReference = D1C8279A3189227930F48B39E2545B4C /* DKCamera-iOS10.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera-iOS10.0/DKCamera-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera-iOS10.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKCamera-iOS10.0/DKCamera-iOS10.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1CF38920FB718827517263E884B071BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544E735C8FCA661B748B4398B25DE55A /* HanekeSwift-iOS10.0.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1063,105 +1558,27 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HanekeSwift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift-iOS10.0/HanekeSwift-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeSwift-iOS10.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HanekeSwift/HanekeSwift.modulemap";
+				MODULEMAP_FILE = "Target Support Files/HanekeSwift-iOS10.0/HanekeSwift-iOS10.0.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Haneke;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		75C9445045CFCC58F8B0D3049B3ADB62 /* Debug */ = {
+		1EB45E8F89743B6F32A53005E1AD538C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery/ResourceBundle-INSPhotoGallery-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = INSPhotoGallery;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		8319BB9CE047CAFC39EBD9F18D577F4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23D70113FF33D2655F5EA019C5F50858 /* DKCamera.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DKCamera/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DKCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		83B2B36324FD0F254B1B6DB4FFA00193 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 025647D9BE68F2D5A6C1B68CA8317C50 /* Pods-Pic Please.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Pic Please/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Pic Please/Pods-Pic Please.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Pic_Please;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		860D69E2F7BE147BA25A84B3A879EF95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23D70113FF33D2655F5EA019C5F50858 /* DKCamera.xcconfig */;
+			baseConfigurationReference = E1C7053EC7584EC942DBDD1430A25099 /* HanekeSwift-iOS9.0.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1172,55 +1589,27 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DKCamera/DKCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DKCamera/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift-iOS9.0/HanekeSwift-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeSwift-iOS9.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DKCamera/DKCamera.modulemap";
+				MODULEMAP_FILE = "Target Support Files/HanekeSwift-iOS9.0/HanekeSwift-iOS9.0.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DKCamera;
+				PRODUCT_NAME = Haneke;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		A789AD15C7069B9487F6E2A93DE8D319 /* Release */ = {
+		26C28E820EFDF448E49241D0FFBD57F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24EBFBAE33130836F34460B8F4A3B7BC /* HanekeSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift/HanekeSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HanekeSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HanekeSwift/HanekeSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Haneke;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AB080DE86F4F022D99F8E817276949E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FD437CBF10A500DA41CD018AEDA0017 /* Pods-Pic Please.debug.xcconfig */;
+			baseConfigurationReference = 6DF12F6798F641974971C88D935DADBF /* Pods-Pic Please.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1251,6 +1640,216 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		2EEC237A0536E79E813D8B0AEC4A58CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80338706F263559A5B374570E29A9B4 /* Pods-Pic Please Extension.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pic Please Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pic Please Extension/Pods-Pic Please Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pic_Please_Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40030CAB5212E599CAE3C3A707B4134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DC93A1997476A41DEF4C768A9F75CA /* INSPhotoGallery-iOS9.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery-iOS9.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery-iOS9.0/ResourceBundle-INSPhotoGallery-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = INSPhotoGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		437A11542C9BE3AE44891C77F2CCB06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DC93A1997476A41DEF4C768A9F75CA /* INSPhotoGallery-iOS9.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSPhotoGallery-iOS9.0/INSPhotoGallery-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery-iOS9.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSPhotoGallery-iOS9.0/INSPhotoGallery-iOS9.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = INSPhotoGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51AC9AEE10CB8BE183B4670AE8F857AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A6F93E9FB904C9AB506D729582CC5E /* Pods-Pic Please Extension.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pic Please Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pic Please Extension/Pods-Pic Please Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pic_Please_Extension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A604D10E1BBADB95C03FC4E432C63D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB2D38C1B9491ED6B4E57320D331703 /* DKCamera-iOS9.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera-iOS9.0/DKCamera-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera-iOS9.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKCamera-iOS9.0/DKCamera-iOS9.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		950FD7B391C37AE91395603BCD8DF574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B5D9170225EB8F351222C2CE8B3AC6 /* INSPhotoGallery-iOS10.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery-iOS10.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery-iOS10.0/ResourceBundle-INSPhotoGallery-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = INSPhotoGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B33EBD6A1405959BDBD335F03FD3B20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B5D9170225EB8F351222C2CE8B3AC6 /* INSPhotoGallery-iOS10.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSPhotoGallery-iOS10.0/INSPhotoGallery-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery-iOS10.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSPhotoGallery-iOS10.0/INSPhotoGallery-iOS10.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = INSPhotoGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF35DDA7A6F5C1FDEA82BD33AF8C5002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B5D9170225EB8F351222C2CE8B3AC6 /* INSPhotoGallery-iOS10.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery-iOS10.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery-iOS10.0/ResourceBundle-INSPhotoGallery-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = INSPhotoGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1290,9 +1889,9 @@
 			};
 			name = Release;
 		};
-		EB7E99AB65B80742CFF9385A758EAEAD /* Release */ = {
+		CD4940B1956B74CC086A3CDA0E08BE8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42C9945D55FAE6D20D556508D013D822 /* INSPhotoGallery.xcconfig */;
+			baseConfigurationReference = E1C7053EC7584EC942DBDD1430A25099 /* HanekeSwift-iOS9.0.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1303,16 +1902,159 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/INSPhotoGallery/INSPhotoGallery-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HanekeSwift-iOS9.0/HanekeSwift-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HanekeSwift-iOS9.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/INSPhotoGallery/INSPhotoGallery.modulemap";
+				MODULEMAP_FILE = "Target Support Files/HanekeSwift-iOS9.0/HanekeSwift-iOS9.0.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Haneke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5DF22AEC184509902C7064265A417CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C8279A3189227930F48B39E2545B4C /* DKCamera-iOS10.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera-iOS10.0/DKCamera-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera-iOS10.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKCamera-iOS10.0/DKCamera-iOS10.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E080AB1E924D5E6D3C41DFCA0A9EA4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DC93A1997476A41DEF4C768A9F75CA /* INSPhotoGallery-iOS9.0.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/INSPhotoGallery-iOS9.0";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery-iOS9.0/ResourceBundle-INSPhotoGallery-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = INSPhotoGallery;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ECE5A1370F1CDBDE5281388B8A81920D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C9B44C15B7B8B9C272E183E79091FF /* Pods-Pic Please.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pic Please/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pic Please/Pods-Pic Please.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Pic_Please;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F06760DE966A644390CB80E5A64E96CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DC93A1997476A41DEF4C768A9F75CA /* INSPhotoGallery-iOS9.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/INSPhotoGallery-iOS9.0/INSPhotoGallery-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/INSPhotoGallery-iOS9.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/INSPhotoGallery-iOS9.0/INSPhotoGallery-iOS9.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = INSPhotoGallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE0A7B4F84EED1A2552C09413B013DAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB2D38C1B9491ED6B4E57320D331703 /* DKCamera-iOS9.0.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKCamera-iOS9.0/DKCamera-iOS9.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKCamera-iOS9.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKCamera-iOS9.0/DKCamera-iOS9.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DKCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1322,11 +2064,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0784E7D104C2D56938474FD361C5C88A /* Build configuration list for PBXNativeTarget "INSPhotoGallery-INSPhotoGallery" */ = {
+		1D907B48357AF5B82812F3F5107FC479 /* Build configuration list for PBXNativeTarget "Pods-Pic Please Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75C9445045CFCC58F8B0D3049B3ADB62 /* Debug */,
-				46EAFA2FB6B2B2A41DB942727BABFD9A /* Release */,
+				51AC9AEE10CB8BE183B4670AE8F857AD /* Debug */,
+				2EEC237A0536E79E813D8B0AEC4A58CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EB88151EDB511E029D862956381BF7B /* Build configuration list for PBXNativeTarget "DKCamera-iOS10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DF22AEC184509902C7064265A417CF /* Debug */,
+				1024163DA1D7A8D58F9561E73F3C5DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C79152D867CF7D9FD42CD35ABA444E /* Build configuration list for PBXNativeTarget "INSPhotoGallery-iOS9.0-INSPhotoGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40030CAB5212E599CAE3C3A707B4134C /* Debug */,
+				E080AB1E924D5E6D3C41DFCA0A9EA4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1340,38 +2100,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72681BE87943D4976033F6522AE72050 /* Build configuration list for PBXNativeTarget "HanekeSwift" */ = {
+		4AACF65D21AAF3E4AE09DD3B038EFB18 /* Build configuration list for PBXNativeTarget "HanekeSwift-iOS10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6396977BD54CF323E225E3BA478F0B6B /* Debug */,
-				A789AD15C7069B9487F6E2A93DE8D319 /* Release */,
+				1CF38920FB718827517263E884B071BF /* Debug */,
+				05540ACAFDC6C88E2453246C2A2A9A08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B90C555B6E5832D73F97789C04CC0D9E /* Build configuration list for PBXNativeTarget "DKCamera" */ = {
+		5BF85221DAEAB8CFF09DEC1F836E1D33 /* Build configuration list for PBXNativeTarget "INSPhotoGallery-iOS10.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				860D69E2F7BE147BA25A84B3A879EF95 /* Debug */,
-				8319BB9CE047CAFC39EBD9F18D577F4C /* Release */,
+				B33EBD6A1405959BDBD335F03FD3B20C /* Debug */,
+				086D7D4758CC6BF6161324C6FE2F78E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F20F96B377DB9D156E592FCDE68FC5CE /* Build configuration list for PBXNativeTarget "Pods-Pic Please" */ = {
+		7C68C8FB7ADA61C67A7E04493312DC0C /* Build configuration list for PBXNativeTarget "DKCamera-iOS9.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB080DE86F4F022D99F8E817276949E0 /* Debug */,
-				83B2B36324FD0F254B1B6DB4FFA00193 /* Release */,
+				7A604D10E1BBADB95C03FC4E432C63D9 /* Debug */,
+				FE0A7B4F84EED1A2552C09413B013DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6824EC8B468D8C3F458C1BDDC099A45 /* Build configuration list for PBXNativeTarget "INSPhotoGallery" */ = {
+		889E5C462EC930E71EC2BE9C19F7FEBF /* Build configuration list for PBXNativeTarget "Pods-Pic Please" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09C98037DC03EC9D6662F16AC8F7998D /* Debug */,
-				EB7E99AB65B80742CFF9385A758EAEAD /* Release */,
+				26C28E820EFDF448E49241D0FFBD57F2 /* Debug */,
+				ECE5A1370F1CDBDE5281388B8A81920D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37CBFAA3DB24091BFAFBBB8CA62789E /* Build configuration list for PBXNativeTarget "INSPhotoGallery-iOS9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06760DE966A644390CB80E5A64E96CA /* Debug */,
+				437A11542C9BE3AE44891C77F2CCB06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B97308D351220A70F3EE5BEB17B14DBF /* Build configuration list for PBXNativeTarget "INSPhotoGallery-iOS10.0-INSPhotoGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				950FD7B391C37AE91395603BCD8DF574 /* Debug */,
+				BF35DDA7A6F5C1FDEA82BD33AF8C5002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3959F35BFC113D65D4CD36B7C3EC7E6 /* Build configuration list for PBXNativeTarget "HanekeSwift-iOS9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EB45E8F89743B6F32A53005E1AD538C /* Debug */,
+				CD4940B1956B74CC086A3CDA0E08BE8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

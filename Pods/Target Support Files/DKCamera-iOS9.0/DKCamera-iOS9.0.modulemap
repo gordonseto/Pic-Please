@@ -1,0 +1,6 @@
+framework module DKCamera {
+  umbrella header "DKCamera-iOS9.0-umbrella.h"
+
+  export *
+  module * { export * }
+}

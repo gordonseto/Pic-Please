@@ -78,7 +78,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
         
         let urlString = url.absoluteString
-        let queryArray = urlString.componentsSeparatedByString("/")
+        let queryArray = urlString!.componentsSeparatedByString("/")
         let queryType = queryArray[2]
         
         print(queryType)

@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		48138E94DC7CFDFDEEE562B7 /* Pods_Pic_Please.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3C7856131175183B72FDC7 /* Pods_Pic_Please.framework */; };
+		7F1C9BABC3449C9F8503E542 /* Pods_Pic_Please_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8FAABBC79C97F191D4A6F2 /* Pods_Pic_Please_Extension.framework */; };
+		8E0663AF1DBACC2800949712 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0663AE1DBACC2800949712 /* Messages.framework */; };
+		8E0663B21DBACC2800949712 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0663B11DBACC2800949712 /* MessagesViewController.swift */; };
+		8E0663B51DBACC2800949712 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E0663B31DBACC2800949712 /* MainInterface.storyboard */; };
+		8E0663B71DBACC2800949712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E0663B61DBACC2800949712 /* Assets.xcassets */; };
+		8E0663BB1DBACC2800949712 /* Pic Please Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E0663AD1DBACC2700949712 /* Pic Please Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E43B31D1DBADE020010BAAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E43B31C1DBADE020010BAAB /* GoogleService-Info.plist */; };
+		8E43B31F1DBAE0830010BAAB /* RequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B31E1DBAE0830010BAAB /* RequestVC.swift */; };
+		8E43B3241DBAEA970010BAAB /* PictureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7599991D6655D10094237F /* PictureRequest.swift */; };
+		8E43B3251DBAEB770010BAAB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7599A51D66924C0094237F /* Constants.swift */; };
+		8E43B3271DBAEC240010BAAB /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B3261DBAEC240010BAAB /* General.swift */; };
+		8E43B32A1DBAF8BF0010BAAB /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B3291DBAF8BF0010BAAB /* CameraVC.swift */; };
 		8E75999A1D6655D10094237F /* PictureRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7599991D6655D10094237F /* PictureRequest.swift */; };
 		8E75999C1D665E230094237F /* NotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75999B1D665E230094237F /* NotificationsVC.swift */; };
 		8E7599A61D66924C0094237F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7599A51D66924C0094237F /* Constants.swift */; };
@@ -23,9 +35,45 @@
 		8EB56A951D664BA9009E114B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EB56A941D664BA9009E114B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E0663B91DBACC2800949712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB56A751D663FEA009E114B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E0663AC1DBACC2700949712;
+			remoteInfo = "Pic Please Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E0663BF1DBACC2800949712 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E0663BB1DBACC2800949712 /* Pic Please Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0B8FAABBC79C97F191D4A6F2 /* Pods_Pic_Please_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pic_Please_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24631AE287D8A13226E304F6 /* Pods-Pic Please.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pic Please.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pic Please/Pods-Pic Please.release.xcconfig"; sourceTree = "<group>"; };
 		2E3C7856131175183B72FDC7 /* Pods_Pic_Please.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pic_Please.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748CC0B94F2480FB67A0C520 /* Pods-Pic Please Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pic Please Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pic Please Extension/Pods-Pic Please Extension.release.xcconfig"; sourceTree = "<group>"; };
+		8E0663AD1DBACC2700949712 /* Pic Please Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Pic Please Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0663AE1DBACC2800949712 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		8E0663B11DBACC2800949712 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		8E0663B41DBACC2800949712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		8E0663B61DBACC2800949712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E0663B81DBACC2800949712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E43B31C1DBADE020010BAAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E43B31E1DBAE0830010BAAB /* RequestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestVC.swift; sourceTree = "<group>"; };
+		8E43B3261DBAEC240010BAAB /* General.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		8E43B3291DBAF8BF0010BAAB /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		8E7599991D6655D10094237F /* PictureRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureRequest.swift; sourceTree = "<group>"; };
 		8E75999B1D665E230094237F /* NotificationsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsVC.swift; sourceTree = "<group>"; };
 		8E7599A51D66924C0094237F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -42,9 +90,19 @@
 		8EB56A8C1D663FEB009E114B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB56A941D664BA9009E114B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ADCD938196734B2190CC0895 /* Pods-Pic Please.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pic Please.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pic Please/Pods-Pic Please.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2C7566861DDF95A371F3A3 /* Pods-Pic Please Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pic Please Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pic Please Extension/Pods-Pic Please Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8E0663AA1DBACC2700949712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0663AF1DBACC2800949712 /* Messages.framework in Frameworks */,
+				7F1C9BABC3449C9F8503E542 /* Pods_Pic_Please_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EB56A7A1D663FEA009E114B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,8 +119,33 @@
 			children = (
 				ADCD938196734B2190CC0895 /* Pods-Pic Please.debug.xcconfig */,
 				24631AE287D8A13226E304F6 /* Pods-Pic Please.release.xcconfig */,
+				DB2C7566861DDF95A371F3A3 /* Pods-Pic Please Extension.debug.xcconfig */,
+				748CC0B94F2480FB67A0C520 /* Pods-Pic Please Extension.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E0663B01DBACC2800949712 /* Pic Please Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8E43B3261DBAEC240010BAAB /* General.swift */,
+				8E43B3281DBAED760010BAAB /* Controller */,
+				8E0663B31DBACC2800949712 /* MainInterface.storyboard */,
+				8E0663B61DBACC2800949712 /* Assets.xcassets */,
+				8E0663B81DBACC2800949712 /* Info.plist */,
+				8E43B31C1DBADE020010BAAB /* GoogleService-Info.plist */,
+			);
+			path = "Pic Please Extension";
+			sourceTree = "<group>";
+		};
+		8E43B3281DBAED760010BAAB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E0663B11DBACC2800949712 /* MessagesViewController.swift */,
+				8E43B31E1DBAE0830010BAAB /* RequestVC.swift */,
+				8E43B3291DBAF8BF0010BAAB /* CameraVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		8E7599961D6655970094237F /* Controller */ = {
@@ -104,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				8EB56A7F1D663FEA009E114B /* Pic Please */,
+				8E0663B01DBACC2800949712 /* Pic Please Extension */,
 				8EB56A7E1D663FEA009E114B /* Products */,
 				14FE5AEE36B6878537E70138 /* Pods */,
 				9CEA69AF67B7BD254D8D8499 /* Frameworks */,
@@ -114,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				8EB56A7D1D663FEA009E114B /* Pic Please.app */,
+				8E0663AD1DBACC2700949712 /* Pic Please Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				2E3C7856131175183B72FDC7 /* Pods_Pic_Please.framework */,
+				8E0663AE1DBACC2800949712 /* Messages.framework */,
+				0B8FAABBC79C97F191D4A6F2 /* Pods_Pic_Please_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,6 +234,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8E0663AC1DBACC2700949712 /* Pic Please Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E0663BC1DBACC2800949712 /* Build configuration list for PBXNativeTarget "Pic Please Extension" */;
+			buildPhases = (
+				D3F4E9AA132C12AB31E4DB89 /* [CP] Check Pods Manifest.lock */,
+				8E0663A91DBACC2700949712 /* Sources */,
+				8E0663AA1DBACC2700949712 /* Frameworks */,
+				8E0663AB1DBACC2700949712 /* Resources */,
+				9BFECF9395793A16E6E4DB8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pic Please Extension";
+			productName = "Pic Please Extension";
+			productReference = 8E0663AD1DBACC2700949712 /* Pic Please Extension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
 		8EB56A7C1D663FEA009E114B /* Pic Please */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EB56A8F1D663FEB009E114B /* Build configuration list for PBXNativeTarget "Pic Please" */;
@@ -157,10 +263,12 @@
 				8EB56A7B1D663FEA009E114B /* Resources */,
 				EEBAD1C6B09E37A54B8B2CE7 /* [CP] Embed Pods Frameworks */,
 				FF258F854FAC97C5A66DD1B6 /* [CP] Copy Pods Resources */,
+				8E0663BF1DBACC2800949712 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8E0663BA1DBACC2800949712 /* PBXTargetDependency */,
 			);
 			name = "Pic Please";
 			productName = "Pic Please";
@@ -173,12 +281,19 @@
 		8EB56A751D663FEA009E114B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Gordon Seto";
 				TargetAttributes = {
+					8E0663AC1DBACC2700949712 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 732LS35PLA;
+						ProvisioningStyle = Automatic;
+					};
 					8EB56A7C1D663FEA009E114B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 732LS35PLA;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -196,11 +311,22 @@
 			projectRoot = "";
 			targets = (
 				8EB56A7C1D663FEA009E114B /* Pic Please */,
+				8E0663AC1DBACC2700949712 /* Pic Please Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8E0663AB1DBACC2700949712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E0663B71DBACC2800949712 /* Assets.xcassets in Resources */,
+				8E43B31D1DBADE020010BAAB /* GoogleService-Info.plist in Resources */,
+				8E0663B51DBACC2800949712 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EB56A7B1D663FEA009E114B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -216,6 +342,36 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		79F50F702EB87ADDD5E01766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BFECF9395793A16E6E4DB8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pic Please Extension/Pods-Pic Please Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F4E9AA132C12AB31E4DB89 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,6 +419,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8E0663A91DBACC2700949712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E43B31F1DBAE0830010BAAB /* RequestVC.swift in Sources */,
+				8E43B32A1DBAF8BF0010BAAB /* CameraVC.swift in Sources */,
+				8E0663B21DBACC2800949712 /* MessagesViewController.swift in Sources */,
+				8E43B3241DBAEA970010BAAB /* PictureRequest.swift in Sources */,
+				8E43B3251DBAEB770010BAAB /* Constants.swift in Sources */,
+				8E43B3271DBAEC240010BAAB /* General.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EB56A791D663FEA009E114B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,7 +450,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8E0663BA1DBACC2800949712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E0663AC1DBACC2700949712 /* Pic Please Extension */;
+			targetProxy = 8E0663B91DBACC2800949712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		8E0663B31DBACC2800949712 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E0663B41DBACC2800949712 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		8EB56A841D663FEA009E114B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,6 +486,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8E0663BD1DBACC2800949712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB2C7566861DDF95A371F3A3 /* Pods-Pic Please Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 732LS35PLA;
+				INFOPLIST_FILE = "Pic Please Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonseto.Pic-Please.Pic-Please-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		8E0663BE1DBACC2800949712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748CC0B94F2480FB67A0C520 /* Pods-Pic Please Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = 732LS35PLA;
+				INFOPLIST_FILE = "Pic Please Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonseto.Pic-Please.Pic-Please-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
 		8EB56A8D1D663FEB009E114B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -388,8 +613,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ADCD938196734B2190CC0895 /* Pods-Pic Please.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 732LS35PLA;
 				INFOPLIST_FILE = "Pic Please/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -397,6 +624,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -404,20 +632,32 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24631AE287D8A13226E304F6 /* Pods-Pic Please.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 732LS35PLA;
 				INFOPLIST_FILE = "Pic Please/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gordonseto.Pic-Please";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8E0663BC1DBACC2800949712 /* Build configuration list for PBXNativeTarget "Pic Please Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E0663BD1DBACC2800949712 /* Debug */,
+				8E0663BE1DBACC2800949712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8EB56A781D663FEA009E114B /* Build configuration list for PBXProject "Pic Please" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
