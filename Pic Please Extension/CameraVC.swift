@@ -12,6 +12,7 @@ import FirebaseAuth
 import FirebaseDatabase
 import FirebaseStorage
 import Messages
+import MessageUI
 
 protocol MessageVCDelegate {
     func finishedCreatingMessage()
@@ -113,70 +114,62 @@ class CameraVC: UIViewController {
     }
     
     func sendImage(){
-//        cancelButton.removeFromSuperview()
-//        sendButton.removeFromSuperview()
-//        imageView.hidden = true
-//        imageView.userInteractionEnabled = false
-//        
-//        firebase = FIRDatabase.database().reference()
-//        let key = firebase.child("users").child(uid).child("images").childByAutoId().key
-//        
-//        let storage = FIRStorage.storage()
-//        let storageRef = storage.referenceForURL(FIREBASE_STORAGE)
-//        let imagesRef = storageRef.child("images")
-//        let childRef = imagesRef.child(key)
-//        var imgData: NSData!
-//        
-//        if isFront {
-//            imgData = UIImageJPEGRepresentation(UIImage(CGImage: capturedImage.CGImage!, scale: 1.0, orientation: .LeftMirrored), 1.0)
-//        } else {
-//            imgData = UIImageJPEGRepresentation(capturedImage, 1.0)
-//        }
-//        
-//        childRef.putData(imgData, metadata: nil) { metadata, error in
-//            if (error != nil) {
-//                print(error.debugDescription)
-//                //show error
-//            } else {
-//                let timeSince1970 = NSDate().timeIntervalSince1970
-//                self.firebase.child("users").child(self.uid).child("images").child(key).setValue(timeSince1970)
-//                
-//                self.sendPictureNotification()
-//                self.removePictureRequest()
-//                removeFromNotifications(self.uid, type: "requests"){}
-//            }
-//        }
-        createMessage()
-    }
-    
-    func createMessage(){
-        print("hello")
-        if let image = createImageForMessage(), let conversation = conversation {
-            let layout = MSMessageTemplateLayout()
-            layout.image = image
-            
-            let message = MSMessage()
-            message.layout = layout
-            message.URL = NSURLComponents(string: "\(self.uid) image")?.URL
-            
-            conversation.insertMessage(message, completionHandler: {error in
-                if error != nil {
-                    print(error)
-                }
-                print("yo")
-                self.delegate?.finishedCreatingMessage()
-            })
-        }
-    }
-    
-    func createImageForMessage() -> UIImage? {
-        var image: UIImage
+        cancelButton.removeFromSuperview()
+        sendButton.removeFromSuperview()
+        imageView.hidden = true
+        imageView.userInteractionEnabled = false
+        
+        firebase = FIRDatabase.database().reference()
+        let key = firebase.child("users").child(uid).child("images").childByAutoId().key
+        
+        let storage = FIRStorage.storage()
+        let storageRef = storage.referenceForURL(FIREBASE_STORAGE)
+        let imagesRef = storageRef.child("images")
+        let childRef = imagesRef.child(key)
+        var imgData: NSData!
+        
         if isFront {
-            image = UIImage(CGImage: capturedImage.CGImage!, scale: 1.0, orientation: .RightMirrored)
+            imgData = UIImageJPEGRepresentation(UIImage(CGImage: capturedImage.CGImage!, scale: 1.0, orientation: .LeftMirrored), 1.0)
         } else {
-            image = capturedImage
+            imgData = UIImageJPEGRepresentation(capturedImage, 1.0)
         }
-        return image
+
+        childRef.putData(imgData, metadata: nil) { metadata, error in
+            if (error != nil) {
+                print(error.debugDescription)
+                //show error
+            } else {
+                let timeSince1970 = NSDate().timeIntervalSince1970
+                self.firebase.child("users").child(self.uid).child("images").child(key).setValue(timeSince1970)
+                
+                self.sendPictureNotification()
+                self.removePictureRequest()
+                removeFromNotifications(self.uid, type: "requests"){}
+            }
+        }
+        if isFront {
+            createMessage(UIImage(CGImage: capturedImage.CGImage!, scale: 1.0, orientation: .RightMirrored))
+        } else {
+            createMessage(capturedImage)
+        }
+    }
+    
+    func createMessage(image: UIImage){
+        let documentsDirectoryURL = try! NSFileManager().URLForDirectory(.DocumentDirectory, inDomain: .UserDomainMask, appropriateForURL: nil, create: true)
+        // create a name for your image
+        let fileURL = documentsDirectoryURL.URLByAppendingPathComponent("Image1.jpg")
+        
+        
+        if UIImageJPEGRepresentation(image, 1.0)!.writeToFile(fileURL!.path!, atomically: true) {
+            print("file saved")
+        } else {
+            print("error saving file")
+        }
+        
+        conversation.insertAttachment(fileURL!, withAlternateFilename: nil) { error in
+            self.delegate?.finishedCreatingMessage()
+        }
+        
     }
     
     func removePictureRequest(){
